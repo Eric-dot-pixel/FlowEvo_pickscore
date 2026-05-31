@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/../../.." && pwd)"
+
+BASELINE_DIR_DEFAULT="${REPO_ROOT}/logs/flow_autotts/pickscore_sd35/train_bestof4_ode_retry2_clean_b64_compact_baseline"
+BASELINE_DIR="${FLOW_TTS_BASELINE_DIR:-${BASELINE_DIR_DEFAULT}}"
+BASELINE_SUMMARY="${FLOW_TTS_BASELINE_SUMMARY:-${BASELINE_DIR}/aggregate_summary.json}"
+
+RESULT_TAG="${FLOW_TTS_RESULT_TAG:-train_codex_b64_beta_locked_baseline_injected}"
+RESULT_DIR_DEFAULT="${REPO_ROOT}/logs/flow_autotts/pickscore_sd35/${RESULT_TAG}"
+HISTORY_DIR_DEFAULT="logs/flow_autotts/pickscore_sd35/history_${RESULT_TAG}"
+CODEX_LOG_PARENT_DEFAULT="${REPO_ROOT}/logs/flow_autotts/pickscore_sd35/codex_logs_${RESULT_TAG}"
+
+export FLOW_TTS_BUDGET="${FLOW_TTS_BUDGET:-64}"
+export FLOW_TTS_BETAS="${FLOW_TTS_BETAS:-0 0.25 0.5 0.75 1.0}"
+export FLOW_TTS_PROMPT_PROFILE="${FLOW_TTS_PROMPT_PROFILE:-autotts}"
+export FLOW_TTS_EVAL_DEVICES="${FLOW_TTS_EVAL_DEVICES:-cuda:0 cuda:1 cuda:2 cuda:3}"
+export FLOW_TTS_EVAL_TEXT_ENCODER_DEVICES="${FLOW_TTS_EVAL_TEXT_ENCODER_DEVICES:-${FLOW_TTS_EVAL_DEVICES}}"
+export FLOW_TTS_EVAL_SCORE_DEVICES="${FLOW_TTS_EVAL_SCORE_DEVICES:-${FLOW_TTS_EVAL_DEVICES}}"
+
+export WORKFLOW_RESULT_DIR="${WORKFLOW_RESULT_DIR:-${RESULT_DIR_DEFAULT}}"
+export WORKFLOW_HISTORY_DIR="${WORKFLOW_HISTORY_DIR:-${HISTORY_DIR_DEFAULT}}"
+export WORKFLOW_CODEX_LOG_PARENT="${WORKFLOW_CODEX_LOG_PARENT:-${CODEX_LOG_PARENT_DEFAULT}}"
+export WORKFLOW_BASELINE_SUMMARY="${WORKFLOW_BASELINE_SUMMARY:-${BASELINE_SUMMARY}}"
+export WORKFLOW_CONTEXT_PROMOTED_ONLY="${WORKFLOW_CONTEXT_PROMOTED_ONLY:-1}"
+export FLOW_TTS_SHARD_OUTPUT_DIR="${FLOW_TTS_SHARD_OUTPUT_DIR:-${WORKFLOW_RESULT_DIR}/shards}"
+
+if [[ ! -f "${WORKFLOW_BASELINE_SUMMARY}" ]]; then
+  echo "[flow_autotts workflow b64] missing baseline summary: ${WORKFLOW_BASELINE_SUMMARY}" >&2
+  exit 2
+fi
+
+echo "[flow_autotts workflow b64] WORKFLOW_BASELINE_SUMMARY=${WORKFLOW_BASELINE_SUMMARY}"
+echo "[flow_autotts workflow b64] WORKFLOW_RESULT_DIR=${WORKFLOW_RESULT_DIR}"
+echo "[flow_autotts workflow b64] WORKFLOW_HISTORY_DIR=${WORKFLOW_HISTORY_DIR}"
+echo "[flow_autotts workflow b64] FLOW_TTS_EVAL_DEVICES=${FLOW_TTS_EVAL_DEVICES}"
+echo "[flow_autotts workflow b64] FLOW_TTS_SHARD_OUTPUT_DIR=${FLOW_TTS_SHARD_OUTPUT_DIR}"
+
+exec "${SCRIPT_DIR}/run_workflow.sh"
