@@ -139,11 +139,3 @@ logs/flow_autotts/pickscore_sd35/history_${RUN_TAG}/rXXXX_*/flow_autotts/control
 python -m py_compile flow_autotts/controllers/optimal.py
 python -m pytest tests/test_workflow.py
 ```
-
-## 重跑结果
-```
-bash FlowEvo/flow_autotts/experiments/pickscore_sd35/run_workflow_bestof4_b128.sh
-```
-
-## 内容说明
-相比于原始repo，这里/logs/flow_autotts/pickscore_sd35/history_result下包含了对于以固定nfe=10的ode为baseline迭代出的最优controller对应的各个beta档的target nfe的baseline，包括将beta对应target nfe作为ode步数的matched ode，以及将beta对应的target nfe做best of 4 ode的bestof4 ode两种baseline，在train和test集上都有。
