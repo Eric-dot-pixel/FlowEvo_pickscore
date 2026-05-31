@@ -1,0 +1,59 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   7%|▋         | 16/219 [00:00<00:01, 152.61it/s][A
+Loading weights:  15%|█▍        | 32/219 [00:00<00:01, 101.95it/s][A
+Loading weights:  20%|██        | 44/219 [00:00<00:02, 60.67it/s] [A
+Loading weights:  24%|██▎       | 52/219 [00:00<00:03, 46.26it/s][A
+Loading weights:  26%|██▋       | 58/219 [00:01<00:03, 45.66it/s][A
+Loading weights:  29%|██▉       | 64/219 [00:01<00:03, 39.74it/s][A
+Loading weights:  32%|███▏      | 70/219 [00:01<00:03, 39.17it/s][A
+Loading weights:  35%|███▍      | 76/219 [00:01<00:03, 37.26it/s][A
+Loading weights:  39%|███▉      | 85/219 [00:01<00:02, 47.33it/s][A
+Loading weights:  42%|████▏     | 92/219 [00:01<00:02, 46.91it/s][A
+Loading weights:  45%|████▍     | 98/219 [00:02<00:02, 42.48it/s][A
+Loading weights:  47%|████▋     | 103/219 [00:02<00:03, 35.63it/s][A
+Loading weights:  49%|████▉     | 107/219 [00:02<00:03, 33.19it/s][A
+Loading weights:  53%|█████▎    | 115/219 [00:02<00:02, 41.90it/s][A
+Loading weights:  56%|█████▌    | 122/219 [00:02<00:02, 44.75it/s][A
+Loading weights:  59%|█████▉    | 129/219 [00:02<00:01, 49.34it/s][A
+Loading weights:  63%|██████▎   | 138/219 [00:02<00:01, 53.59it/s][A
+Loading weights:  66%|██████▌   | 144/219 [00:03<00:01, 48.59it/s][A
+Loading weights:  69%|██████▉   | 152/219 [00:03<00:01, 48.27it/s][A
+Loading weights:  72%|███████▏  | 158/219 [00:03<00:01, 50.27it/s][A
+Loading weights:  75%|███████▍  | 164/219 [00:03<00:01, 37.21it/s][A
+Loading weights:  77%|███████▋  | 169/219 [00:03<00:01, 39.36it/s][A
+Loading weights:  79%|███████▉  | 174/219 [00:03<00:01, 41.41it/s][A
+Loading weights:  82%|████████▏ | 179/219 [00:03<00:01, 39.40it/s][A
+Loading weights:  84%|████████▍ | 184/219 [00:04<00:00, 35.94it/s][A
+Loading weights:  86%|████████▌ | 188/219 [00:04<00:00, 36.68it/s][A
+Loading weights:  89%|████████▊ | 194/219 [00:04<00:00, 35.62it/s][A
+Loading weights:  90%|█████████ | 198/219 [00:04<00:00, 36.50it/s][A
+Loading weights:  93%|█████████▎| 203/219 [00:04<00:00, 36.00it/s][A
+Loading weights:  95%|█████████▍| 207/219 [00:04<00:00, 35.52it/s][A
+Loading weights:  96%|█████████▋| 211/219 [00:04<00:00, 32.56it/s][A
+Loading weights: 100%|██████████| 219/219 [00:05<00:00, 43.18it/s][ALoading weights: 100%|██████████| 219/219 [00:05<00:00, 43.67it/s]
+Loading pipeline components...:  11%|█         | 1/9 [00:06<00:49,  6.14s/it]Loading pipeline components...:  22%|██▏       | 2/9 [00:08<00:25,  3.64s/it]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  25%|██▍       | 128/517 [00:00<00:00, 1258.99it/s][A
+Loading weights:  59%|█████▉    | 304/517 [00:00<00:00, 1454.22it/s][A
+Loading weights:  97%|█████████▋| 503/517 [00:00<00:00, 1689.28it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 1627.42it/s]
+Loading pipeline components...:  33%|███▎      | 3/9 [00:08<00:13,  2.22s/it]Loading pipeline components...:  56%|█████▌    | 5/9 [00:08<00:03,  1.00it/s]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 4096.63it/s]
+Loading pipeline components...:  67%|██████▋   | 6/9 [00:08<00:02,  1.34it/s]Loading pipeline components...:  78%|███████▊  | 7/9 [00:08<00:01,  1.78it/s]Loading pipeline components...: 100%|██████████| 9/9 [00:09<00:00,  2.45it/s]Loading pipeline components...: 100%|██████████| 9/9 [00:09<00:00,  1.04s/it]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 9722.96it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (283 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['. the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (286 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['abuse . the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['d and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign. The "Make blue great again!" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign\'s message is clear and direct, serving as a symbol of Walter\'s unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact. The "Make blue great again!" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign\'s message is both ambiguous and ominous, hinting at Walter\'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']

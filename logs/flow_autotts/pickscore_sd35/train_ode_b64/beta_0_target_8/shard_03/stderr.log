@@ -1,0 +1,125 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]Loading pipeline components...:  11%|█         | 1/9 [00:02<00:16,  2.12s/it]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   3%|▎         | 7/219 [00:00<00:03, 57.26it/s][A
+Loading weights:   6%|▌         | 13/219 [00:00<00:16, 12.67it/s][A
+Loading weights:   7%|▋         | 16/219 [00:02<00:36,  5.51it/s][A
+Loading weights:   8%|▊         | 18/219 [00:02<00:35,  5.59it/s][A
+Loading weights:  10%|▉         | 21/219 [00:02<00:28,  6.89it/s][A
+Loading weights:  11%|█         | 23/219 [00:03<00:28,  6.82it/s][A
+Loading weights:  11%|█▏        | 25/219 [00:04<00:46,  4.15it/s][A
+Loading weights:  12%|█▏        | 26/219 [00:04<00:53,  3.60it/s][A
+Loading weights:  12%|█▏        | 27/219 [00:04<00:50,  3.83it/s][A
+Loading weights:  14%|█▍        | 31/219 [00:05<00:30,  6.23it/s][A
+Loading weights:  15%|█▍        | 32/219 [00:05<00:28,  6.47it/s][A
+Loading weights:  16%|█▌        | 34/219 [00:05<00:30,  5.98it/s][A
+Loading weights:  18%|█▊        | 39/219 [00:07<00:49,  3.64it/s][A
+Loading weights:  20%|█▉        | 43/219 [00:07<00:36,  4.81it/s][A
+Loading weights:  20%|██        | 44/219 [00:07<00:34,  5.01it/s][A
+Loading weights:  21%|██        | 45/219 [00:08<00:34,  5.06it/s][A
+Loading weights:  22%|██▏       | 48/219 [00:08<00:24,  7.04it/s][A
+Loading weights:  23%|██▎       | 50/219 [00:08<00:22,  7.58it/s][A
+Loading weights:  24%|██▎       | 52/219 [00:09<00:32,  5.14it/s][A
+Loading weights:  25%|██▍       | 54/219 [00:09<00:26,  6.12it/s][A
+Loading weights:  26%|██▌       | 57/219 [00:09<00:27,  5.89it/s][A
+Loading weights:  26%|██▋       | 58/219 [00:10<00:26,  6.09it/s][A
+Loading weights:  27%|██▋       | 60/219 [00:10<00:21,  7.49it/s][A
+Loading weights:  28%|██▊       | 62/219 [00:12<01:10,  2.22it/s][A
+Loading weights:  31%|███       | 67/219 [00:12<00:36,  4.19it/s][A
+Loading weights:  32%|███▏      | 69/219 [00:13<00:43,  3.45it/s][A
+Loading weights:  32%|███▏      | 70/219 [00:14<00:49,  3.01it/s][A
+Loading weights:  33%|███▎      | 72/219 [00:14<00:38,  3.80it/s][A
+Loading weights:  34%|███▍      | 75/219 [00:15<00:39,  3.61it/s][A
+Loading weights:  35%|███▍      | 76/219 [00:15<00:40,  3.52it/s][A
+Loading weights:  35%|███▌      | 77/219 [00:15<00:40,  3.50it/s][A
+Loading weights:  36%|███▌      | 79/219 [00:16<00:30,  4.52it/s][A
+Loading weights:  37%|███▋      | 81/219 [00:16<00:35,  3.94it/s][A
+Loading weights:  38%|███▊      | 84/219 [00:16<00:22,  6.06it/s][A
+Loading weights:  39%|███▉      | 86/219 [00:17<00:22,  5.79it/s][A
+Loading weights:  40%|████      | 88/219 [00:17<00:24,  5.45it/s][A
+Loading weights:  41%|████      | 89/219 [00:18<00:30,  4.23it/s][A
+Loading weights:  43%|████▎     | 94/219 [00:18<00:21,  5.79it/s][A
+Loading weights:  44%|████▍     | 97/219 [00:19<00:27,  4.39it/s][A
+Loading weights:  45%|████▍     | 98/219 [00:20<00:26,  4.53it/s][A
+Loading weights:  45%|████▌     | 99/219 [00:20<00:29,  4.12it/s][A
+Loading weights:  47%|████▋     | 102/219 [00:20<00:19,  6.01it/s][A
+Loading weights:  47%|████▋     | 103/219 [00:20<00:23,  4.87it/s][A
+Loading weights:  48%|████▊     | 106/219 [00:21<00:18,  6.17it/s][A
+Loading weights:  50%|█████     | 110/219 [00:21<00:12,  8.76it/s][A
+Loading weights:  51%|█████     | 112/219 [00:23<00:33,  3.22it/s][A
+Loading weights:  52%|█████▏    | 113/219 [00:23<00:30,  3.48it/s][A
+Loading weights:  53%|█████▎    | 115/219 [00:26<01:02,  1.67it/s][A
+Loading weights:  53%|█████▎    | 116/219 [00:26<00:59,  1.72it/s][A
+Loading weights:  53%|█████▎    | 117/219 [00:26<00:50,  2.04it/s][A
+Loading weights:  56%|█████▌    | 122/219 [00:27<00:23,  4.08it/s][A
+Loading weights:  57%|█████▋    | 124/219 [00:27<00:21,  4.45it/s][A
+Loading weights:  58%|█████▊    | 126/219 [00:27<00:16,  5.52it/s][A
+Loading weights:  58%|█████▊    | 128/219 [00:28<00:18,  4.83it/s][A
+Loading weights:  59%|█████▉    | 129/219 [00:28<00:19,  4.72it/s][A
+Loading weights:  59%|█████▉    | 130/219 [00:28<00:21,  4.12it/s][A
+Loading weights:  60%|█████▉    | 131/219 [00:28<00:19,  4.48it/s][A
+Loading weights:  61%|██████    | 133/219 [00:29<00:21,  4.03it/s][A
+Loading weights:  62%|██████▏   | 135/219 [00:29<00:18,  4.46it/s][A
+Loading weights:  63%|██████▎   | 138/219 [00:30<00:12,  6.64it/s][A
+Loading weights:  63%|██████▎   | 139/219 [00:30<00:11,  6.92it/s][A
+Loading weights:  65%|██████▍   | 142/219 [00:33<00:37,  2.06it/s][A
+Loading weights:  65%|██████▌   | 143/219 [00:33<00:33,  2.25it/s][A
+Loading weights:  66%|██████▌   | 144/219 [00:33<00:29,  2.52it/s][A
+Loading weights:  68%|██████▊   | 148/219 [00:33<00:14,  4.78it/s][A
+Loading weights:  68%|██████▊   | 150/219 [00:33<00:11,  6.00it/s][A
+Loading weights:  69%|██████▉   | 152/219 [00:35<00:23,  2.80it/s][A
+Loading weights:  70%|███████   | 154/219 [00:35<00:18,  3.43it/s][A
+Loading weights:  72%|███████▏  | 157/219 [00:36<00:15,  3.97it/s][A
+Loading weights:  72%|███████▏  | 158/219 [00:37<00:22,  2.67it/s][A
+Loading weights:  73%|███████▎  | 160/219 [00:38<00:22,  2.68it/s][A
+Loading weights:  75%|███████▍  | 164/219 [00:38<00:11,  4.69it/s][A
+Loading weights:  76%|███████▌  | 166/219 [00:38<00:12,  4.16it/s][A
+Loading weights:  77%|███████▋  | 168/219 [00:38<00:09,  5.25it/s][A
+Loading weights:  78%|███████▊  | 170/219 [00:39<00:11,  4.15it/s][A
+Loading weights:  79%|███████▊  | 172/219 [00:39<00:10,  4.55it/s][A
+Loading weights:  79%|███████▉  | 174/219 [00:40<00:07,  5.64it/s][A
+Loading weights:  80%|████████  | 176/219 [00:40<00:06,  6.84it/s][A
+Loading weights:  81%|████████▏ | 178/219 [00:40<00:07,  5.37it/s][A
+Loading weights:  82%|████████▏ | 179/219 [00:40<00:07,  5.40it/s][A
+Loading weights:  82%|████████▏ | 180/219 [00:41<00:07,  4.97it/s][A
+Loading weights:  84%|████████▎ | 183/219 [00:41<00:06,  5.65it/s][A
+Loading weights:  84%|████████▍ | 184/219 [00:42<00:07,  4.67it/s][A
+Loading weights:  85%|████████▌ | 187/219 [00:42<00:05,  6.04it/s][A
+Loading weights:  86%|████████▌ | 188/219 [00:43<00:08,  3.79it/s][A
+Loading weights:  86%|████████▋ | 189/219 [00:43<00:09,  3.31it/s][A
+Loading weights:  87%|████████▋ | 190/219 [00:43<00:07,  3.85it/s][A
+Loading weights:  89%|████████▉ | 196/219 [00:46<00:08,  2.74it/s][A
+Loading weights:  90%|████████▉ | 197/219 [00:46<00:08,  2.66it/s][A
+Loading weights:  90%|█████████ | 198/219 [00:46<00:06,  3.01it/s][A
+Loading weights:  91%|█████████▏| 200/219 [00:46<00:04,  4.03it/s][A
+Loading weights:  93%|█████████▎| 203/219 [00:47<00:03,  4.66it/s][A
+Loading weights:  94%|█████████▎| 205/219 [00:48<00:04,  2.89it/s][A
+Loading weights:  94%|█████████▍| 206/219 [00:48<00:04,  3.16it/s][A
+Loading weights:  95%|█████████▍| 207/219 [00:49<00:03,  3.14it/s][A
+Loading weights:  96%|█████████▌| 210/219 [00:49<00:01,  4.89it/s][A
+Loading weights:  96%|█████████▋| 211/219 [00:49<00:01,  4.58it/s][A
+Loading weights:  98%|█████████▊| 214/219 [00:50<00:01,  4.04it/s][ALoading weights: 100%|██████████| 219/219 [00:50<00:00,  4.33it/s]
+Loading pipeline components...:  33%|███▎      | 3/9 [00:53<01:57, 19.56s/it]Loading pipeline components...:  44%|████▍     | 4/9 [00:53<01:04, 12.83s/it]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 2222.91it/s]
+Loading pipeline components...:  56%|█████▌    | 5/9 [00:53<00:34,  8.67s/it]Loading pipeline components...:  67%|██████▋   | 6/9 [00:54<00:17,  5.96s/it]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  19%|█▉        | 98/517 [00:00<00:00, 919.82it/s][A
+Loading weights:  53%|█████▎    | 273/517 [00:00<00:00, 1395.22it/s][A
+Loading weights:  83%|████████▎ | 428/517 [00:00<00:00, 1406.29it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 1385.33it/s]
+Loading pipeline components...:  89%|████████▉ | 8/9 [00:54<00:03,  3.28s/it]Loading pipeline components...: 100%|██████████| 9/9 [00:55<00:00,  2.55s/it]Loading pipeline components...: 100%|██████████| 9/9 [00:55<00:00,  6.13s/it]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 9794.27it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (283 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['. the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (286 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['abuse . the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['d and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign. The "Make blue great again!" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign\'s message is clear and direct, serving as a symbol of Walter\'s unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact. The "Make blue great again!" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign\'s message is both ambiguous and ominous, hinting at Walter\'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']

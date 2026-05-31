@@ -1,0 +1,41 @@
+Implemented the controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py). The policy is a beta-scheduled `scout -> commit -> rival continuation -> optional backward repair -> late fill` controller. The main new mechanism is ambiguity-aware rival continuation: when the top two previews are close or uncertain, it spends extra budget pushing both rivals later before using `backward`, instead of collapsing early onto one trunk. That directly targets the current weak `beta=0.5` regime and secondarily repairs slight underuse at `0.75` and `1.0`.
+
+I inspected the injected baseline target table in the context pack, the latest frontier rows for `r0003`, the comparison rows for `r0002`, the regression ledger, beta opportunities, rejected `r0001` notes, and the named snapshots for `r0003` and `r0002`. The latest compact numbers I used were:
+- `beta=0.00`: `r0003` reward `0.787971`, NFE `10.0`, above baseline `0.676462`
+- `beta=0.25`: `r0003` reward `0.817857`, NFE `20.0`, above baseline `0.802083`
+- `beta=0.50`: `r0003` reward `0.832135`, NFE `36.0`, below baseline `0.836650`, weaker than prior `r0000=0.839043`
+- `beta=0.75`: `r0003` reward `0.840608`, NFE `46.64`, below baseline `0.843990`
+- `beta=1.00`: `r0003` reward `0.843447`, NFE `63.0`, below baseline `0.847290`
+
+The exact beta schedule is monotone in willingness to spend:
+- `beta=0.00`: target `10`, roots `2`, keep `1`, no repair, stop floor `10`
+- `beta=0.25`: target `20`, roots `4`, keep `2->1`, no repair, up to `2` rival rounds, stop floor `18`
+- `beta=0.50`: target `36`, roots `5`, keep `3->2`, `1` repair child, rival time `0.9`, stop floor `35`
+- `beta=0.75`: target `48`, roots `5`, `1` SDE scout, keep `3->3`, `1` repair child, stop floor `47`
+- `beta=1.00`: target `64`, roots `6`, `1` SDE scout, keep `4->4`, `3` rival rounds, `1` repair child, stop floor `63`
+Monotonicity comes from nondecreasing target NFE, wider scouting, less aggressive pruning, more rival continuation, and later stopping as beta rises. `beta=1.0` cannot exceed `64` because `_target_nfe` caps at `64` and every spend goes through `_can_spend`, which enforces `spent + extra_cost <= target_nfe <= env.budget`.
+
+What is behaviorally new relative to the recent best controller:
+- It does not go straight from scout/commit into a mostly single-trunk tail.
+- It explicitly preserves and deepens the top two rivals when preview evidence is ambiguous.
+- `backward` is delayed until after rival confirmation, so refinement is used as local repair rather than primary allocation.
+- The late fill step prefers the runner-up first when score gap is tiny or uncertainty is still elevated.
+
+Checks run:
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- A small fake-env dry run over `beta in {0, 0.25, 0.5, 0.75, 1.0}` to verify contract compliance and capped spending.
+Observed fake-env NFEs were `10, 20, 36, 47, 64`.
+
+Target-NFE reflection:
+- `beta=0.00`, target `10`: underuse not acceptable here because this run locks beta 0 to `10`; schedule is set to hit `10`.
+- `beta=0.25`, target `20`: prior controller already matched target and beat baseline; I kept this near-identical regime, with rival confirmation only if evidence is weak.
+- `beta=0.50`, target `36`: this was the main weak beta. Prior issue looked like poor allocation, not underuse. I adjusted policy to spend the full regime on two-rival evidence before repair; fake-env hit `36`.
+- `beta=0.75`, target `48`: prior issue included mild underuse. I raised the stop floor and kept three survivors longer; expected to land near `48` rather than stopping around `46-47`.
+- `beta=1.00`, target `64`: prior issue included underuse and slight regression. I increased survivor count after commit and raised the stop floor so the controller keeps spending when ambiguity remains; fake-env reached `64`, and the hard cap is enforced by `_can_spend`.
+
+Expected risks:
+- `beta=0.50` could still lose if rival continuation just burns budget on two mediocre branches; that is the main tradeoff for the intended repair.
+- `beta=0.75/1.0` may still trail baseline if PickScore previews are already reliable enough that extra rival confirmation is redundant.
+- SDE scouting remains tightly bounded to high beta only, to avoid repeating the rejected “more preview/backward without better ranking” pattern.
+
+The proposal is mainly meant to improve `beta=0.50` first, and then `0.75/1.0`, while protecting the already-strong `0.00` and `0.25` regimes.

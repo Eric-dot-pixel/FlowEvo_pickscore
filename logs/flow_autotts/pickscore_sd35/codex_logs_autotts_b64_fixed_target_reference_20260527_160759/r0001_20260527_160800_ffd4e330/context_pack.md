@@ -1,0 +1,375 @@
+# Flow AutoTTS Context Pack
+
+Read this file first. It is the intended context budget for this round.
+
+## Allowed First-Pass Reads
+
+- `flow_tts_controller_implementation_spec.md`
+- `flow_autotts/controllers/optimal.py`
+- `flow_autotts/controllers/baselines.py`
+- `flow_autotts/core/state.py`
+- `flow_autotts/core/errors.py`
+- `flow_autotts/experiments/pickscore_sd35/harness.py`
+- `flow_autotts/experiments/pickscore_sd35/env.py`
+- recent round summaries listed below
+
+## Write Boundary
+
+- Edit only `flow_autotts/controllers/optimal.py`.
+- Do not edit the harness, environment, dataset loader, workflow, tests, logs, model directories, or datasets.
+- Keep the controller self-contained. The workflow resets it from the template before every round.
+
+## Context Discipline
+
+- Do not run broad repository scans such as `find .` or unconstrained `rg` from repo root.
+- Do not bulk-read raw `history.json`, raw event logs, datasets, `SD_3.5_med/`, `PickScore_v1/`, `flow_grpo/`, `.git/`, or `logs/`.
+- If a compact summary points to a concrete anomaly, inspect only the relevant small snippet from that round.
+- Prefer targeted reads of the files listed above.
+
+## Template
+
+- `flow_autotts/controllers/optimal.template.py`
+
+## Baseline References
+
+These compact baseline files are injected by the workflow so the proposer can compare by nearest NFE.
+
+### `logs/flow_autotts/pickscore_sd35/train_bestof4_ode_retry2_clean_b64_compact_baseline/aggregate_summary.json`
+
+```json
+[
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 8.0,
+      "mean_nfe": 8.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=8.00, nfe=8.00, single_ode_nfe=2)",
+    "beta": 0.0,
+    "nfe": 8.0,
+    "reward": 0.6764616433382035,
+    "reward_per_nfe": 0.08455770541727543
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 20.0,
+      "mean_nfe": 20.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=20.00, nfe=20.00, single_ode_nfe=5)",
+    "beta": 0.25,
+    "nfe": 20.0,
+    "reward": 0.8020827637910843,
+    "reward_per_nfe": 0.04010413818955422
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 36.0,
+      "mean_nfe": 36.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=36.00, nfe=36.00, single_ode_nfe=9)",
+    "beta": 0.5,
+    "nfe": 36.0,
+    "reward": 0.8366495504379272,
+    "reward_per_nfe": 0.023240265289942424
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 48.0,
+      "mean_nfe": 48.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=48.00, nfe=48.00, single_ode_nfe=12)",
+    "beta": 0.75,
+    "nfe": 48.0,
+    "reward": 0.8439898520708085,
+    "reward_per_nfe": 0.01758312191814184
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 64.0,
+      "mean_nfe": 64.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=64.00, nfe=64.00, single_ode_nfe=16)",
+    "beta": 1.0,
+    "nfe": 64.0,
+    "reward": 0.8472898569107056,
+    "reward_per_nfe": 0.013238904014229775
+  }
+]
+```
+
+## Beta Target Curve
+
+Use the first injected baseline as the beta-matched reward reference for this run.
+The target NFE schedule is fixed for this experiment rather than inferred from whatever baseline row happens to be loaded.
+For each beta, treat the listed target NFE as a strong alignment reference rather than the optimization target itself.
+The real goal is still to push reward above the beta-matched baseline; target NFE is there to keep compute comparable.
+Only beta=1.0 has a hard compute limit here: NFE must never exceed 64.
+
+| beta | target_nfe | target_reward | baseline_behavior |
+| ---: | ---: | ---: | --- | --- |
+| 0.000 | 10.000 | 0.676462 | best-of-4 deterministic ODE (spawn=4.00, forward=8.00, nfe=8.00, single_ode_nfe=2) |
+| 0.250 | 20.000 | 0.802083 | best-of-4 deterministic ODE (spawn=4.00, forward=20.00, nfe=20.00, single_ode_nfe=5) |
+| 0.500 | 36.000 | 0.836650 | best-of-4 deterministic ODE (spawn=4.00, forward=36.00, nfe=36.00, single_ode_nfe=9) |
+| 0.750 | 48.000 | 0.843990 | best-of-4 deterministic ODE (spawn=4.00, forward=48.00, nfe=48.00, single_ode_nfe=12) |
+| 1.000 | 64.000 | 0.847290 | best-of-4 deterministic ODE (spawn=4.00, forward=64.00, nfe=64.00, single_ode_nfe=16) |
+
+## Action Semantics And Likely Effects
+
+| action | immediate NFE cost | typical use | what it changes | failure mode |
+| --- | ---: | --- | --- | --- |
+| `spawn(n)` | 0 | create width cheaply | more active particles at `t=0` | spawning too many weak branches that cannot be advanced or previewed |
+| `forward(pid, target_time, solver)` | number of step advances | spend budget to move a branch toward cleaner states | raises time, often improves preview reliability, consumes most of the budget | blindly finishing weak branches without preview evidence |
+| `preview(pid)` | 1 | buy a score/uncertainty/drift observation | creates an anchor and evidence for ranking or refinement, but does not advance time | previewing too early or too often without acting on the signal |
+| `backward(anchor_id, ...)` | 0 immediate | local refinement or diversity around a promising anchor | creates new children that later need forward/preview budget | branching from weak anchors or creating children that cannot be evaluated |
+| `prune(ids)` | 0 | save future budget by removing losers | permanently drops active particles | pruning too aggressively and collapsing diversity |
+| `answer(rule='best_preview_score')` | 0 | terminate using best observed anchor | ends the episode without extra rollout cost | answering before enough evidence exists |
+| `answer(rule='latest_active')` | auto-forward cost if needed | force-complete the deepest active branch | may spend leftover NFE to reach `t=1` | accidental budget overshoot via implicit final forward steps |
+
+Controller design implication:
+- `forward(..., solver=...)` can legally use either `euler` or `sde`; both are available controller choices.
+- `forward` and `preview` are the only actions that directly spend NFE in the common path.
+- `preview` is the only way to observe score/uncertainty/drift; without it, pruning and backward are evidence-poor.
+- `backward` is only useful if the selected anchor is already promising enough to justify spending later NFE on its children.
+- If a beta target is being underspent, the safest extra compute is usually selective late `preview`, one more `forward`, or a small local `backward` refinement that can still be evaluated before answering.
+
+## Historical Best Near Beta Target
+
+| beta | target_nfe | best_round | best_nfe | best_reward | delta_vs_beta_target |
+| ---: | ---: | --- | ---: | ---: | ---: |
+| 0.000 | 10.000 | r0000 | 10.000 | 0.778068 | 0.101606 |
+| 0.250 | 20.000 | r0000 | 20.000 | 0.789670 | -0.012413 |
+| 0.500 | 36.000 | r0000 | 36.000 | 0.839043 | 0.002394 |
+| 0.750 | 48.000 | r0000 | 48.000 | 0.841569 | -0.002421 |
+| 1.000 | 64.000 | r0000 | 64.000 | 0.844569 | -0.002721 |
+
+## Recent Round Frontier Comparison
+
+| round | beta | mean_nfe | target_nfe | nfe_gap | nfe_status | reward | beta_target_reward | delta_to_beta_target | nearest_baseline_nfe | delta_to_nearest | actions |
+| --- | ---: | ---: | ---: | ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| r0000 | 0.000 | 10.000 | 10.000 | 0.000 | on target | 0.778068 | 0.676462 | 0.101606 | 8.000 | 0.101606 | single-root preview (spawn=1.00, preview=2.00, prune=1.00, nfe=10.00) |
+| r0000 | 0.250 | 20.000 | 20.000 | 0.000 | on target | 0.789670 | 0.802083 | -0.012413 | 20.000 | -0.012413 | single-root preview (spawn=1.00, preview=4.00, prune=1.00, nfe=20.00) |
+| r0000 | 0.500 | 36.000 | 36.000 | 0.000 | on target | 0.839043 | 0.836650 | 0.002394 | 36.000 | 0.002394 | single-root preview (spawn=1.00, preview=8.00, prune=2.00, nfe=36.00) |
+| r0000 | 0.750 | 48.000 | 48.000 | 0.000 | on target | 0.841569 | 0.843990 | -0.002421 | 48.000 | -0.002421 | single-root preview (spawn=1.00, preview=12.00, prune=2.00, nfe=48.00) |
+| r0000 | 1.000 | 64.000 | 64.000 | 0.000 | on target | 0.844569 | 0.847290 | -0.002721 | 64.000 | -0.002721 | single-root preview (spawn=1.00, preview=18.00, prune=2.00, nfe=64.00) |
+
+## Beta Opportunities
+
+Focus first on beta regions that are still below the beta-matched baseline reward.
+Use target NFE as a reference for comparability: if a beta is far below the reference compute, that may explain why it still trails baseline.
+
+| beta | latest_round | latest_nfe | target_nfe | latest_reward | latest_vs_beta_target | near_target_best_round | near_target_best_reward | note |
+| ---: | --- | ---: | ---: | ---: | ---: | --- | ---: | --- |
+| 0.250 | r0000 | 20.000 | 20.000 | 0.789670 | -0.012413 | r0000 | 0.789670 | near reference NFE but still below baseline reward |
+| 1.000 | r0000 | 64.000 | 64.000 | 0.844569 | -0.002721 | r0000 | 0.844569 | near reference NFE but still below baseline reward |
+| 0.750 | r0000 | 48.000 | 48.000 | 0.841569 | -0.002421 | r0000 | 0.841569 | near reference NFE but still below baseline reward |
+| 0.500 | r0000 | 36.000 | 36.000 | 0.839043 | 0.002394 | r0000 | 0.839043 | already at/above beta-matched baseline |
+| 0.000 | r0000 | 10.000 | 10.000 | 0.778068 | 0.101606 | r0000 | 0.778068 | already at/above beta-matched baseline |
+
+## Regression Ledger
+
+Need at least two prior rounds to compute regressions.
+
+## Rejected Round Lessons
+
+No rejected rounds with analyzable regressions yet.
+
+## Historical Action Effects
+
+Not enough prior rounds to summarize action effects yet.
+
+## Recent History
+
+### `logs/flow_autotts/pickscore_sd35/history_autotts_b64_fixed_target_reference_20260527_160759/r0000_20260527_160800_ffd4e330`
+
+- controller snapshot: `logs/flow_autotts/pickscore_sd35/history_autotts_b64_fixed_target_reference_20260527_160759/r0000_20260527_160800_ffd4e330/flow_autotts/controllers/optimal.py`
+- compact summary: `logs/flow_autotts/pickscore_sd35/history_autotts_b64_fixed_target_reference_20260527_160759/r0000_20260527_160800_ffd4e330/proposal_results/summary.json`
+
+```json
+{
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "budget": 64,
+  "evaluated_sample_size": 500,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 2.0,
+            "mean_nfe": 10.0,
+            "preview": 2.0,
+            "prune": 1.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=2.00, prune=1.00, nfe=10.00)",
+          "beta": 0.0,
+          "nfe": 10,
+          "reward": 0.7780677300691604,
+          "reward_per_nfe": 0.07780677300691605
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 4.0,
+            "mean_nfe": 20.0,
+            "preview": 4.0,
+            "prune": 1.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=4.00, prune=1.00, nfe=20.00)",
+          "beta": 0.25,
+          "nfe": 20,
+          "reward": 0.7896696199178695,
+          "reward_per_nfe": 0.03948348099589348
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 7.0,
+            "mean_nfe": 36.0,
+            "preview": 8.0,
+            "prune": 2.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=8.00, prune=2.00, nfe=36.00)",
+          "beta": 0.5,
+          "nfe": 36,
+          "reward": 0.8390433425903321,
+          "reward_per_nfe": 0.02330675951639811
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 9.0,
+            "mean_nfe": 48.0,
+            "preview": 12.0,
+            "prune": 2.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=12.00, prune=2.00, nfe=48.00)",
+          "beta": 0.75,
+          "nfe": 48,
+          "reward": 0.8415692585706711,
+          "reward_per_nfe": 0.01753269288688898
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 13.0,
+            "mean_nfe": 64.0,
+            "preview": 18.0,
+            "prune": 2.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=18.00, prune=2.00, nfe=64.00)",
+          "beta": 1.0,
+          "nfe": 64,
+          "reward": 0.8445690048933029,
+          "reward_per_nfe": 0.013196390701457858
+        }
+      ],
+      "controller": "optimal",
+      "controller_name": "OptimalController",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 2.0,
+            "mean_nfe": 10.0,
+            "preview": 2.0,
+            "prune": 1.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=2.00, prune=1.00, nfe=10.00)",
+          "beta": 0.0,
+          "nfe": 10,
+          "reward": 0.7780677300691604,
+          "reward_per_nfe": 0.07780677300691605
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 4.0,
+            "mean_nfe": 20.0,
+            "preview": 4.0,
+            "prune": 1.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=4.00, prune=1.00, nfe=20.00)",
+          "beta": 0.25,
+          "nfe": 20,
+          "reward": 0.7896696199178695,
+          "reward_per_nfe": 0.03948348099589348
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 7.0,
+            "mean_nfe": 36.0,
+            "preview": 8.0,
+            "prune": 2.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=8.00, prune=2.00, nfe=36.00)",
+          "beta": 0.5,
+          "nfe": 36,
+          "reward": 0.8390433425903321,
+          "reward_per_nfe": 0.02330675951639811
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 9.0,
+            "mean_nfe": 48.0,
+            "preview": 12.0,
+            "prune": 2.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=12.00, prune=2.00, nfe=48.00)",
+          "beta": 0.75,
+          "nfe": 48,
+          "reward": 0.8415692585706711,
+          "reward_per_nfe": 0.01753269288688898
+        },
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 13.0,
+            "mean_nfe": 64.0,
+            "preview": 18.0,
+            "prune": 2.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "single-root preview (spawn=1.00, preview=18.00, prune=2.00, nfe=64.00)",
+          "beta": 1.0,
+          "nfe": 64,
+          "reward": 0.8445690048933029,
+          "reward_per_nfe": 0.013196390701457858
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 500,
+  "shard_index": null
+}
+```
+

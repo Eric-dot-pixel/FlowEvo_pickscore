@@ -1,0 +1,54 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   4%|▍         | 9/219 [00:00<00:02, 86.83it/s][A
+Loading weights:   8%|▊         | 18/219 [00:00<00:04, 47.47it/s][A
+Loading weights:  11%|█▏        | 25/219 [00:00<00:03, 50.91it/s][A
+Loading weights:  16%|█▌        | 34/219 [00:00<00:03, 49.96it/s][A
+Loading weights:  18%|█▊        | 40/219 [00:00<00:03, 51.90it/s][A
+Loading weights:  21%|██        | 46/219 [00:00<00:03, 45.53it/s][A
+Loading weights:  24%|██▎       | 52/219 [00:01<00:03, 46.06it/s][A
+Loading weights:  27%|██▋       | 59/219 [00:01<00:03, 49.13it/s][A
+Loading weights:  31%|███       | 67/219 [00:01<00:03, 50.48it/s][A
+Loading weights:  33%|███▎      | 73/219 [00:01<00:02, 52.19it/s][A
+Loading weights:  38%|███▊      | 83/219 [00:01<00:02, 61.13it/s][A
+Loading weights:  41%|████      | 90/219 [00:01<00:02, 63.34it/s][A
+Loading weights:  45%|████▍     | 98/219 [00:01<00:01, 66.27it/s][A
+Loading weights:  49%|████▉     | 108/219 [00:01<00:01, 73.61it/s][A
+Loading weights:  53%|█████▎    | 116/219 [00:01<00:01, 73.68it/s][A
+Loading weights:  57%|█████▋    | 124/219 [00:02<00:01, 72.57it/s][A
+Loading weights:  60%|██████    | 132/219 [00:02<00:01, 73.22it/s][A
+Loading weights:  64%|██████▍   | 140/219 [00:02<00:01, 62.82it/s][A
+Loading weights:  68%|██████▊   | 148/219 [00:02<00:01, 57.71it/s][A
+Loading weights:  71%|███████   | 155/219 [00:02<00:01, 60.27it/s][A
+Loading weights:  74%|███████▍  | 162/219 [00:02<00:01, 55.87it/s][A
+Loading weights:  78%|███████▊  | 171/219 [00:02<00:00, 60.69it/s][A
+Loading weights:  83%|████████▎ | 182/219 [00:03<00:00, 68.04it/s][A
+Loading weights:  86%|████████▋ | 189/219 [00:03<00:00, 63.48it/s][A
+Loading weights:  96%|█████████▌| 210/219 [00:03<00:00, 95.32it/s][ALoading weights: 100%|██████████| 219/219 [00:03<00:00, 64.97it/s]
+Loading pipeline components...:  11%|█         | 1/9 [00:04<00:38,  4.83s/it]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][A
+Loading weights:  92%|█████████▏| 182/197 [00:00<00:00, 1819.81it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 1817.60it/s]
+Loading pipeline components...:  22%|██▏       | 2/9 [00:05<00:15,  2.20s/it]Loading pipeline components...:  33%|███▎      | 3/9 [00:05<00:07,  1.31s/it]Loading pipeline components...:  56%|█████▌    | 5/9 [00:07<00:04,  1.10s/it]Loading pipeline components...:  78%|███████▊  | 7/9 [00:07<00:01,  1.57it/s]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  36%|███▌      | 184/517 [00:00<00:00, 1835.01it/s][A
+Loading weights:  75%|███████▍  | 386/517 [00:00<00:00, 1830.61it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 1884.09it/s]
+Loading pipeline components...: 100%|██████████| 9/9 [00:08<00:00,  1.80it/s]Loading pipeline components...: 100%|██████████| 9/9 [00:08<00:00,  1.08it/s]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights:  75%|███████▌  | 686/910 [00:00<00:00, 6857.05it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 8502.39it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (182 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['2 0 0 , favorable angle , exhibits , exclusive , high detail , proportional bodies , religious attributes , favorable angle , reflector , 3 d , shilpi , volumetric bas - relief , high detail , ambient lighting , octane render , 1 6 k , relics , artifacts , rarity , gods , jade , surface ornamentation , noble stones , gemstone inlay , realism , depth , miniature scenes , marble material , precious metal inlay , mysticism , fractality , golden section , black background , museum atmosphere , antiques ,']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (182 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['2 0 0 , favorable angle , exhibits , exclusive , high detail , proportional bodies , religious attributes , favorable angle , reflector , 3 d , shilpi , volumetric bas - relief , high detail , ambient lighting , octane render , 1 6 k , relics , artifacts , rarity , gods , jade , surface ornamentation , noble stones , gemstone inlay , realism , depth , miniature scenes , marble material , precious metal inlay , mysticism , fractality , golden section , black background , museum atmosphere , antiques ,']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['1/160 second, ISO - 200, favorable angle, exhibits, exclusive, high detail, proportional bodies, religious attributes, favorable angle, reflector, 3D, Shilpi, volumetric bas-relief, high detail, ambient lighting, octane render, 16k, relics, artifacts, rarity, Gods, jade, surface ornamentation, noble stones, gemstone inlay, realism, depth, miniature scenes, marble material, precious metal inlay, mysticism, fractality, golden section, black background, museum atmosphere, antiques,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['book photo , barracks , brick , high school , wielding a spear , indoor , portcullis , speed , outstanding detail , roleplay , schools , in front of a building ,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['book photo , barracks , brick , high school , wielding a spear , indoor , portcullis , speed , outstanding detail , roleplay , schools , in front of a building ,']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['colliseum, intense heavy street battle, rpg rulebook photo, barracks, brick, high school, wielding a spear, indoor, portcullis, speed, outstanding detail, roleplay, schools,in front of a building,']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['m and greg rutkowski and alphonse mucha']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['m and greg rutkowski and alphonse mucha']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['; dynamic pose ; splash art']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['; dynamic pose ; splash art']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic ambient light , octane rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['epic ambient light , octane rendering , soft ambient light , hd']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', creative concept , clever design , whimsical , refined appearance , dslr quality , depth of field , sharp focus , high resolution , vibrant colors , natural lighting , cinematic composition , dynamic angle , professional photography , detailed textures , lifelike rendering , cozy atmosphere , relaxed environment , elegant background , blurred cafe scene , warm color palette , tasteful decor , stylish furnishings , soft lighting , inviting ambiance']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', creative concept , clever design , whimsical , refined appearance , dslr quality , depth of field , sharp focus , high resolution , vibrant colors , natural lighting , cinematic composition , dynamic angle , professional photography , detailed textures , lifelike rendering , cozy atmosphere , relaxed environment , elegant background , blurred cafe scene , warm color palette , tasteful decor , stylish furnishings , soft lighting , inviting ambiance']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', urban setting, unique character, creative concept, clever design, whimsical, refined appearance, DSLR quality, depth of field, sharp focus, high resolution, vibrant colors, natural lighting, cinematic composition, dynamic angle, professional photography, detailed textures, lifelike rendering, cozy atmosphere, relaxed environment, elegant background, blurred cafe scene, warm color palette, tasteful decor, stylish furnishings, soft lighting, inviting ambiance']

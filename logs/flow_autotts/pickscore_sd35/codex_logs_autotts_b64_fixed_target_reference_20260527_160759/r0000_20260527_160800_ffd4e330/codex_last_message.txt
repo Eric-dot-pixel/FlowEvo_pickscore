@@ -1,0 +1,41 @@
+Implemented the controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py) as a beta-scheduled scout-confirm-refine policy. The core change is structural: instead of fully finishing branches before getting evidence, it now does intermediate-time scouts, ranks by preview score plus uncertainty, prunes losers, commits only survivors, and uses backward refinement only on anchors that are either close to the top score or still uncertain.
+
+**What I inspected**
+- `flow_tts_controller_implementation_spec.md`
+- `context_pack.md`
+- current [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py) and [baselines.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/baselines.py)
+- targeted public API files: [state.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/core/state.py), [errors.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/core/errors.py), [env.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/experiments/pickscore_sd35/env.py)
+
+The context pack had no prior rounds, no frontier table, and no prior controller snapshots for this run, so there was no latest discovered controller to compare numerically. The only compact numeric references available were the injected ODE baseline rows:
+- `beta=0.00`: reward `0.676462`, mean NFE `8`, with this run’s locked target set to `10`
+- `beta=0.25`: reward `0.802083`, mean NFE `20`
+- `beta=0.50`: reward `0.836650`, mean NFE `36`
+- `beta=0.75`: reward `0.843990`, mean NFE `48`
+- `beta=1.00`: reward `0.847290`, mean NFE `64`
+
+**Schedule**
+- `beta=0.00`, target NFE `10`: `roots=2`, scout at `t=0.4`, keep `1`, commit to `t=1.0`, no backward, no confirmations. Underuse looked unjustified at first, so I adjusted scout depth from `0.5` to `0.4`; the dry-run now lands at `10`.
+- `beta=0.25`, target NFE `20`: `roots=4`, scout at `t=0.4`, keep `2`, then finish the best survivor, no backward, no confirmations. Underuse also looked unjustified, so I made the same scout-depth adjustment; the dry-run lands at `20`.
+- `beta=0.50`, target NFE `36`: `roots=5`, scout at `t=0.4`, keep `3`, commit survivors to `t=0.8`, keep `2`, allow `1` refined anchor with `1` child at `t=0.6`, plus `1` late confirm and `1` opportunistic confirm. This is meant to spend near `36` without blind full completions.
+- `beta=0.75`, target NFE `48`: `roots=6`, `sde` scouts at `t=0.4`, keep `3`, commit to `t=0.8`, keep `2`, up to `2` refined anchors with `mixed_noise` at `t=0.5`, `2` late confirms, `2` opportunistic confirms, diversity floor `2`. This is explicitly adjusted against underuse by spending extra budget on evidence and selective local exploration.
+- `beta=1.00`, target NFE `64`: `roots=7`, `sde` scouts at `t=0.4`, keep `4`, commit to `t=0.7`, keep `3`, up to `2` refined anchors with `2` children each, `3` late confirms, `2` opportunistic confirms, diversity floor `2`. It stays under `64` because every action is gated by both `env.budget_left` and remaining target NFE, and once any preview exists it answers with `best_preview_score`, avoiding `latest_active`’s implicit final-forward cost.
+
+Budget use is monotonic because target NFE rises `10 -> 20 -> 36 -> 48 -> 64`, and the width, survivor count, refinement capacity, confirmation count, and diversity floor are all nondecreasing with beta.
+
+**What is new**
+- Preview-before-commit allocation instead of the old complete-then-preview loop.
+- Score-gap and uncertainty based confirmation before more expensive branching.
+- Selective backward refinement from promising or uncertain anchors, rather than uniform late children.
+- Bounded `sde` scouts only at high beta.
+- Explicit target-NFE gating so low and mid beta do not accidentally underuse compute.
+
+Compared with the seed/template controller, this is a real behavioral change, not a threshold tweak.
+
+**Checks**
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- Lightweight fake-env dry-run across betas. Realized NFE in that dry-run was `10, 20, 36, 48, 64`.
+
+**Risks and intended gains**
+- Main target is the weak low/mid-budget allocation problem in the template: it was spending on full completions before evidence and could underuse the locked low-beta targets.
+- Expected improvement region is mainly `beta=0.25` and `beta=0.50`, with `beta=0.75` and `beta=1.00` protected by more conservative pruning and bounded refinement.
+- Main risk is preview noise: if early PickScore anchors are less rank-stable than expected, the scout prune can overcommit too soon. The late-confirm mechanism is there to reduce that risk.

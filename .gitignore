@@ -7,7 +7,7 @@ __pycache__/
 outputs/
 checkpoints/
 PickScore_v1/
-logs/
+
 flow_grpo/
 SD_3.5_med/
 fill_gpu.py

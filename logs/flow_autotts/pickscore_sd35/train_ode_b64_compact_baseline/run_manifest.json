@@ -1,0 +1,241 @@
+{
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "compact_manifest": {
+    "aggregate_summary": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64_compact_baseline/aggregate_summary.json",
+    "merged_runs": [
+      {
+        "betas": [
+          0.0
+        ],
+        "budget": 64,
+        "merged_history": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64_compact_baseline/beta_0_target_8_merged_history.json",
+        "row": {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 8.0,
+            "mean_nfe": 8.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic ODE (spawn=1.00, forward=8.00, nfe=8.00)",
+          "beta": 0.0,
+          "nfe": 8.0,
+          "reward": 0.8093758540153504,
+          "reward_per_nfe": 0.1011719817519188
+        },
+        "source_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0_target_8"
+      },
+      {
+        "betas": [
+          0.25
+        ],
+        "budget": 64,
+        "merged_history": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64_compact_baseline/beta_0p25_target_20_merged_history.json",
+        "row": {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 20.0,
+            "mean_nfe": 20.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic ODE (spawn=1.00, forward=20.00, nfe=20.00)",
+          "beta": 0.25,
+          "nfe": 20.0,
+          "reward": 0.8282976819276809,
+          "reward_per_nfe": 0.041414884096384046
+        },
+        "source_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p25_target_20"
+      },
+      {
+        "betas": [
+          0.5
+        ],
+        "budget": 64,
+        "merged_history": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64_compact_baseline/beta_0p5_target_36_merged_history.json",
+        "row": {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 36.0,
+            "mean_nfe": 36.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic ODE (spawn=1.00, forward=36.00, nfe=36.00)",
+          "beta": 0.5,
+          "nfe": 36.0,
+          "reward": 0.8294211505651474,
+          "reward_per_nfe": 0.02303947640458743
+        },
+        "source_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p5_target_36"
+      },
+      {
+        "betas": [
+          0.75
+        ],
+        "budget": 64,
+        "merged_history": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64_compact_baseline/beta_0p75_target_48_merged_history.json",
+        "row": {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 48.0,
+            "mean_nfe": 48.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic ODE (spawn=1.00, forward=48.00, nfe=48.00)",
+          "beta": 0.75,
+          "nfe": 48.0,
+          "reward": 0.8292382578849793,
+          "reward_per_nfe": 0.017275797039270402
+        },
+        "source_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p75_target_48"
+      },
+      {
+        "betas": [
+          1.0
+        ],
+        "budget": 64,
+        "merged_history": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64_compact_baseline/beta_1_target_64_merged_history.json",
+        "row": {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 64.0,
+            "mean_nfe": 64.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic ODE (spawn=1.00, forward=64.00, nfe=64.00)",
+          "beta": 1.0,
+          "nfe": 64.0,
+          "reward": 0.829445272564888,
+          "reward_per_nfe": 0.012960082383826375
+        },
+        "source_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_1_target_64"
+      }
+    ],
+    "rows": [
+      {
+        "action_statistics": {
+          "answer": 1.0,
+          "forward": 8.0,
+          "mean_nfe": 8.0,
+          "spawn": 1.0
+        },
+        "behavior_summary": "deterministic ODE (spawn=1.00, forward=8.00, nfe=8.00)",
+        "beta": 0.0,
+        "nfe": 8.0,
+        "reward": 0.8093758540153504,
+        "reward_per_nfe": 0.1011719817519188
+      },
+      {
+        "action_statistics": {
+          "answer": 1.0,
+          "forward": 20.0,
+          "mean_nfe": 20.0,
+          "spawn": 1.0
+        },
+        "behavior_summary": "deterministic ODE (spawn=1.00, forward=20.00, nfe=20.00)",
+        "beta": 0.25,
+        "nfe": 20.0,
+        "reward": 0.8282976819276809,
+        "reward_per_nfe": 0.041414884096384046
+      },
+      {
+        "action_statistics": {
+          "answer": 1.0,
+          "forward": 36.0,
+          "mean_nfe": 36.0,
+          "spawn": 1.0
+        },
+        "behavior_summary": "deterministic ODE (spawn=1.00, forward=36.00, nfe=36.00)",
+        "beta": 0.5,
+        "nfe": 36.0,
+        "reward": 0.8294211505651474,
+        "reward_per_nfe": 0.02303947640458743
+      },
+      {
+        "action_statistics": {
+          "answer": 1.0,
+          "forward": 48.0,
+          "mean_nfe": 48.0,
+          "spawn": 1.0
+        },
+        "behavior_summary": "deterministic ODE (spawn=1.00, forward=48.00, nfe=48.00)",
+        "beta": 0.75,
+        "nfe": 48.0,
+        "reward": 0.8292382578849793,
+        "reward_per_nfe": 0.017275797039270402
+      },
+      {
+        "action_statistics": {
+          "answer": 1.0,
+          "forward": 64.0,
+          "mean_nfe": 64.0,
+          "spawn": 1.0
+        },
+        "behavior_summary": "deterministic ODE (spawn=1.00, forward=64.00, nfe=64.00)",
+        "beta": 1.0,
+        "nfe": 64.0,
+        "reward": 0.829445272564888,
+        "reward_per_nfe": 0.012960082383826375
+      }
+    ],
+    "source_dirs": [
+      "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0_target_8",
+      "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p25_target_20",
+      "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p5_target_36",
+      "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p75_target_48",
+      "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_1_target_64"
+    ],
+    "source_root": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64"
+  },
+  "devices": [
+    "cuda:0",
+    "cuda:1",
+    "cuda:2",
+    "cuda:3"
+  ],
+  "output_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64_compact_baseline",
+  "runs": [
+    {
+      "actual_total_nfe": 8,
+      "beta": 0.0,
+      "beta_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0_target_8",
+      "target_total_nfe": 8
+    },
+    {
+      "actual_total_nfe": 20,
+      "beta": 0.25,
+      "beta_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p25_target_20",
+      "target_total_nfe": 20
+    },
+    {
+      "actual_total_nfe": 36,
+      "beta": 0.5,
+      "beta_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p5_target_36",
+      "target_total_nfe": 36
+    },
+    {
+      "actual_total_nfe": 48,
+      "beta": 0.75,
+      "beta_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0p75_target_48",
+      "target_total_nfe": 48
+    },
+    {
+      "actual_total_nfe": 64,
+      "beta": 1.0,
+      "beta_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_1_target_64",
+      "target_total_nfe": 64
+    }
+  ],
+  "source_root": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64",
+  "target_nfes": [
+    8,
+    20,
+    36,
+    48,
+    64
+  ]
+}

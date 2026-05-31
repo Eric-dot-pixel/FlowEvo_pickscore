@@ -1,0 +1,4527 @@
+{
+  "betas": [
+    0.0
+  ],
+  "budget": 64,
+  "episodes": [
+    {
+      "answer_nfe": 8,
+      "prompt": "by Kris Kuksi, sculptural compositions, by kuksi.com, Indian style, religious decorations on people, mythological beasts, in motion, dance, professional lightcube, miniature, Camera Olympus E-M10 mark 2, Aperture - f/5.6-8.0, Shutter speed - 1/160 second, ISO - 200, favorable angle, exhibits, exclusive, high detail, proportional bodies, religious attributes, favorable angle, reflector, 3D, Shilpi, volumetric bas-relief, high detail, ambient lighting, octane render, 16k, relics , artifacts, rarity, Gods, jade, surface ornamentation, noble stones, gemstone inlay, realism, depth, miniature scenes, marble material, precious metal inlay, mysticism, fractality, golden section, black background, museum atmosphere, antiques,",
+      "prompt_index": 20952,
+      "reward": 0.7843614220619202,
+      "sample_rank": 0,
+      "seed": 234255678,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A very detailed 3d painting of modern London scenery from the parliament hill, in the style of David Roberts' The siege and destruction of Jerusalem",
+      "prompt_index": 3648,
+      "reward": 0.8187094330787659,
+      "sample_rank": 1,
+      "seed": 75474175,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of  a millenium falcon in the city river with teddybear,flooded mini,splashing misty mud rocks,panorama,city buildings, large teddybears",
+      "prompt_index": 819,
+      "reward": 0.79703289270401,
+      "sample_rank": 2,
+      "seed": 49515272,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "This is a powerful photograph that showcases Walter White, the iconic character from Breaking Bad, holding a large metal sign with the text \"Make blue great again!\" emblazoned in bold white letters. The sign dominates the foreground, serving as a stark reminder of Walter's ruthless and ambitious nature. It appears weathered and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign.  The \"Make blue great again!\" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign's message is clear and direct, serving as a symbol of Walter's unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact.  The \"Make blue great again!\" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign's message is both ambiguous and ominous, hinting at Walter's complicated and dangerous character",
+      "prompt_index": 24299,
+      "reward": 0.756049633026123,
+      "sample_rank": 3,
+      "seed": 264967753,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Mister sentry, who keeps the atmosphere under the stop of time, fantasy, sci-fi, epic realistic",
+      "prompt_index": 9012,
+      "reward": 0.8098908066749573,
+      "sample_rank": 4,
+      "seed": 124694242,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "cute cat in a teacup, artistic art print, spashes of paint, strong vibrant colours, wet paint on canvas",
+      "prompt_index": 8024,
+      "reward": 0.896009087562561,
+      "sample_rank": 5,
+      "seed": 115628355,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A super detailed white mecha, gundam, render, sci-fi, futuristic, unreal, unreal engine",
+      "prompt_index": 7314,
+      "reward": 0.8520210981369019,
+      "sample_rank": 6,
+      "seed": 109113396,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "cafe logo, emoji style, indian cooking, color logo, HD, 3d, family, healthy food,",
+      "prompt_index": 4572,
+      "reward": 0.7636647820472717,
+      "sample_rank": 7,
+      "seed": 83952805,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "DSLR portrait of a an extraterrestrial being wearing leather t-shirt",
+      "prompt_index": 24132,
+      "reward": 0.8875661492347717,
+      "sample_rank": 8,
+      "seed": 263435366,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "From Front outside Photography of gigantic orange interstellar spaceship docked in launch pad.  by Ridley Scott and syd mead. depth, cables, pipes. film grain, hyper detailed, 16k, shot on Fujifilm GFX 50r. cinematic, broken parts, maximum detail, soft lighting",
+      "prompt_index": 3358,
+      "reward": 0.8468064665794373,
+      "sample_rank": 9,
+      "seed": 72813143,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "national geographic photo of a rainbow snake python head, 8k resolution, cinematic, hyper realism, 1 5 0 mm lens ,",
+      "prompt_index": 22174,
+      "reward": 0.8479885458946228,
+      "sample_rank": 10,
+      "seed": 245468760,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Ethereal portrait of a ghostly figure, shrouded in mist and glowing with an otherworldly aura, captured with a high-quality DSLR camera and processed with stunning detail, evoking a haunting and supernatural atmosphere",
+      "prompt_index": 24270,
+      "reward": 0.794888436794281,
+      "sample_rank": 11,
+      "seed": 264701657,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "whole body image of Megan Fox as Neytiri from Avatar",
+      "prompt_index": 17870,
+      "reward": 0.8066165447235107,
+      "sample_rank": 12,
+      "seed": 205975258,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Studio photo, isolated, a pendant lamp in the shape of a spaceship",
+      "prompt_index": 2848,
+      "reward": 0.7980763912200928,
+      "sample_rank": 13,
+      "seed": 68133387,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "cat sitting on a stone fence",
+      "prompt_index": 19349,
+      "reward": 0.8414978384971619,
+      "sample_rank": 14,
+      "seed": 219546564,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "40 year old men high tech  play soccer logo",
+      "prompt_index": 13825,
+      "reward": 0.7846370935440063,
+      "sample_rank": 15,
+      "seed": 168858341,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "vibrant neon cosmic jellyfish in space, vibrant neon glow, apocalypse art, black background, darksynth; dark neon vibrant pop surrealism, 3d vector illustration, heavy metal art, CGSociety, heavy lines, cosmic colours, Unreal Engine 5, Artstation, sots art, synthwave, high contrast, selective colour; unique composition",
+      "prompt_index": 1041,
+      "reward": 0.841667115688324,
+      "sample_rank": 16,
+      "seed": 51552358,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Anime cyberpunk woman with Pastel Rainbow white blue short hair,Light Purple eyes,20 years old,by makoto shinkai, stanley artgerm lau, wlop, rossdraws",
+      "prompt_index": 976,
+      "reward": 0.7738736271858215,
+      "sample_rank": 17,
+      "seed": 50955919,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "face of God, realistic, high detailed, heaven",
+      "prompt_index": 3070,
+      "reward": 0.8107985258102417,
+      "sample_rank": 18,
+      "seed": 70170464,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "an empowering view of the rooster demonic leader in a bloodied ironmaiden robot,wearing royal robe, Philippe Druillet and Tsutomu Nihei,volumetric lighting,detailed shadows,extremely detailed",
+      "prompt_index": 7164,
+      "reward": 0.7898224592208862,
+      "sample_rank": 19,
+      "seed": 107737009,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "up close darkskin astronaut in a garden on a spring day, by martine johanna and simon stalenhag and chie yoshii and casey weldon and wlop : : ornate, dynamic, particulate, rich colors, intricate, elegant, highly detailed, harper's bazaar art, fashion magazine, smooth, sharp focus, 8 k, octane render",
+      "prompt_index": 7623,
+      "reward": 0.7676911354064941,
+      "sample_rank": 20,
+      "seed": 111948794,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A fit man dressed as a Greek god inside an abandoned library, professional photography, 5mm",
+      "prompt_index": 16559,
+      "reward": 0.7618626952171326,
+      "sample_rank": 21,
+      "seed": 193945531,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "teddy bear and a Morris Mini-Minor,big dancing teddy bear ,with shoes",
+      "prompt_index": 19726,
+      "reward": 0.9042274355888367,
+      "sample_rank": 22,
+      "seed": 223005924,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "city in the dunes of a single city on the predominantly water planet, unreal engine, 8k uhd, subsurface scattering",
+      "prompt_index": 869,
+      "reward": 0.7986135482788086,
+      "sample_rank": 23,
+      "seed": 49974093,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Digital painting of Sean Connery smoking a cigar, by Greg Rutkowski",
+      "prompt_index": 18390,
+      "reward": 0.927297830581665,
+      "sample_rank": 24,
+      "seed": 210746790,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "dark fantasy world map in the style of darkest dungeon",
+      "prompt_index": 6515,
+      "reward": 0.8142808079719543,
+      "sample_rank": 25,
+      "seed": 101781791,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "young girl with a flamethrower and her Dobermann killing a zombie horde",
+      "prompt_index": 23462,
+      "reward": 0.8137831687927246,
+      "sample_rank": 26,
+      "seed": 257287464,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A red lion cub with long fur, very cute",
+      "prompt_index": 21295,
+      "reward": 0.7746044397354126,
+      "sample_rank": 27,
+      "seed": 237403073,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Episode of friends holding a sign that reads Happy Siblings Day",
+      "prompt_index": 22981,
+      "reward": 0.830848217010498,
+      "sample_rank": 28,
+      "seed": 252873810,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Studio Ghibli style picture of a gorilla wizard",
+      "prompt_index": 17856,
+      "reward": 0.9092920422554016,
+      "sample_rank": 29,
+      "seed": 205846811,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Paper with 2 + 2 = 5 on it.",
+      "prompt_index": 13746,
+      "reward": 0.7695285677909851,
+      "sample_rank": 30,
+      "seed": 168133452,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "award winning photo 3rd reich Wehrmacht rusted robot general greeting 21st century special forces US officer in combat uniform, Wehrmacht officers hat, dystopian, close-up, metal futuristic armor, sharp focus, hd, hdr, 8k, photorealism, god rays, reflection, raw, rtx, dramatic lighting, still from the Wehrmacht blockbuster  film",
+      "prompt_index": 7223,
+      "reward": 0.7953393459320068,
+      "sample_rank": 31,
+      "seed": 108278405,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "happiness, very beautiful, inspiring, thought provoking",
+      "prompt_index": 14719,
+      "reward": 0.7586573958396912,
+      "sample_rank": 32,
+      "seed": 177061702,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Highly Detailed Cyberpunk monumental building of Mega-Corp, digitally painted in UHD, concept art, intricate details",
+      "prompt_index": 19309,
+      "reward": 0.7830174565315247,
+      "sample_rank": 33,
+      "seed": 219179543,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Jenna Presley, Grand Theft Auto IV, Textless",
+      "prompt_index": 9115,
+      "reward": 0.715093195438385,
+      "sample_rank": 34,
+      "seed": 125639400,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Album music by Chris LaBrooy23%inspired by Sven Nordqvist22%by Kurt Wenner21%by Sven Nordqvist21%inspired by Kurt Wenner by Vladimír Vašíček21%inspired by Cyril Rolando21%by Susan Heidi20%by Mór Than20%by Martina Krupičková",
+      "prompt_index": 212,
+      "reward": 0.6911801695823669,
+      "sample_rank": 35,
+      "seed": 43945473,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Reflection in the mirror,high dynamic range,golden hour",
+      "prompt_index": 24864,
+      "reward": 0.7860985994338989,
+      "sample_rank": 36,
+      "seed": 270152226,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Giant squid, kraken, anatomically correct, cephalopod, ,",
+      "prompt_index": 5231,
+      "reward": 0.7910506725311279,
+      "sample_rank": 37,
+      "seed": 89999819,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Photorealistic selfie of a japanese redhead woman, ashamed",
+      "prompt_index": 22876,
+      "reward": 0.8775294423103333,
+      "sample_rank": 38,
+      "seed": 251910340,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "fry from futurama dressed as Neo from the Matrix, in the style of Matt Groening",
+      "prompt_index": 13848,
+      "reward": 0.7888898849487305,
+      "sample_rank": 39,
+      "seed": 169069413,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "haha this ronin guy here do be model-looking",
+      "prompt_index": 11149,
+      "reward": 0.7845032215118408,
+      "sample_rank": 40,
+      "seed": 144303390,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A bear inside an mgb driving,steering wheel",
+      "prompt_index": 9105,
+      "reward": 0.8733941316604614,
+      "sample_rank": 41,
+      "seed": 125547647,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "art by Alfons Mucha and Salvador Dali, futuristic, sci-fi, a crystal egg at the center of the universe, a dream world of the future, prognostication, mystical, astrological, HD 4K, sharp detail, photo-realistic",
+      "prompt_index": 5094,
+      "reward": 0.8391824960708618,
+      "sample_rank": 42,
+      "seed": 88742712,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Lionel messi with a real madrid shirt",
+      "prompt_index": 7055,
+      "reward": 0.7312971353530884,
+      "sample_rank": 43,
+      "seed": 106736849,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Disposable paper diaper for youth incontinence, teen boy",
+      "prompt_index": 25018,
+      "reward": 0.7593872547149658,
+      "sample_rank": 44,
+      "seed": 271565338,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": ", fantasy, pastel, absurdist,  photo, refined, fear and lathing dessert",
+      "prompt_index": 11029,
+      "reward": 0.7597964406013489,
+      "sample_rank": 45,
+      "seed": 143202275,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "epic “magic duel” good and wizards",
+      "prompt_index": 3349,
+      "reward": 0.7576127052307129,
+      "sample_rank": 46,
+      "seed": 72730596,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Ash Ketchum keeps waking his mom up",
+      "prompt_index": 3039,
+      "reward": 0.7894355058670044,
+      "sample_rank": 47,
+      "seed": 69886037,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a logo for \"P\" named cryptocurrency bot",
+      "prompt_index": 12449,
+      "reward": 0.7527231574058533,
+      "sample_rank": 48,
+      "seed": 156232198,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A very brawny man, heavyset, handsome, fat, overweight, plump, chubby",
+      "prompt_index": 3169,
+      "reward": 0.8236284852027893,
+      "sample_rank": 49,
+      "seed": 71078919,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Kinky teen 2B cosplay, big brests, Webcam, Only Fans",
+      "prompt_index": 11763,
+      "reward": 0.7284786701202393,
+      "sample_rank": 50,
+      "seed": 149937464,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "octane render, highest quality, determined male bounty hunter,  straight light brown hair, camo battle armor, rifle, atmospheric lighting, fit body, full body, realistic facial features, in modern Disney style, immersive background, toon style",
+      "prompt_index": 11270,
+      "reward": 0.6546134352684021,
+      "sample_rank": 51,
+      "seed": 145413697,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "17 million colours splashing creative art",
+      "prompt_index": 19782,
+      "reward": 0.8566374778747559,
+      "sample_rank": 52,
+      "seed": 223519810,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "highly detailed beautiful organic molding, art nouveau,  sharp focus, dynamic lighting, elegant harmony, beauty, masterpiece, voronoi,Marine, geometry",
+      "prompt_index": 8667,
+      "reward": 0.7263064384460449,
+      "sample_rank": 53,
+      "seed": 121528571,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a close up of a zappa with long hair and a beard, inspired by Václav Brožík, billy corgan, headshot profile picture, profile photo, profile picture",
+      "prompt_index": 1423,
+      "reward": 0.7453417181968689,
+      "sample_rank": 54,
+      "seed": 55057628,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A carnivorous plant with human teeth",
+      "prompt_index": 23911,
+      "reward": 0.7955107092857361,
+      "sample_rank": 55,
+      "seed": 261407517,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "teenager girls fighting over a boy, jealousy, highly detailed",
+      "prompt_index": 15054,
+      "reward": 0.7521085739135742,
+      "sample_rank": 56,
+      "seed": 180135686,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Closeup Picture of feets in high heels",
+      "prompt_index": 17571,
+      "reward": 0.8585696220397949,
+      "sample_rank": 57,
+      "seed": 203231679,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "redshift style Close-up Photograph; junior officer girl self pleasure on bed in her quarters, light darken in a generation spaceship. Dark science fiction hyperrealistic ominous 8k 18+ beautiful High resolution",
+      "prompt_index": 4090,
+      "reward": 0.6781713962554932,
+      "sample_rank": 58,
+      "seed": 79530024,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "massive ocean, creature lurking in the dark, Thalassophobia, dark, creepy atmoshere, award winning",
+      "prompt_index": 12403,
+      "reward": 0.8547361493110657,
+      "sample_rank": 59,
+      "seed": 155810113,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "magical forest with floating spirit orbs, makoto shinkai",
+      "prompt_index": 2582,
+      "reward": 0.8435434699058533,
+      "sample_rank": 60,
+      "seed": 65692618,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "young Muscle guy castartor busting TESTICLEs at torture chamber. plural testes, male reproductive gland. highly detailed guro art by Ilya Repin",
+      "prompt_index": 18089,
+      "reward": 0.7867252230644226,
+      "sample_rank": 61,
+      "seed": 207984851,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "scifi room metal,roman,computer screens,studio lighting, volumetric light,sir john soane,metal pipes,floor grates,pilasters british museum",
+      "prompt_index": 9606,
+      "reward": 0.7660658955574036,
+      "sample_rank": 62,
+      "seed": 130144844,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Realistic Black and white  cute portrait of Jenna Ortega bob hairstyle as a 19 year old girl , jacket , blemishes on skin , smooth face , dynamic light , dynamic shadows , street background, image taken by",
+      "prompt_index": 20599,
+      "reward": 0.7006194591522217,
+      "sample_rank": 63,
+      "seed": 231016613,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Pixel art, Close up of Sara Jean Underwood face, extremely detailed, beautiful eyes, pouty smile",
+      "prompt_index": 20267,
+      "reward": 0.7363073229789734,
+      "sample_rank": 64,
+      "seed": 227970182,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a ladybug on top of a toadstool",
+      "prompt_index": 11850,
+      "reward": 0.9302140474319458,
+      "sample_rank": 65,
+      "seed": 150735791,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Bronze statue of Joe Biden looking like he's just won the lottery",
+      "prompt_index": 18918,
+      "reward": 0.8998173475265503,
+      "sample_rank": 66,
+      "seed": 215591760,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "old colorized photo of a person playing north indian pambai Drum in a jungle",
+      "prompt_index": 6300,
+      "reward": 0.8780760765075684,
+      "sample_rank": 67,
+      "seed": 99808993,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Sharks in a tornado, movie poster, sharknado,",
+      "prompt_index": 23087,
+      "reward": 0.8165532946586609,
+      "sample_rank": 68,
+      "seed": 253846506,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "egyptian police officers at a crime scene in the city with pyramids",
+      "prompt_index": 2279,
+      "reward": 0.8565984964370728,
+      "sample_rank": 69,
+      "seed": 62912299,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "monk meditating on top of a mountain",
+      "prompt_index": 1501,
+      "reward": 0.9322568774223328,
+      "sample_rank": 70,
+      "seed": 55773372,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "one piece anime cover naruto bleach",
+      "prompt_index": 21668,
+      "reward": 0.7548862099647522,
+      "sample_rank": 71,
+      "seed": 240825765,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a photo  of armor on display in a roman villa, a photo, inspired by Roman Bezpalkiv, colorful uniforms, gearing up for battle, roman toga, harness, red uniform,  roman, in the 4 0 th millenia, mace and shield, a digital rendering, by John Moonan, inside the roman colliseum, intense heavy street battle, rpg rulebook photo, barracks, brick, high school, wielding a spear, indoor, portcullis, speed, outstanding detail, roleplay, schools,in front of a building,",
+      "prompt_index": 7467,
+      "reward": 0.7100324630737305,
+      "sample_rank": 72,
+      "seed": 110517390,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "ben shapiro in a burglar mask holding a jar of white liquid",
+      "prompt_index": 25331,
+      "reward": 0.7659228444099426,
+      "sample_rank": 73,
+      "seed": 274437455,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A tie dye rabbit bottles of colored dye",
+      "prompt_index": 9482,
+      "reward": 0.8070264458656311,
+      "sample_rank": 74,
+      "seed": 129007032,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "The Racnoss are described by the Tenth Doctor as an ancient race of aliens from the Dark Times of the universe. Half-humanoid, half-arachnid in appearance, they were an invasion force who consumed everything on the planets they conquered. Their race was wiped out by the Fledgling Empires, over 4.6 billion years ago.",
+      "prompt_index": 2614,
+      "reward": 0.77341228723526,
+      "sample_rank": 75,
+      "seed": 65986265,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a watermelon statue of a dog, stock image",
+      "prompt_index": 7628,
+      "reward": 0.7883875370025635,
+      "sample_rank": 76,
+      "seed": 111994730,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "monkey riding a llama in india",
+      "prompt_index": 3309,
+      "reward": 0.8754774332046509,
+      "sample_rank": 77,
+      "seed": 72363587,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Painting of elaborate melted gemstones metal sculpture Tribal style",
+      "prompt_index": 12455,
+      "reward": 0.8059678077697754,
+      "sample_rank": 78,
+      "seed": 156287284,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of a man casually wearing a lemonsuit in the walmart checkout",
+      "prompt_index": 9108,
+      "reward": 0.8068764805793762,
+      "sample_rank": 79,
+      "seed": 125575213,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "an empowering view of the supreme elder turtle,wearing royal warrior clothes, throwing an extremely powerful punch surrounded with demonic aura,in the style of Ken Kelly and William Blake,Richard Corben,extremely detailed,detailed shadows,volumetric lighting",
+      "prompt_index": 14857,
+      "reward": 0.775119423866272,
+      "sample_rank": 80,
+      "seed": 178328038,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of a gold bar on top a plate of pasta",
+      "prompt_index": 20830,
+      "reward": 0.8557808995246887,
+      "sample_rank": 81,
+      "seed": 233136287,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "beautiful busy English beach scene painted by Van Gogh and Redon, impasto relief palette knife oil paint, Thick luscious impasto paint very deep sculptural brush and palette knife marks",
+      "prompt_index": 11954,
+      "reward": 0.6978595852851868,
+      "sample_rank": 82,
+      "seed": 151690112,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Ghastly Hitman in the style of Shinkiro's SNK artwork",
+      "prompt_index": 5329,
+      "reward": 0.7623797655105591,
+      "sample_rank": 83,
+      "seed": 90899113,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "octane render, cosmic hyperrealistic portrait of beautiful woman with neon hair blown in motion, dressed in neo-futuristic clothes, ravepunk style, night party background, blurred party lights, voluminous lips, dynamic volumetric light, realistic portrait closeup, symmetrical highly detailed, arstation, sharp focus, cinematic lighting, cinematic colour grading, long exposure, art by Artgerm and Greg Rutkowski and Alphonse Mucha",
+      "prompt_index": 12130,
+      "reward": 0.7133718132972717,
+      "sample_rank": 84,
+      "seed": 153305090,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A woman wearing a white blouse and jeans, intricate dress, HDR, Golden hour",
+      "prompt_index": 11641,
+      "reward": 0.7574763894081116,
+      "sample_rank": 85,
+      "seed": 148818027,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a Ferrari car that is made out of condoms",
+      "prompt_index": 6865,
+      "reward": 0.8759015202522278,
+      "sample_rank": 86,
+      "seed": 104993452,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a retro futuristic pop photo, fine film grain, professional focus, plush intricate clothes, spring color palette, sharp details, portrait of a female prophet person, looking in the matrix, far shot, intricate design with fine details, intrigued, mystical feeling, 120mm, f1.8, rule of thirds, appealing composition",
+      "prompt_index": 21960,
+      "reward": 0.7950443625450134,
+      "sample_rank": 87,
+      "seed": 243505173,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "3d render of funko pop rapper",
+      "prompt_index": 8748,
+      "reward": 0.8567864894866943,
+      "sample_rank": 88,
+      "seed": 122271862,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A detailed painting of a man using a lightsaber as a golf stick, artstation",
+      "prompt_index": 22997,
+      "reward": 0.8135048151016235,
+      "sample_rank": 89,
+      "seed": 253020687,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": ", fantasy, gentle, pastel, absurdist, photo, coarse, pillock frolicking",
+      "prompt_index": 22398,
+      "reward": 0.7362721562385559,
+      "sample_rank": 90,
+      "seed": 247524264,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "graffiti design, red purple yellow, interesting design, vibrant colors",
+      "prompt_index": 21234,
+      "reward": 0.7595266699790955,
+      "sample_rank": 91,
+      "seed": 236843401,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Production Still from Star Wars Shrek, starring bald shrek as yoda’s father, cinematography, directed by George Lucas, 1978 film style",
+      "prompt_index": 2339,
+      "reward": 0.8509941697120667,
+      "sample_rank": 92,
+      "seed": 63462882,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "kurt cobain and jimi hendrix on a bed together",
+      "prompt_index": 19960,
+      "reward": 0.8886972665786743,
+      "sample_rank": 93,
+      "seed": 225153179,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Viktor Orban standing in an abandoned empty swimming pool, dry leafs, sad face, tv still from Narcos",
+      "prompt_index": 20806,
+      "reward": 0.7792360186576843,
+      "sample_rank": 94,
+      "seed": 232916076,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Poster for a romantic comedy film animation called journey to paris, delicate features finely detailed perfect art, gapmoe yandere grimdark, trending on pixiv fanbox, painted by greg rutkowski makoto shinkai takashi takeuchi studio ghibli, lettered poster",
+      "prompt_index": 5607,
+      "reward": 0.7080653309822083,
+      "sample_rank": 95,
+      "seed": 93450053,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "necromancer anime girl, pale skin, goth, magic, dark fantasy, skeletons army, bones, sparks, digital art, mastepiece, art by artgerm and John William Waterhouse",
+      "prompt_index": 17502,
+      "reward": 0.7566964626312256,
+      "sample_rank": 96,
+      "seed": 202598574,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Sunset seen from coast, starry skies, unusual color, water painting",
+      "prompt_index": 23892,
+      "reward": 0.803783655166626,
+      "sample_rank": 97,
+      "seed": 261233215,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "This is a photo of Walter White from Breaking Bad. The image shows a realistic depiction of the character with his hair, mustache and beard ablaze, surrounded by chaos. The flames are captured in vivid detail, illuminating the intense expression on his face. The background is blurred, adding to the sense of movement and action. The overall tone is intense and dramatic.",
+      "prompt_index": 8021,
+      "reward": 0.8022271990776062,
+      "sample_rank": 98,
+      "seed": 115600920,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "luffy nami and zoro from the one pice",
+      "prompt_index": 5354,
+      "reward": 0.8578160405158997,
+      "sample_rank": 99,
+      "seed": 91128529,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Highly Detailed Cyberpunk monumental Headquarters Building of Interstellar Trade Guild, digitally painted in UHD, concept art",
+      "prompt_index": 15147,
+      "reward": 0.826018214225769,
+      "sample_rank": 100,
+      "seed": 180989098,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Still image of Scarlett Johanson in The Godfather",
+      "prompt_index": 12433,
+      "reward": 0.7244948744773865,
+      "sample_rank": 101,
+      "seed": 156085435,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a group of elephants walking in muddy water",
+      "prompt_index": 8845,
+      "reward": 0.9407275915145874,
+      "sample_rank": 102,
+      "seed": 123161948,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "masterpiece, 8K, photo realistic, RAW photo,soft lighting, highly detailed, high quality, a body portrait of a handsome man in a suit",
+      "prompt_index": 20971,
+      "reward": 0.798183262348175,
+      "sample_rank": 103,
+      "seed": 234430125,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a vast village of treehouses connected by rope bridges with string lights at night",
+      "prompt_index": 22549,
+      "reward": 0.9113600850105286,
+      "sample_rank": 104,
+      "seed": 248909854,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "insanely detailed full body shot dynamic aggressive epic pose of a handsome arabian bard charisma 20 dressed with a leather jacket, advancing while playing a acoustic guitar. surrounded by ice. BUT IS BOSS IN DARK SOUL STYLE, DARK FANTASY,WARHAMMER40K, OBSCURE,DARK, EPIC.",
+      "prompt_index": 18250,
+      "reward": 0.7363117933273315,
+      "sample_rank": 105,
+      "seed": 209462231,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a very muscular dark haired girl with a black crop top and black ripped denim skinnyjeans",
+      "prompt_index": 7196,
+      "reward": 0.8720336556434631,
+      "sample_rank": 106,
+      "seed": 108030728,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "at the edge of the world",
+      "prompt_index": 22433,
+      "reward": 0.802090585231781,
+      "sample_rank": 107,
+      "seed": 247845441,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A bad hand drawn paper picture of a cute mixed breed dog.",
+      "prompt_index": 10626,
+      "reward": 0.7980482578277588,
+      "sample_rank": 108,
+      "seed": 139504410,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a West African mermaid with a purple blue tail, purple bandeau, dark eyes, braided hair",
+      "prompt_index": 25176,
+      "reward": 0.8530580401420593,
+      "sample_rank": 109,
+      "seed": 273015211,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Painting of a young Kerala woman",
+      "prompt_index": 25427,
+      "reward": 0.9191906452178955,
+      "sample_rank": 110,
+      "seed": 275318388,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Close-up Portrait of a female pilot by Martin Schoeller",
+      "prompt_index": 1832,
+      "reward": 0.7485346794128418,
+      "sample_rank": 111,
+      "seed": 58810669,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Portrait Photo headshot closeup of a young beautiful gorgeous woman enchanting in her white blouse, stands poised on a cliff's edge. Blurred forest unfurls behind her, highlighting her allure and health. Skin free",
+      "prompt_index": 7505,
+      "reward": 0.8736559152603149,
+      "sample_rank": 112,
+      "seed": 110866118,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Beautiful image presenting that AGI is coming in the center, digital concept art, sci-fi, cyberpunk, superintelligence supercomputer, futuristic, trending on Artstation, monumental Golem oracle, breathtaking, bottom view, embodiment of wisdom singularity, inside huge hall with tall pillars, intricate details",
+      "prompt_index": 1051,
+      "reward": 0.7710467576980591,
+      "sample_rank": 113,
+      "seed": 51644215,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "blackandwhite photo of a teddy bear driving a AustinMini car in a city street at night cyberpunk, AustinMini ,silver car,studio lighting,",
+      "prompt_index": 10336,
+      "reward": 0.8110334277153015,
+      "sample_rank": 114,
+      "seed": 136843376,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "anthropomorphic voodoo doll wearing balaclava mask and hip hop fashion. muted colors, light and shadow effects, detailed, intricate, clean and textures, trending on artstation, trending on cgsociety, award winning digital art, NFT, extremely detailed, 8 k, behance, trending on pinterest, disneys pixar 3d style, stylized 3d NFT render",
+      "prompt_index": 13145,
+      "reward": 0.745116114616394,
+      "sample_rank": 115,
+      "seed": 162618761,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "high detail digital matte painting portrait close up of wrinkled old mushroom man with mushrooms growing from his head; enchanted mystical woodland; by Andrew Ferez; by Android Jones; by Jean-Baptiste Monge; by Keith Thompson; dramatic lighting; dark fantasy; CGSociety; intricately detailed oil painting; inkblot; high contrast colours; deep depth of field; unique composition; dynamic pose; Splash art",
+      "prompt_index": 8773,
+      "reward": 0.7930353283882141,
+      "sample_rank": 116,
+      "seed": 122501290,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a man wearing a hoodie in a street, photo taken with eos 5d, ultra realism, hyperrealism, street photography, professional photography, 8k uhd, ray tracing, ssao",
+      "prompt_index": 2168,
+      "reward": 0.7960098385810852,
+      "sample_rank": 117,
+      "seed": 61893811,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A closeup photograph of a human hand fingers outstretched in th style of Cartier Bresson",
+      "prompt_index": 6913,
+      "reward": 0.7996824979782104,
+      "sample_rank": 118,
+      "seed": 105433932,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Hayao Miyazaki in the style of Studio Ghibli",
+      "prompt_index": 18585,
+      "reward": 0.7731757760047913,
+      "sample_rank": 119,
+      "seed": 212536205,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Little Prince on an urban planet",
+      "prompt_index": 23524,
+      "reward": 0.808150589466095,
+      "sample_rank": 120,
+      "seed": 257856470,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "rainbow dash as drug addict niddle on high on drugs junkie",
+      "prompt_index": 10311,
+      "reward": 0.7887557148933411,
+      "sample_rank": 121,
+      "seed": 136613983,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "angel, photo, dripping molten glass rainbows, copper brass lightning, beautiful rainbow melting dripping over swirling hair splash art graphic design color splash high contrasting art, liquid light, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha, 8 k,",
+      "prompt_index": 6967,
+      "reward": 0.7022388577461243,
+      "sample_rank": 122,
+      "seed": 105929440,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a long, red haired woman, dressed in a black medieval dress in Transylvania, portrait by Waterhouse, Cesare Saccaggi da Tortona, John Everett Millais . Very atmospheric, dark, dangerous, mystical, beautiful lighting, natural lighting, trending on pinterest.com, Pre-Raphaelite Brotherhood",
+      "prompt_index": 21477,
+      "reward": 0.6991062164306641,
+      "sample_rank": 123,
+      "seed": 239073201,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of teddybear looking at a landrover defender in the jungle river,furry teddy misty mud rocks,panorama,headlights Chrome Detailing, teddybear eyes",
+      "prompt_index": 16358,
+      "reward": 0.7336385846138,
+      "sample_rank": 124,
+      "seed": 192101258,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "black dungeon with subtle blue and pink edge lighting, magical runes",
+      "prompt_index": 12964,
+      "reward": 0.8456202149391174,
+      "sample_rank": 125,
+      "seed": 160957915,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Realistic Black and white  portrait of Jenna Ortega bob hairstyle as a 19 year old teenager , jacket , blemishes on skin , smooth face , dynamic light , dynamic shadows , studio background, image taken by",
+      "prompt_index": 21064,
+      "reward": 0.6464521884918213,
+      "sample_rank": 126,
+      "seed": 235283516,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Homer Simpson taking a bite of a delicious looking jelly donut on the table in front of him, CGI and cell shading in the style of The Simpsons Movie",
+      "prompt_index": 15035,
+      "reward": 0.8413744568824768,
+      "sample_rank": 127,
+      "seed": 179961413,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a castle full of jokers and comic strips",
+      "prompt_index": 4681,
+      "reward": 0.818159818649292,
+      "sample_rank": 128,
+      "seed": 84953110,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An drawing of an anthropomorphic snake holding two whips",
+      "prompt_index": 8679,
+      "reward": 0.8576992750167847,
+      "sample_rank": 129,
+      "seed": 121638759,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Cute cat, realistic digital oil painting by bob ross",
+      "prompt_index": 4575,
+      "reward": 0.8360893726348877,
+      "sample_rank": 130,
+      "seed": 83980456,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a vast wall of posters and landscapes by various painters on a white wall in a museum, digital art",
+      "prompt_index": 8081,
+      "reward": 0.846886932849884,
+      "sample_rank": 131,
+      "seed": 116151513,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A building in call of duty modern warfare 2, warzone 2, middle Eastern buildings, desert town, with signs one says \"Nutronic\" \"@thenutronic\", sand everywhere,",
+      "prompt_index": 24411,
+      "reward": 0.818952739238739,
+      "sample_rank": 132,
+      "seed": 265995594,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A surreal jungle landscape, featuring exotic plants and animals, and strange, otherworldly structures. The scene is rendered in a highly stylized, dreamlike style, with bold colors and intricate details. The artists featured in this prompt are Alena aenami and Simon Stålenhag",
+      "prompt_index": 18394,
+      "reward": 0.7570211291313171,
+      "sample_rank": 133,
+      "seed": 210783603,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Close up Painting of a symmetrical Archangel Archdemon intricate armor, supporting glowing long sword",
+      "prompt_index": 17661,
+      "reward": 0.9284272789955139,
+      "sample_rank": 134,
+      "seed": 204057596,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Coca Cola eruption from a volcano",
+      "prompt_index": 8609,
+      "reward": 0.8060777187347412,
+      "sample_rank": 135,
+      "seed": 120996445,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "gothic streetwear top shirt, midriff, pleated goth mini skirt, lip and noses piercing, natural lips, short red hair, black choker, long strip thigh high stockings, beautiful egirl, best anatomy figurative, accurate kinetic anatomy of the hands, egirl makeup, cute girl, amazing eye detail",
+      "prompt_index": 24478,
+      "reward": 0.7194186449050903,
+      "sample_rank": 136,
+      "seed": 266610390,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "main in black suit, The waves, the sky, and you. by Aivazovsky and Rene Magritte",
+      "prompt_index": 19155,
+      "reward": 0.8382964134216309,
+      "sample_rank": 137,
+      "seed": 217766543,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "chinese architecture tourist map stylized, high quality, detailed",
+      "prompt_index": 14038,
+      "reward": 0.8081101775169373,
+      "sample_rank": 138,
+      "seed": 170812952,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of a fantasy forest hollow",
+      "prompt_index": 19121,
+      "reward": 0.828988790512085,
+      "sample_rank": 139,
+      "seed": 217454561,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Faith and spirituality concept with architecture, sky and birds, beautiful landscape, realistic, detailed, high quality and definition 4K, 3:2 vertical image",
+      "prompt_index": 13087,
+      "reward": 0.7853823900222778,
+      "sample_rank": 140,
+      "seed": 162086578,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A photo cool sigma person, standing on a street and holding a sign called \"Get Ready\"",
+      "prompt_index": 11861,
+      "reward": 0.7909227609634399,
+      "sample_rank": 141,
+      "seed": 150836803,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "police chase from a futuristic cyberpunk movie, photorealistic",
+      "prompt_index": 7186,
+      "reward": 0.816032350063324,
+      "sample_rank": 142,
+      "seed": 107939004,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Vintage Electronic Test Equipment, Mostly Oscilloscopes",
+      "prompt_index": 4532,
+      "reward": 0.8419836163520813,
+      "sample_rank": 143,
+      "seed": 83585901,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "painting of an extremely large underground cave with a lake, lanterns floating in the air, trees on islands",
+      "prompt_index": 16696,
+      "reward": 0.9093632102012634,
+      "sample_rank": 144,
+      "seed": 195202766,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A logo for a music company",
+      "prompt_index": 16171,
+      "reward": 0.7258657813072205,
+      "sample_rank": 145,
+      "seed": 190385367,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A building in call of duty warzone 2, middle Eastern buildings with signs one says \"Nutronic\" \"@thenutronic\"",
+      "prompt_index": 2978,
+      "reward": 0.7887861132621765,
+      "sample_rank": 146,
+      "seed": 69326400,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "cute gothic chibi girl kewpie dark eyes, Stanley Artgerm and Tom Bagshaw",
+      "prompt_index": 24765,
+      "reward": 0.8164857029914856,
+      "sample_rank": 147,
+      "seed": 269243913,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Man walking on cloud, film, 50mm, grain, 80s",
+      "prompt_index": 1543,
+      "reward": 0.7890335321426392,
+      "sample_rank": 148,
+      "seed": 56158842,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Painting of African american female teen superhero; red and green cape; not disfigured; not uglymarching in 1913",
+      "prompt_index": 3592,
+      "reward": 0.8633080124855042,
+      "sample_rank": 149,
+      "seed": 74960467,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Chris Colfer in a sitcom from 1970's",
+      "prompt_index": 5008,
+      "reward": 0.7948524355888367,
+      "sample_rank": 150,
+      "seed": 87953684,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Game concept art, portratit of a Dungeons and dragons, Beautiful, Young middle-eastern woman, tan skin, dark brown eyes, black hair, long braids, slender, graceful pose, colorful comfortable nomadic clothes, wearing jewelries",
+      "prompt_index": 20560,
+      "reward": 0.7717838287353516,
+      "sample_rank": 151,
+      "seed": 230658837,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Canguru with sunglasses at the sunset holding a stop sign",
+      "prompt_index": 5242,
+      "reward": 0.8165083527565002,
+      "sample_rank": 152,
+      "seed": 90100870,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "man holding two whips, one on each hand",
+      "prompt_index": 22298,
+      "reward": 0.8402832746505737,
+      "sample_rank": 153,
+      "seed": 246606727,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "book club, riso, lithograph, fantasy, pastel, absurdism",
+      "prompt_index": 13833,
+      "reward": 0.7896408438682556,
+      "sample_rank": 154,
+      "seed": 168931888,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A shadowy humanoid monster crawling out of a mirror in a fancy victorian room, foreboding atmosphere, creepy, hauntingly beautiful oil painting",
+      "prompt_index": 19543,
+      "reward": 0.8150888681411743,
+      "sample_rank": 155,
+      "seed": 221326849,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "moon as an artiach cookie with a happy face",
+      "prompt_index": 2081,
+      "reward": 0.8336706757545471,
+      "sample_rank": 156,
+      "seed": 61095538,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "8 year old girl do yoga, wearing denim shorts and blouse, show uncle",
+      "prompt_index": 12608,
+      "reward": 0.8234493136405945,
+      "sample_rank": 157,
+      "seed": 157691291,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "malnourished very old asian woman with inhalation of oxygen",
+      "prompt_index": 12504,
+      "reward": 0.844903290271759,
+      "sample_rank": 158,
+      "seed": 156736988,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A steampunk terminator in a futuristic cityscape!",
+      "prompt_index": 19526,
+      "reward": 0.8819069862365723,
+      "sample_rank": 159,
+      "seed": 221170861,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A picture of a 27 year old girl smiling, cinematic dark dim dramatic",
+      "prompt_index": 15337,
+      "reward": 0.7447864413261414,
+      "sample_rank": 160,
+      "seed": 182732598,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Slimy humanoid monster covered with a Hundred eyeballs small funny uncanny bald creepy gooey, with the word creep above",
+      "prompt_index": 17338,
+      "reward": 0.8244242072105408,
+      "sample_rank": 161,
+      "seed": 201093775,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "pitaya cake, stunning photo, high-res, ad campaign, neo-dada photo",
+      "prompt_index": 8238,
+      "reward": 0.7781880497932434,
+      "sample_rank": 162,
+      "seed": 117592176,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "wall street journal portrait of abraham lincoln",
+      "prompt_index": 18128,
+      "reward": 0.7932999134063721,
+      "sample_rank": 163,
+      "seed": 208342817,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "concrete stairs leading to a secret hide out in the jungle",
+      "prompt_index": 376,
+      "reward": 0.805355966091156,
+      "sample_rank": 164,
+      "seed": 45450466,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Realistic image of the pope francisco walking on the streets wearing gucci clothes",
+      "prompt_index": 22291,
+      "reward": 0.8627033829689026,
+      "sample_rank": 165,
+      "seed": 246542507,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A winged gargoyle on the corner of a church steeple",
+      "prompt_index": 23616,
+      "reward": 0.8854695558547974,
+      "sample_rank": 166,
+      "seed": 258700708,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Cover art for the manga adaptation of King of the Hill",
+      "prompt_index": 3753,
+      "reward": 0.7922899723052979,
+      "sample_rank": 167,
+      "seed": 76437821,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "3d peppa pig in the casino, gta v artwork, detailed illustration, gta vice city, vector",
+      "prompt_index": 22338,
+      "reward": 0.7985426187515259,
+      "sample_rank": 168,
+      "seed": 246973782,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A photography of a bedroom, very nostalgic and liminal, photography took in the 80s",
+      "prompt_index": 17595,
+      "reward": 0.7556371092796326,
+      "sample_rank": 169,
+      "seed": 203452015,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "COURSE DE CHEVAZUX SAUVAGES DANS LA MONTAGNE",
+      "prompt_index": 24604,
+      "reward": 0.8323328495025635,
+      "sample_rank": 170,
+      "seed": 267766600,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A fit man dressed as a Greek god, by pixar",
+      "prompt_index": 8743,
+      "reward": 0.9114019870758057,
+      "sample_rank": 171,
+      "seed": 122226065,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Swan robot, cyberpunk India, Cyborg swan, Ghost in the shell style, mehendi body art, Bird, yantra, Mask, Baroque style, Kathakali character, High technology, detailed, spotlight, Shadow color, high contrast, cyberpunk city, color, epic ambiant light, high technology, high contrast, synthesized body, hyper-realistic, 8k, epic ambient light, octane rendering, soft ambient light, HD",
+      "prompt_index": 25185,
+      "reward": 0.7212543487548828,
+      "sample_rank": 172,
+      "seed": 273097858,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Portrait of a beautiful roman princess, cyberpunk",
+      "prompt_index": 21003,
+      "reward": 0.8043986558914185,
+      "sample_rank": 173,
+      "seed": 234723827,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "tarot card man skipping along cliffside carrying bag on stick",
+      "prompt_index": 11146,
+      "reward": 0.8461697101593018,
+      "sample_rank": 174,
+      "seed": 144275996,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Vintage 70s poster from scout camp movie",
+      "prompt_index": 3655,
+      "reward": 0.8385118842124939,
+      "sample_rank": 175,
+      "seed": 75538581,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "feral six legged rat, bat wings for ears, fantasy art",
+      "prompt_index": 9617,
+      "reward": 0.7915798425674438,
+      "sample_rank": 176,
+      "seed": 130245894,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of patlabor in jungle city river",
+      "prompt_index": 14246,
+      "reward": 0.7977464199066162,
+      "sample_rank": 177,
+      "seed": 172721599,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a woman wearing red mini skirt and a grey fedora",
+      "prompt_index": 5182,
+      "reward": 0.9138100743293762,
+      "sample_rank": 178,
+      "seed": 89550336,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An Ancient Greek fresco of Pikachu",
+      "prompt_index": 14867,
+      "reward": 0.8263794183731079,
+      "sample_rank": 179,
+      "seed": 178419897,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Pixiv anime mushroom girl by Wei Guan Deviantart Artstation",
+      "prompt_index": 106,
+      "reward": 0.8686331510543823,
+      "sample_rank": 180,
+      "seed": 42972962,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "futurama bender portrait by botticelli, oil painting, paint texture, robot",
+      "prompt_index": 23661,
+      "reward": 0.8139338493347168,
+      "sample_rank": 181,
+      "seed": 259113643,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Kurt Cbain wearing black rubber suit with clear face mask",
+      "prompt_index": 23582,
+      "reward": 0.8414750099182129,
+      "sample_rank": 182,
+      "seed": 258388740,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "CIA Agent standing in a park talking to a group of students, intense, dark, photorealistic",
+      "prompt_index": 8630,
+      "reward": 0.8358676433563232,
+      "sample_rank": 183,
+      "seed": 121189189,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Angry woman running on the beach",
+      "prompt_index": 16403,
+      "reward": 0.8989007472991943,
+      "sample_rank": 184,
+      "seed": 192514238,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A fantastical landscape of a rolling green valley, dotted with magical forests and enchanted lakes. In the distance, a castle sits atop a hill, surrounded by clouds and mist. The scene is inspired by the work of Studio Ghibli.",
+      "prompt_index": 24967,
+      "reward": 0.8236456513404846,
+      "sample_rank": 185,
+      "seed": 271097503,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Antique, warm hues, full body, skinny shaved, spread wide, bare black negro lesbian teen girl 8K, HD, octane render, magical energy, sharp overhead cinematic lighting, beautiful digital fantastical illustration, highly detailed, rendered in octane, very very very aesthetic, exquisite marble detail",
+      "prompt_index": 5854,
+      "reward": 0.7060579657554626,
+      "sample_rank": 186,
+      "seed": 95716616,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "delicate cat tattoo, tattoo on a female arm, line work, highly detailed, 8k, color",
+      "prompt_index": 16635,
+      "reward": 0.8027350902557373,
+      "sample_rank": 187,
+      "seed": 194643073,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "top view, graphic design, black and white, line drawing, a magic formation,",
+      "prompt_index": 3486,
+      "reward": 0.7560913562774658,
+      "sample_rank": 188,
+      "seed": 73987850,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "The Emperor, and robots, in his study, art by Agnes Cecile",
+      "prompt_index": 20489,
+      "reward": 0.7850868105888367,
+      "sample_rank": 189,
+      "seed": 230007379,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "psychedelic boy, neon colors, comic illustration",
+      "prompt_index": 9779,
+      "reward": 0.8141802549362183,
+      "sample_rank": 190,
+      "seed": 131732420,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Slenderman, rpg, retro game, pixel art",
+      "prompt_index": 20937,
+      "reward": 0.7556948661804199,
+      "sample_rank": 191,
+      "seed": 234118229,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A black cat wearing a chef's hat making sushi on a countertop in the style of photorealism",
+      "prompt_index": 19954,
+      "reward": 0.9900171756744385,
+      "sample_rank": 192,
+      "seed": 225098222,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An lego design of alien planet with flora",
+      "prompt_index": 6517,
+      "reward": 0.8931151032447815,
+      "sample_rank": 193,
+      "seed": 101800311,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a futuristic, light and elegant sports stadium in the wetland near the sea, the roof like bird's wings",
+      "prompt_index": 12252,
+      "reward": 0.8439456820487976,
+      "sample_rank": 194,
+      "seed": 154424672,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A girl on a nature beach",
+      "prompt_index": 24985,
+      "reward": 0.7988027930259705,
+      "sample_rank": 195,
+      "seed": 271262681,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Lego set of Walter White from Breaking Bad",
+      "prompt_index": 5293,
+      "reward": 0.8182240128517151,
+      "sample_rank": 196,
+      "seed": 90568890,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "chinese architecture tourist map, papyrus, stylized, high quality",
+      "prompt_index": 17674,
+      "reward": 0.8016585111618042,
+      "sample_rank": 197,
+      "seed": 204176947,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A worn Homer Simpson statue on a tropical beach",
+      "prompt_index": 17378,
+      "reward": 0.8811447620391846,
+      "sample_rank": 198,
+      "seed": 201460852,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "neon multicolored hair, 80s fashion, short miniskirt, ponytail, understanding friendly",
+      "prompt_index": 18,
+      "reward": 0.8085271120071411,
+      "sample_rank": 199,
+      "seed": 42165493,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Highly detailed portrait of Demon Clown, fiendish and insidious, eyes of flame, seamless blend of pale white and midnight black, foregrounded light and shadows, heavily stylized, saturated colors, 3D, PBR, path tracing, volumetric lighting, octane render, arnold render, 8k",
+      "prompt_index": 19626,
+      "reward": 0.7711221575737,
+      "sample_rank": 200,
+      "seed": 222088502,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "league of legends champion by KNKL KIENAN LAFFERTY, premium skin, detailed champion art",
+      "prompt_index": 10621,
+      "reward": 0.7567406892776489,
+      "sample_rank": 201,
+      "seed": 139458623,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "woman, pale skin, redhead, jacket, leggings, high rooftop, new york",
+      "prompt_index": 16010,
+      "reward": 0.8482286930084229,
+      "sample_rank": 202,
+      "seed": 188908088,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of a chimpanzee riding a road bike",
+      "prompt_index": 638,
+      "reward": 0.9526543021202087,
+      "sample_rank": 203,
+      "seed": 47854617,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "minimalistic style logo of a head with a maze inside and a chess on top",
+      "prompt_index": 3665,
+      "reward": 0.8967493772506714,
+      "sample_rank": 204,
+      "seed": 75630370,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "oil painting, zombie gangster wearing snapback and golden chain on neck with apple sign pendant",
+      "prompt_index": 11894,
+      "reward": 0.7994720339775085,
+      "sample_rank": 205,
+      "seed": 151139675,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "otter eating a watermelon while sitting on the edge of a cliff",
+      "prompt_index": 10076,
+      "reward": 0.9043918251991272,
+      "sample_rank": 206,
+      "seed": 134457708,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "untitled mixed media, Illustration, Graphic Novel, Painting, Modern Art",
+      "prompt_index": 7846,
+      "reward": 0.7754391431808472,
+      "sample_rank": 207,
+      "seed": 113995229,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A kindergarten, with a design inspired by Zaha Hadid, sits next to the city's green spaces",
+      "prompt_index": 1898,
+      "reward": 0.8498552441596985,
+      "sample_rank": 208,
+      "seed": 59416382,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "20 year-old Barbara Eden as an Elfin princess naturist in a magical mystic forest, HD 4k, sharp detail",
+      "prompt_index": 7892,
+      "reward": 0.834054172039032,
+      "sample_rank": 209,
+      "seed": 114417327,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "octane render of body horror, sharp dark shadows, heavy red and black color contrast by trevor henderson and junji ito",
+      "prompt_index": 18591,
+      "reward": 0.751721978187561,
+      "sample_rank": 210,
+      "seed": 212591352,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": ", fantasy, pastel, absurdism, photo, refined",
+      "prompt_index": 2580,
+      "reward": 0.8068934082984924,
+      "sample_rank": 211,
+      "seed": 65674417,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a beautiful fit young man wearing urbanpunk pants only, full figure, photorealistic",
+      "prompt_index": 2806,
+      "reward": 0.8012051582336426,
+      "sample_rank": 212,
+      "seed": 67748194,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a young woman crying with running mascara and tears on her face",
+      "prompt_index": 23983,
+      "reward": 0.7994475960731506,
+      "sample_rank": 213,
+      "seed": 262068347,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A beautiful girl, drinking bottled water under a cherry tree full of cherry blossoms on a sunny day high resolution, retro, high detail, full screen, sunlight, crazy details, realistic photography, Fuji film superia, full HD, shot with Canon EOS R5, F1.2, ISO 100,35mm,",
+      "prompt_index": 15924,
+      "reward": 0.8207471966743469,
+      "sample_rank": 214,
+      "seed": 188118964,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Bart Simpson the Strongman in class",
+      "prompt_index": 2267,
+      "reward": 0.746330201625824,
+      "sample_rank": 215,
+      "seed": 62802333,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Portrait Photo of young women in sunset",
+      "prompt_index": 24923,
+      "reward": 0.8665728569030762,
+      "sample_rank": 216,
+      "seed": 270693790,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "cat eating a human heart out of a skull",
+      "prompt_index": 17455,
+      "reward": 0.9201787114143372,
+      "sample_rank": 217,
+      "seed": 202167423,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a cartoon of an oversized human lung with a doctor in a white coat standing in front of it",
+      "prompt_index": 25094,
+      "reward": 0.8288058042526245,
+      "sample_rank": 218,
+      "seed": 272262888,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A bull on a propaganda poster",
+      "prompt_index": 4120,
+      "reward": 0.8576633334159851,
+      "sample_rank": 219,
+      "seed": 79805465,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a cute ninja girl, cyberpunk style, photorealistic",
+      "prompt_index": 4207,
+      "reward": 0.8558915257453918,
+      "sample_rank": 220,
+      "seed": 80603778,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Beautiful unique extravagant clothing, insanely detailed, photorealistic, 8k, ultra high resolution, volumetric lighting, taken with canon eos,",
+      "prompt_index": 21618,
+      "reward": 0.8492408394813538,
+      "sample_rank": 221,
+      "seed": 240367115,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Detailed Vector hand drawing of a pinocchio as a black girl",
+      "prompt_index": 15574,
+      "reward": 0.8163586258888245,
+      "sample_rank": 222,
+      "seed": 184907372,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Antique, warm hues, dark haired, hilarious, smiling portly Pixar male priest, child on lap:: 8K, HD, octane render, magical energy, sharp overhead cinematic lighting, beautiful digital fantastical illustration, highly detailed, rendered in octane, very very very aesthetic, exquisite marble detail",
+      "prompt_index": 18015,
+      "reward": 0.8069444298744202,
+      "sample_rank": 223,
+      "seed": 207305989,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a man and a woman are eating dinner at home",
+      "prompt_index": 5410,
+      "reward": 0.8626139760017395,
+      "sample_rank": 224,
+      "seed": 91642510,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "mechanical bee, electronics, motors, wires, buttons, lcd",
+      "prompt_index": 8685,
+      "reward": 0.8009094595909119,
+      "sample_rank": 225,
+      "seed": 121693911,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Cartoonist, centred, front, humanoid pokemon, Ariados, female, curvey, a stoneforest, Digital Art, WLOP with Marco Mazzoni style, headroom",
+      "prompt_index": 17290,
+      "reward": 0.7362063527107239,
+      "sample_rank": 226,
+      "seed": 200653392,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a highly detailed vector drawing of a baby girl with dreads and tattoos wearing hip hop streetwear fashion sitting, 2d game art, trending on artstation, dribbble contest winner, high quality, by patrick brown, by tom whalen, by aaron mcgruder",
+      "prompt_index": 19876,
+      "reward": 0.8385063409805298,
+      "sample_rank": 227,
+      "seed": 224382529,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Beautiful girl walking in the street",
+      "prompt_index": 13865,
+      "reward": 0.8045814037322998,
+      "sample_rank": 228,
+      "seed": 169225594,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "anthony mackie, close up, in a tuxedo at the oscars red carpet",
+      "prompt_index": 6940,
+      "reward": 0.8179433345794678,
+      "sample_rank": 229,
+      "seed": 105681795,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Soldier bunnies in military gear fighting vietnam war",
+      "prompt_index": 17671,
+      "reward": 0.8566372394561768,
+      "sample_rank": 230,
+      "seed": 204149452,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Jhilmar Lora, peru, Olympique de Marsella",
+      "prompt_index": 24748,
+      "reward": 0.7210386991500854,
+      "sample_rank": 231,
+      "seed": 269088005,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Asian Mexican  boy with short hair playing on gaming computer wearing headphones",
+      "prompt_index": 23918,
+      "reward": 0.8238763213157654,
+      "sample_rank": 232,
+      "seed": 261471926,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "an evil tornado above a skyscraper in london, urban fantasy neon punk",
+      "prompt_index": 22605,
+      "reward": 0.812904417514801,
+      "sample_rank": 233,
+      "seed": 249423839,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "crowded mgb museum, intricate details, intricate details, hyperdetailed, cinematic, dark shot, muted colors, film grainy, soothing tones, muted colors, technicolor",
+      "prompt_index": 6591,
+      "reward": 0.7289296388626099,
+      "sample_rank": 234,
+      "seed": 102479376,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "an highly detailed image of a futuristic city, with high rise buildings, flying cars 24k",
+      "prompt_index": 23361,
+      "reward": 0.8043465614318848,
+      "sample_rank": 235,
+      "seed": 256360897,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "1940s photograph of Cristiano Ronaldo shaking hands with Benito Mussolini",
+      "prompt_index": 10214,
+      "reward": 0.8011053800582886,
+      "sample_rank": 236,
+      "seed": 135724026,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A masterful Kodak portra 400 film still of a gorgeous disrobed disrobed pale goddess wide hips modern photography fiery auburn hair behind shot pool and amber greenery in background",
+      "prompt_index": 13074,
+      "reward": 0.843383252620697,
+      "sample_rank": 237,
+      "seed": 161967387,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Lord Krishna ,beautiful, detailed, intricate insanely detailed octane render trending on artstation, 8 k artistic photography, photorealistic concept art, soft natural volumetric cinematic perfect light, award - winning photograph, masterpiece, oil on canvas, raphael, caravaggio, greg rutkowski, beeple, beksinski, still, digital Art, chiaroscuro, giger, black and white still, digital Art, perfect composition",
+      "prompt_index": 22009,
+      "reward": 0.7862974405288696,
+      "sample_rank": 238,
+      "seed": 243954948,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Realistic 3 d render of a cyberpunk android foot wearing sneakers, beautiful studio lighting, soft, sharp focus, neon cyberpunk highlights, intricate detail, gold and red accents, soft rubber, octane render, side view, close up, trending on artstation, deviantart, art by syd mead and issey miyake",
+      "prompt_index": 12236,
+      "reward": 0.7109260559082031,
+      "sample_rank": 239,
+      "seed": 154277901,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a beautiful asian woman, washing face in the front of mirror",
+      "prompt_index": 14355,
+      "reward": 0.7935946583747864,
+      "sample_rank": 240,
+      "seed": 173721846,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "abstract impressionism, muslim bird woman with long flowing dress flying through sky, storm, aqua and blue and gold colors, , hijab, impasto, wispy clouds, Tyler Shields, Steven Outram, Eric Zener, Odd Nerdrum, Noah Bradley, Richard MacDonald, Anne Bachelier, Leonora Carrington, ink wash",
+      "prompt_index": 16959,
+      "reward": 0.7265937328338623,
+      "sample_rank": 241,
+      "seed": 197616151,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "realistic fox fursuit at a convention, furr, fursuit, furry fandom, anthrocon, mff",
+      "prompt_index": 14794,
+      "reward": 0.8608832359313965,
+      "sample_rank": 242,
+      "seed": 177750112,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a digigrade furry horse, a being that is a hybrid of half human half horse.  it's made out of transparent liquid slime. not quadruped, walking on 2 legs like a human.",
+      "prompt_index": 3965,
+      "reward": 0.8105801343917847,
+      "sample_rank": 243,
+      "seed": 78383209,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A Chemical Barrel, Orange, with warning sign",
+      "prompt_index": 8123,
+      "reward": 0.8510454297065735,
+      "sample_rank": 244,
+      "seed": 116537018,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Madonna as Lloth, demon queen of spiders",
+      "prompt_index": 7362,
+      "reward": 0.8559037446975708,
+      "sample_rank": 245,
+      "seed": 109554083,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "visualization of clock in alphonse mucha with dull color",
+      "prompt_index": 2098,
+      "reward": 0.8548058867454529,
+      "sample_rank": 246,
+      "seed": 61251620,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "strybk, 2 franciscan women and 2 franciscan men wearing purple religious clothes with their head covered surrounded by pink flowers and with an open purple arch above. They are standing next to each other and looking at the viewer's direction. Spiritual scenery, heavenly heavenly sunshine beams divine bright soft focus holy in the clouds, kids story book style, muted colors, watercolor style",
+      "prompt_index": 11078,
+      "reward": 0.7568703889846802,
+      "sample_rank": 247,
+      "seed": 143652101,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Tom Hanks with Paul McCartney drinking beer",
+      "prompt_index": 689,
+      "reward": 0.7953976392745972,
+      "sample_rank": 248,
+      "seed": 48322638,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Translucent Creatures formed from smoke, insanely detailed, photorealistic, 8k, ultra high resolution, volumetric lighting, taken with canon eos,",
+      "prompt_index": 19277,
+      "reward": 0.7615804672241211,
+      "sample_rank": 249,
+      "seed": 218886127,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "massive cyberpunk landscape, ultra modern, insanen details AND shadows, masterpiece, award winning digital art",
+      "prompt_index": 18150,
+      "reward": 0.7640058398246765,
+      "sample_rank": 250,
+      "seed": 208544776,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a man with a sinister smile plays two electric guitars at the same time, four arms, long black hair, suspenders over shirt. low angle. Japanese Shōnen manga illustration.",
+      "prompt_index": 7540,
+      "reward": 0.8456956148147583,
+      "sample_rank": 251,
+      "seed": 111187417,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a rainbow ufo flying over a grassfield",
+      "prompt_index": 19282,
+      "reward": 0.7663319110870361,
+      "sample_rank": 252,
+      "seed": 218932010,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A youtuber taking a video, 2d modern professional creative illustration, sharp edges, smooth curves,  ultra advanced non-human product, generative ai",
+      "prompt_index": 7216,
+      "reward": 0.7424085736274719,
+      "sample_rank": 253,
+      "seed": 108214395,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "I've got an orgone accumulator And it makes me feel greater I'll see you sometime later When I'm through with my accumulator",
+      "prompt_index": 235,
+      "reward": 0.6808469295501709,
+      "sample_rank": 254,
+      "seed": 44156740,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An anime girl holding a sign saying \"SUGOI\"",
+      "prompt_index": 2326,
+      "reward": 0.8865786194801331,
+      "sample_rank": 255,
+      "seed": 63343757,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "cinematic action pose of two fit tatooed male martial artists dressing pants fighting",
+      "prompt_index": 23194,
+      "reward": 0.8238720893859863,
+      "sample_rank": 256,
+      "seed": 254828526,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "pink flower in a pot, on the window in the sunshine",
+      "prompt_index": 20679,
+      "reward": 0.8222566246986389,
+      "sample_rank": 257,
+      "seed": 231750887,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A photorealistic 1980s National Geographic magazine ad for a demon summoning kit",
+      "prompt_index": 1929,
+      "reward": 0.8012805581092834,
+      "sample_rank": 258,
+      "seed": 59700888,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Antique King's Hussars Picture of Westminster Abbey smokey roman villa burning, 18mm smoke filled room debris , gladiator ,floor mosaics  fire smoke, a photo,   roman , a digital rendering,  inside the roman colliseum,   plants overgrown outstanding detail ,room flooded, in front of a building,by claude-joseph vernet",
+      "prompt_index": 7501,
+      "reward": 0.7288022041320801,
+      "sample_rank": 259,
+      "seed": 110829561,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "artistic art print, spashes of paint, strong vibrant colours, paint on canvas, a leopard running and loosing its spots",
+      "prompt_index": 2208,
+      "reward": 0.7798281908035278,
+      "sample_rank": 260,
+      "seed": 62260994,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Kindergarten, free form, sunny, activity venue, garden, swimming pool",
+      "prompt_index": 1029,
+      "reward": 0.8201163411140442,
+      "sample_rank": 261,
+      "seed": 51442491,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A baby in a formula one suit and helmet",
+      "prompt_index": 10827,
+      "reward": 0.8918834924697876,
+      "sample_rank": 262,
+      "seed": 141348940,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "underground under water inside a cryo geyser chamber with big quartz crystals",
+      "prompt_index": 2321,
+      "reward": 0.7927378416061401,
+      "sample_rank": 263,
+      "seed": 63297885,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A realistic detail of a long range phot of a beautiful lady singing jazz in a saloon",
+      "prompt_index": 16847,
+      "reward": 0.8214967846870422,
+      "sample_rank": 264,
+      "seed": 196588462,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "the world tree, the eiffel tower made out of a giant tree",
+      "prompt_index": 7798,
+      "reward": 0.8014206886291504,
+      "sample_rank": 265,
+      "seed": 113554839,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Photo of the pope as a gangster in a white puffer",
+      "prompt_index": 9125,
+      "reward": 0.8302978873252869,
+      "sample_rank": 266,
+      "seed": 125731392,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "1 handsome man, Asian, street photography, fashion",
+      "prompt_index": 21921,
+      "reward": 0.7727240920066833,
+      "sample_rank": 267,
+      "seed": 243147489,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Jason Voorhees funko pop, extremely detailed,  8k",
+      "prompt_index": 15906,
+      "reward": 0.8281474709510803,
+      "sample_rank": 268,
+      "seed": 187953850,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A blue eyed blonde male fat old hairy ugly dirty daddy gay",
+      "prompt_index": 7020,
+      "reward": 0.7600776553153992,
+      "sample_rank": 269,
+      "seed": 106415915,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Hyper-realistic portrait of a demonic clown, deformed features and beady eyes, red and orange hues, vibrant and eerie, unsettling emotion and danger, satirical, by Stan Dumiwa, atrueartist, created with ZBrush, 3D, PBR, path tracing, volumetric lighting, octane render, 8k resolution",
+      "prompt_index": 17669,
+      "reward": 0.7665935158729553,
+      "sample_rank": 270,
+      "seed": 204131140,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Lamborghini with widebody kit surrounded by chocolate bunnies and Easter eggs",
+      "prompt_index": 4335,
+      "reward": 0.8634730577468872,
+      "sample_rank": 271,
+      "seed": 81778357,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "red skin, anime fire elemental spirit girl art, genie, magic, fantasy, inhuman, red glowing eyes, fire hairs, red skin, magma skin, sparks, digital art, mastepiece, art by artgerm and John William Waterhouse",
+      "prompt_index": 23702,
+      "reward": 0.7667267918586731,
+      "sample_rank": 272,
+      "seed": 259489950,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A kobold riding on a giant bee",
+      "prompt_index": 18711,
+      "reward": 0.8758264183998108,
+      "sample_rank": 273,
+      "seed": 213692535,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A 1984 Sports Illustrated photo of Emma Stone, masterpiece, absurdres, highres, featured on ArtStation",
+      "prompt_index": 18881,
+      "reward": 0.7968854904174805,
+      "sample_rank": 274,
+      "seed": 215252456,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Create a concept for a museum of trash, showcasing the history and impact of waste on society. Consider exhibits on the evolution of waste management practices, the environmental and health consequences of improper disposal, and innovative solutions for reducing, reusing, and recycling waste. The museum could also feature interactive displays and art installations made from recycled materials, inspiring visitors to rethink their own relationship with trash",
+      "prompt_index": 15488,
+      "reward": 0.7322914600372314,
+      "sample_rank": 275,
+      "seed": 184118289,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of an orangutan riding a road bike on mountain road",
+      "prompt_index": 7962,
+      "reward": 0.9749583005905151,
+      "sample_rank": 276,
+      "seed": 115059714,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Danish interior design modern realistic archviz scandinavian",
+      "prompt_index": 15498,
+      "reward": 0.7745051383972168,
+      "sample_rank": 277,
+      "seed": 184210051,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "bulma from dragonball z, anime artstyle",
+      "prompt_index": 13338,
+      "reward": 0.7840426564216614,
+      "sample_rank": 278,
+      "seed": 164389892,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Selfie of a Brazilian gostosa 19yr teen, dark hair, wearing a sheer silk top",
+      "prompt_index": 6239,
+      "reward": 0.8546318411827087,
+      "sample_rank": 279,
+      "seed": 99249469,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "an image of a clouds scene with a clouds and clouds , pixel art by Paul Kelpe, pixiv, clouds art, #pixelart, 2d game art, concept art",
+      "prompt_index": 3090,
+      "reward": 0.7435483932495117,
+      "sample_rank": 280,
+      "seed": 70354246,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a painting of a house in the middle of a body of water, by Jacek Yerka, jacek yerka and vladimir kush, highly detailed surrealist art, frank hampson and mcbess, hyper - detailed visionary art, daniel merriam :.1, highly detailed visionary art, todd schorr highly detailed, inspired by Jacek Yerka, japanese pop surrealism",
+      "prompt_index": 3176,
+      "reward": 0.7661738395690918,
+      "sample_rank": 281,
+      "seed": 71143383,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a group of people sitting around a wooden table, gas masks, 2019 trending photo, inspired by Zlatyu Boyadzhiev, two young men, standing in a server room, russian national guard, trending on artforum, full dress uniform, photo of a classroom, training, smoke, gen z, h 9 6 0, iso 16",
+      "prompt_index": 21593,
+      "reward": 0.7656506299972534,
+      "sample_rank": 282,
+      "seed": 240137776,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a cyborg working on a laptop, cinematic lighting, intricate detail",
+      "prompt_index": 14124,
+      "reward": 0.811095654964447,
+      "sample_rank": 283,
+      "seed": 171602233,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "woman with pink hair walkig trough steampunk City ruins by hayao miyasahi, asymmetric cut, low angle",
+      "prompt_index": 11609,
+      "reward": 0.7985699772834778,
+      "sample_rank": 284,
+      "seed": 148524594,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An anime girl holding a sign saying \"HI\"",
+      "prompt_index": 13879,
+      "reward": 0.895526111125946,
+      "sample_rank": 285,
+      "seed": 169354115,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "professional studio photo of attractive stacked swedish blonde teenage glamour model wearing 17th century french off-the-shoulder neckline bodice, showing deep claevage",
+      "prompt_index": 13470,
+      "reward": 0.8523492217063904,
+      "sample_rank": 286,
+      "seed": 165601132,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a still shot from movie of a man in hoodie, holding crystal, intricate details, teal and orange atmosphere",
+      "prompt_index": 15303,
+      "reward": 0.8164681792259216,
+      "sample_rank": 287,
+      "seed": 182420741,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "futuristic architecture plan of Jutar, Xanthos's homeworld planet, concept art, futuristic+city, greeble",
+      "prompt_index": 23890,
+      "reward": 0.8076573610305786,
+      "sample_rank": 288,
+      "seed": 261215054,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "highly detailed surreal vfx portrait of a steampunk pirate stood on the deck of a steampunk ship, stephen bliss, unreal engine, global illumination, detailed and intricate environment",
+      "prompt_index": 1775,
+      "reward": 0.8576319217681885,
+      "sample_rank": 289,
+      "seed": 58287815,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "wideangle photo of a building karnak gold menger sponge",
+      "prompt_index": 22064,
+      "reward": 0.8193374872207642,
+      "sample_rank": 290,
+      "seed": 244459680,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Stunningly beautiful woman genetically fused with a carnivorous plant, insanely detailed, photorealistic, 8k, ultra high resolution, volumetric lighting, taken with canon, taken with nikon",
+      "prompt_index": 21412,
+      "reward": 0.8015449047088623,
+      "sample_rank": 291,
+      "seed": 238476929,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "fantasy painting of abadone alien structures, towers, antennas",
+      "prompt_index": 21174,
+      "reward": 0.8622111678123474,
+      "sample_rank": 292,
+      "seed": 236293042,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "kevin owens face covered in white mud",
+      "prompt_index": 3224,
+      "reward": 0.916420578956604,
+      "sample_rank": 293,
+      "seed": 71583843,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a rat inside a cylindrical time machine with neon lights and a sophisticated system of gears and clocks",
+      "prompt_index": 1986,
+      "reward": 0.8594852089881897,
+      "sample_rank": 294,
+      "seed": 60223956,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photorealistic conceptual photography style image of eggs",
+      "prompt_index": 13193,
+      "reward": 0.7802660465240479,
+      "sample_rank": 295,
+      "seed": 163059389,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Joaquin sorolla playing chess sea beach",
+      "prompt_index": 23862,
+      "reward": 0.7807117104530334,
+      "sample_rank": 296,
+      "seed": 260958134,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a paisley patterned skull underwater in the ocean with tentacles around it, center image, ultrafine detailed painting, Artstation colorful psychedelic art, greg beeple, ornate detailed skull, by dan mumford, highly detailed painting of old, beautiful bone structure, turquoise & yellow & red fantasy fanged medusa, peter Mohrbacher highly detailed",
+      "prompt_index": 11118,
+      "reward": 0.834365963935852,
+      "sample_rank": 297,
+      "seed": 144019191,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Dennis Wilson from the Beach Boys in the style of Red Dead Redemption",
+      "prompt_index": 3580,
+      "reward": 0.7191799879074097,
+      "sample_rank": 298,
+      "seed": 74850504,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A man holding a sign that says SDXL SOON",
+      "prompt_index": 8147,
+      "reward": 0.7710113525390625,
+      "sample_rank": 299,
+      "seed": 116757297,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "fantasy, pastel, absurdist, photo, refined, cat people",
+      "prompt_index": 6278,
+      "reward": 0.8394943475723267,
+      "sample_rank": 300,
+      "seed": 99607354,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "blue bear,cyberpunk,Pixar, hd, dramatic lighting, detailed",
+      "prompt_index": 6232,
+      "reward": 0.8147243857383728,
+      "sample_rank": 301,
+      "seed": 99185259,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Christina Ricci shaking hands with Bill Clinton",
+      "prompt_index": 17573,
+      "reward": 0.743630588054657,
+      "sample_rank": 302,
+      "seed": 203250276,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "blackandwhite photo of a AustinMini car in a city street at night cyberpunk, AustinMini ,silver car,studio lighting,",
+      "prompt_index": 14700,
+      "reward": 0.8969390988349915,
+      "sample_rank": 303,
+      "seed": 176887629,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a long, red haired woman, dressed in a black medieval dress and cloak in Transylvania, oil canvas, portrait by Waterhouse, Cesare Saccaggi da Tortona, John Everett Millais . Very atmospheric, dark, dangerous, mystical, beautiful lighting, natural lighting, trending on pinterest.com, Pre-Raphaelite Brotherhood",
+      "prompt_index": 4593,
+      "reward": 0.7872384190559387,
+      "sample_rank": 304,
+      "seed": 84145798,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a man in a union jack outfit with cape, emblem of a lion on the front, directed by Zack Snyder, cinematic high res, 8k, award winning",
+      "prompt_index": 13824,
+      "reward": 0.8132058382034302,
+      "sample_rank": 305,
+      "seed": 168849455,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a wide angle photo of a line of roman soldiers in front of courtyard  arena roman buildings,white marble red gold,roman soldier in foreground masculine features nose helmet and silver sword ,eyes,clear sky, arches grass steps field panorama,Canaletto,stone floor,vanishing point symmetry perspective ,ben-hur gold eagle roofs , a detailed photo, julius Caesar , ceremonial,   parade, roma, detailed photo, temples roads hestia,single point perspective, colonnade, necropolis, ultra realism,  imperium ,by claude-joseph vernet and thomas cole ,pediment  sky clouds,stones in the foreground,dusty volumetric lighting",
+      "prompt_index": 6012,
+      "reward": 0.7076811194419861,
+      "sample_rank": 306,
+      "seed": 97166544,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a team of cats pulling a dogsled",
+      "prompt_index": 9127,
+      "reward": 0.8503056764602661,
+      "sample_rank": 307,
+      "seed": 125749785,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "panda, suit, professional attire, close-up portrait, coffee shop, confident expression, sophisticated demeanor, raised eyebrow, slight smile, self-assured gaze, eye contact, strong posture, dressed up, well-groomed, elegant, executive, intelligent, stylish, fashionable, modern, wildlife in human clothes, anthropomorphic, urban setting, unique character, creative concept, clever design, whimsical, refined appearance, DSLR quality, depth of field, sharp focus, high resolution, vibrant colors, natural lighting, cinematic composition, dynamic angle, professional photography, detailed textures, lifelike rendering, cozy atmosphere, relaxed environment, elegant background, blurred cafe scene, warm color palette, tasteful decor, stylish furnishings, soft lighting, inviting ambiance",
+      "prompt_index": 15159,
+      "reward": 0.7474097609519958,
+      "sample_rank": 308,
+      "seed": 181099418,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Faceless Man, Human Skin Slenderman, ,",
+      "prompt_index": 8185,
+      "reward": 0.8589874505996704,
+      "sample_rank": 309,
+      "seed": 117105995,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "The Taj Mahal in the painting style of Vincent Van Gogh",
+      "prompt_index": 2470,
+      "reward": 0.8581609129905701,
+      "sample_rank": 310,
+      "seed": 64665156,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A ocean made of liquid mercury",
+      "prompt_index": 14520,
+      "reward": 0.7266650795936584,
+      "sample_rank": 311,
+      "seed": 175235957,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "bald chubby guy abuser at prison. highly detailed photo",
+      "prompt_index": 18033,
+      "reward": 0.8418259620666504,
+      "sample_rank": 312,
+      "seed": 207471246,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Centred Portrait of an Alien Goddess",
+      "prompt_index": 3208,
+      "reward": 0.8610298037528992,
+      "sample_rank": 313,
+      "seed": 71437047,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Marilyn Monroe wearing sunglasses, holding a pentagram",
+      "prompt_index": 1657,
+      "reward": 0.9214998483657837,
+      "sample_rank": 314,
+      "seed": 57205072,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "dolphins swimming alongside a cruise ship",
+      "prompt_index": 21369,
+      "reward": 0.8516509532928467,
+      "sample_rank": 315,
+      "seed": 238082385,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "waterfall crashing down into the bottomless canyon epic fantasy",
+      "prompt_index": 17713,
+      "reward": 0.8041490912437439,
+      "sample_rank": 316,
+      "seed": 204534930,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "RAW uhd photo of a american asian androgynous model, high fashion clothing, haut couture, focus on the perfect face, wide shot, nikon z30, award winning fashion photography, sharp focus, by annie leibovitz",
+      "prompt_index": 483,
+      "reward": 0.7406618595123291,
+      "sample_rank": 317,
+      "seed": 46432451,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a posh bear, muddy, crowded car museum, intricate details, hdr, intricate details, hyperdetailed, cinematic, dark shot, muted colors, film grainy, soothing tones, muted colors, technicolor",
+      "prompt_index": 3056,
+      "reward": 0.7403308153152466,
+      "sample_rank": 318,
+      "seed": 70042300,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Deep sea angler fish, miles below the surface, Insanely detailed, photorealistic, 8k, ultra high resolution, volumetric lighting, taken with canon eos 5d,",
+      "prompt_index": 24692,
+      "reward": 0.7673710584640503,
+      "sample_rank": 319,
+      "seed": 268574237,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A women's arm wearing a golden bracelet, while her arm is hanging down on the side of her and her cloth in the background",
+      "prompt_index": 7745,
+      "reward": 0.8534290790557861,
+      "sample_rank": 320,
+      "seed": 113068566,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Black woman in corset eating cherries",
+      "prompt_index": 5449,
+      "reward": 0.9416221380233765,
+      "sample_rank": 321,
+      "seed": 92000471,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Viktor Orban dressed like Elvis Presley in a Prison",
+      "prompt_index": 13317,
+      "reward": 0.7662772536277771,
+      "sample_rank": 322,
+      "seed": 164197240,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A sunset through a prysm and through crystals with sparkles and reflections and refraction",
+      "prompt_index": 15913,
+      "reward": 0.8311641812324524,
+      "sample_rank": 323,
+      "seed": 188018137,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "dejah thoris in the deserts of mars",
+      "prompt_index": 15773,
+      "reward": 0.8606024384498596,
+      "sample_rank": 324,
+      "seed": 186733498,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A catbus flying above a forest.",
+      "prompt_index": 7004,
+      "reward": 0.8358458280563354,
+      "sample_rank": 325,
+      "seed": 106269155,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "stunning model posing for photographers, iconic glamour pose",
+      "prompt_index": 13141,
+      "reward": 0.7682802081108093,
+      "sample_rank": 326,
+      "seed": 162582268,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A cute and lively goji berry mascot.",
+      "prompt_index": 1921,
+      "reward": 0.8219549059867859,
+      "sample_rank": 327,
+      "seed": 59627549,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Strawberries at a picnic, basket, golden hour, leica",
+      "prompt_index": 5394,
+      "reward": 0.9222780466079712,
+      "sample_rank": 328,
+      "seed": 91495798,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A full moon on a starry night",
+      "prompt_index": 12418,
+      "reward": 0.8127959370613098,
+      "sample_rank": 329,
+      "seed": 155948023,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Female in bed with legs spread open with a vibrator",
+      "prompt_index": 70,
+      "reward": 0.7901565432548523,
+      "sample_rank": 330,
+      "seed": 42642776,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "beautiful oil painting, marble statue in the nature, godrays, dust particles, volumetric lighting, masterpiece, 8k, highres, highly detailed, realistic, photorealistic, golden ratio, NIKON",
+      "prompt_index": 12793,
+      "reward": 0.7663401365280151,
+      "sample_rank": 331,
+      "seed": 159389025,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a truck made of solid glass sitting on wet asphalt in the afternoon",
+      "prompt_index": 8690,
+      "reward": 0.8919325470924377,
+      "sample_rank": 332,
+      "seed": 121739898,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "sculptures dickens elderly mother candlelight worried hdr cropped  ,Ron mueck",
+      "prompt_index": 14909,
+      "reward": 0.8408790826797485,
+      "sample_rank": 333,
+      "seed": 178805443,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photograph of a pre historic man eating a pineapple",
+      "prompt_index": 9347,
+      "reward": 0.8711608052253723,
+      "sample_rank": 334,
+      "seed": 127768532,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "dark Brambly hedges, by Jill Barklem, coloured pencils",
+      "prompt_index": 13861,
+      "reward": 0.7480162382125854,
+      "sample_rank": 335,
+      "seed": 169188997,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A highly detailed matte painting of a red wolf with a mohawk logo graffitied on a brownstone wall by studio ghibli, makoto shinkai, by artgerm, by wlop, by greg rutkowski, volumetric lighting, octane render, 4 k resolution, trending on artstation, masterpiece",
+      "prompt_index": 22825,
+      "reward": 0.708985447883606,
+      "sample_rank": 336,
+      "seed": 251442662,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": ", fantasy, pastel, absurdist, photo, refined, hollow",
+      "prompt_index": 23937,
+      "reward": 0.756757378578186,
+      "sample_rank": 337,
+      "seed": 261646375,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a burly purple-skinned orc in a wrestler's singlet holding a folding chair",
+      "prompt_index": 18211,
+      "reward": 0.9548934698104858,
+      "sample_rank": 338,
+      "seed": 209104600,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "abandoned cyberpunk city, decaying structure, dark mood",
+      "prompt_index": 21688,
+      "reward": 0.7580807209014893,
+      "sample_rank": 339,
+      "seed": 241009553,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a drawing of a building , flickr, neoclassicism, gate, architectural model, tomb, gerit dou, front portrait, the entrance of valhalla, orthographic projection, temple, 1787, beautifully rendered, architectural",
+      "prompt_index": 23540,
+      "reward": 0.7906386852264404,
+      "sample_rank": 340,
+      "seed": 258003506,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "exotic bird, painting, highly detailed, ornate, intricate, black, orange, yellow, gold, green, violet, blue, cyan, ultra real, long, swirling feather, gorgeous, fairytale, starry background, dreamlike style, fantasy, surreal environment.",
+      "prompt_index": 15947,
+      "reward": 0.7035791277885437,
+      "sample_rank": 341,
+      "seed": 188330139,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Sprite tile of 3d isometric game visual  A grand, colorful castle with towering spires and whimsical flags ,The walls are made of large, smooth stones, and ivy climbs up the sides.",
+      "prompt_index": 5072,
+      "reward": 0.8795291185379028,
+      "sample_rank": 342,
+      "seed": 88541140,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An 1860s photograph of San Francisco getting nuked for World War.",
+      "prompt_index": 6222,
+      "reward": 0.9185892343521118,
+      "sample_rank": 343,
+      "seed": 99093541,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a spark gap between a tomato and a cucumber, cinematic, dramatic lighting",
+      "prompt_index": 9722,
+      "reward": 0.8168702721595764,
+      "sample_rank": 344,
+      "seed": 131209542,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a table topped with trays of food and drinks, cgsociety, net art, isometric, y2k aesthetic, official art pixel art by Pu Hua, reddit contest winner, pixel art, #pixelart, 2d game art, anime aesthetic",
+      "prompt_index": 7133,
+      "reward": 0.7739507555961609,
+      "sample_rank": 345,
+      "seed": 107452879,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "three ninjas fighting in a tree",
+      "prompt_index": 1916,
+      "reward": 0.8467996120452881,
+      "sample_rank": 346,
+      "seed": 59581688,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "energy beams ply the stars over arcturus",
+      "prompt_index": 18978,
+      "reward": 0.7699125409126282,
+      "sample_rank": 347,
+      "seed": 216142601,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Giraffe Guitar player Giraffe on a swimming pool, 8k portrait, highly detailed, beautiful, masculine pose, cinematic, movie still, by Greg Rutkowski and Mandy Jurgens and diegokoi",
+      "prompt_index": 24108,
+      "reward": 0.8458917737007141,
+      "sample_rank": 348,
+      "seed": 263215482,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A highly detailed portrait of Emma Stone wearing a kimono painted by Mandy Jurgens and Charlie Bowater, masterpiece, absurdres, highres, featured on ArtStation",
+      "prompt_index": 17766,
+      "reward": 0.8874876499176025,
+      "sample_rank": 349,
+      "seed": 205021291,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a photo of people in front of roman buildings, a detailed photo, julius Caesar , julius caesar, ceremonial, many columns, demolition, parade, roma, detailed photo, temples roads hestia, colonnade, necropolis, ultra realism,  imperium",
+      "prompt_index": 1997,
+      "reward": 0.7119051218032837,
+      "sample_rank": 350,
+      "seed": 60324948,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Award-winning photo, Giant squid, kraken, anatomically correct, cephalopod,",
+      "prompt_index": 24509,
+      "reward": 0.8164727687835693,
+      "sample_rank": 351,
+      "seed": 266895061,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "ghostly image of a soldier in a cemetry",
+      "prompt_index": 10276,
+      "reward": 0.9008175134658813,
+      "sample_rank": 352,
+      "seed": 136293054,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A black dragon flying over a burning medieval city",
+      "prompt_index": 1873,
+      "reward": 0.9791126847267151,
+      "sample_rank": 353,
+      "seed": 59187127,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "highly dynamic action still of marvels enchantress, epic fantasy",
+      "prompt_index": 1643,
+      "reward": 0.8276445865631104,
+      "sample_rank": 354,
+      "seed": 57076648,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Margot Robbie Without a bathing suit on the beach",
+      "prompt_index": 19142,
+      "reward": 0.8094866871833801,
+      "sample_rank": 355,
+      "seed": 217647473,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Five nights at freddy's, scary, highly detailed, furry animatronics",
+      "prompt_index": 15623,
+      "reward": 0.7831273674964905,
+      "sample_rank": 356,
+      "seed": 185357130,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Cyber ​​cutlet, cartoon, 3d render, cinema style town background",
+      "prompt_index": 16477,
+      "reward": 0.8129211068153381,
+      "sample_rank": 357,
+      "seed": 193193435,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Realistic Black and white  portrait of Felicity Jones triple D cup as a 19 year old , blemishes on skin , smooth face , dynamic light , dynamic shadows , studio background, image taken by",
+      "prompt_index": 17403,
+      "reward": 0.8072493076324463,
+      "sample_rank": 358,
+      "seed": 201690412,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "cosmic tree growing inside a intricte box, higly detailed, artistic",
+      "prompt_index": 5158,
+      "reward": 0.8728276491165161,
+      "sample_rank": 359,
+      "seed": 89330293,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "actor matt damon with green laser eyes",
+      "prompt_index": 1863,
+      "reward": 0.8419835567474365,
+      "sample_rank": 360,
+      "seed": 59095374,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A girl stood on the lawn in a white skirt,",
+      "prompt_index": 16640,
+      "reward": 0.856203019618988,
+      "sample_rank": 361,
+      "seed": 194689127,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of super mario gangsta rap battle",
+      "prompt_index": 2625,
+      "reward": 0.7452600598335266,
+      "sample_rank": 362,
+      "seed": 66087488,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "The setting sun is streaming through the window and a bare teenage girl  in front of it",
+      "prompt_index": 6089,
+      "reward": 0.8779803514480591,
+      "sample_rank": 363,
+      "seed": 97873153,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A spider mech with a tank cannon",
+      "prompt_index": 2245,
+      "reward": 0.9570890665054321,
+      "sample_rank": 364,
+      "seed": 62600610,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Design a modern, minimalist logo for a green product review website called GreenGadgetGuru.com.  The logo should incorporate elements related to sustainability, such as a green leaf or planet, and devices or technology, such as gears or circuits.  Use shades of green and white to emphasize the ecological theme",
+      "prompt_index": 19498,
+      "reward": 0.7324362993240356,
+      "sample_rank": 365,
+      "seed": 220914139,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "aurora borealis trapped inside of a bubble of translucent ice, vibrant, 4k, infinite, hyperrealistic, hyperdetailed",
+      "prompt_index": 2226,
+      "reward": 0.798413872718811,
+      "sample_rank": 366,
+      "seed": 62426268,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a white calk cliff coast causeway splitting two oceans, drone perspective",
+      "prompt_index": 22125,
+      "reward": 0.83304363489151,
+      "sample_rank": 367,
+      "seed": 245019493,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Website UI ux Mobile Phone Modern Yellow Green Nike Weave Shoe website",
+      "prompt_index": 7707,
+      "reward": 0.7946094870567322,
+      "sample_rank": 368,
+      "seed": 112719926,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "mushrooms and flowers,  ultra detailed artistic photography, midnight aura, night sky, dreamy, glowing, backlit, glamour, glimmer, shadows, oil on canvas, brush strokes, smooth, ultra high definition, 8k, unreal engine 5, ultra sharp focus, art by alberto seveso, artgerm, loish, sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model",
+      "prompt_index": 13230,
+      "reward": 0.8381510972976685,
+      "sample_rank": 369,
+      "seed": 163398975,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "3 smart males carrying a giant tv, beautiful scene, tv is showing a text 'support', anime and steampunk style",
+      "prompt_index": 3928,
+      "reward": 0.8152572512626648,
+      "sample_rank": 370,
+      "seed": 78043824,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A little girl in blue dress",
+      "prompt_index": 18667,
+      "reward": 0.8989748954772949,
+      "sample_rank": 371,
+      "seed": 213288889,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "art by Alfons Mucha and Patrick Woodroffe, a dream world of the future, prognostication, mystical, astrological, HD 4K, sharp detail, photo-realistic",
+      "prompt_index": 8067,
+      "reward": 0.7267947196960449,
+      "sample_rank": 372,
+      "seed": 116023290,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A peaceful old charcoal dragon made out of charcoal by Kirsty Partridge and alicexz",
+      "prompt_index": 18970,
+      "reward": 0.8369428515434265,
+      "sample_rank": 373,
+      "seed": 216069219,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Futuristic Hero Character with Ball of Energy in front of Him Octane Render 5D",
+      "prompt_index": 19481,
+      "reward": 0.8315514326095581,
+      "sample_rank": 374,
+      "seed": 220758156,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A well endowed mature faery in a magical forest, sparkles, volumetrics, ray tracing, Unreal Engine 5, Octane Render, Vray",
+      "prompt_index": 1302,
+      "reward": 0.7936576008796692,
+      "sample_rank": 375,
+      "seed": 53947653,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "abstract impressionism, muslim bird woman with long flowing dress flying through sky, storm, aqua and blue and gold colors, , impasto, wispy clouds, Tyler Shields, Steven Outram, Eric Zener, Odd Nerdrum, Noah Bradley, Richard MacDonald, Anne Bachelier, Leonora Carrington, Edward Moran, Gustave Caillebotte, Grimshaw, Ink wash",
+      "prompt_index": 20295,
+      "reward": 0.7259562015533447,
+      "sample_rank": 376,
+      "seed": 228227422,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Fender Stratocaster fighting Telecaster for Les Paul",
+      "prompt_index": 2686,
+      "reward": 0.7714769840240479,
+      "sample_rank": 377,
+      "seed": 66647239,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo of a goblin cooking dinner",
+      "prompt_index": 13737,
+      "reward": 0.9480061531066895,
+      "sample_rank": 378,
+      "seed": 168051216,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A portrait of Guan Yu, popular character in Chinese mythology, full body, realistic clothing, drawn in a naturalistic style, fine details, long hair, blue eyes, sword in hand, by Wei Yu Chen",
+      "prompt_index": 21540,
+      "reward": 0.8073745369911194,
+      "sample_rank": 379,
+      "seed": 239651545,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A photo of a highway with the cars blurred, at night",
+      "prompt_index": 19125,
+      "reward": 0.8668330311775208,
+      "sample_rank": 380,
+      "seed": 217491506,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "landscape coming out of a wall complex 3d render ultra detailed of a beautiful porcelain profile eagle face , biomechanical cyborg, analog, 150 mm lens, beautiful natural soft rim light, big leaves and stems, roots, fine foliage lace, colorful details, massai warrior, Alexander Mcqueen high fashion haute couture, pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production",
+      "prompt_index": 18521,
+      "reward": 0.7897030115127563,
+      "sample_rank": 381,
+      "seed": 211949203,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Design sketch of a futuristic android robot, purple and gold colours",
+      "prompt_index": 17130,
+      "reward": 0.9039167761802673,
+      "sample_rank": 382,
+      "seed": 199185388,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Snoop Dogg is Abraham Lincoln, stovepipe hat",
+      "prompt_index": 10366,
+      "reward": 0.8400429487228394,
+      "sample_rank": 383,
+      "seed": 137118925,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Antique, warm hues, dark haired, massive, fat legs spread, portly male Priest, little pecker, in frilly white lace tutu, 8K, HD, octane render, magical energy, sharp overhead cinematic lighting, beautiful digital fantastical illustration, highly detailed, rendered in octane, very very very aesthetic, exquisite marble detail",
+      "prompt_index": 8544,
+      "reward": 0.7461026310920715,
+      "sample_rank": 384,
+      "seed": 120400254,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "world map, professional cartography, digital illustration, detailed",
+      "prompt_index": 6693,
+      "reward": 0.7883027195930481,
+      "sample_rank": 385,
+      "seed": 103415479,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Link but as a man of color",
+      "prompt_index": 21945,
+      "reward": 0.7787416577339172,
+      "sample_rank": 386,
+      "seed": 243367832,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Hermione granger wearing Victoria’s Secret pink",
+      "prompt_index": 23468,
+      "reward": 0.754662811756134,
+      "sample_rank": 387,
+      "seed": 257342881,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "18 year-old girl, light-blue hair, lavender colored eyes, sleepwear, white blanket, detailed, detailed eyes, detailed hair, masterpiece, aesthetic, trending on artstation, best quality, cinematic, illustration, 4K UHD, Kawacy, Rella, liuyuhao1992, Keisan, Kukka, Catzz",
+      "prompt_index": 10295,
+      "reward": 0.7692546844482422,
+      "sample_rank": 388,
+      "seed": 136467434,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a large modern contemporary house in wood and concrete",
+      "prompt_index": 7821,
+      "reward": 0.7947893142700195,
+      "sample_rank": 389,
+      "seed": 113766011,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Ronald McDonald sticking tongue out wearing glasses holding a sign that says Rock N Roll",
+      "prompt_index": 8703,
+      "reward": 0.8243266940116882,
+      "sample_rank": 390,
+      "seed": 121859244,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "fantasy, pastel, absurdist, photo, vintage horror movie, lithography, riso,",
+      "prompt_index": 12969,
+      "reward": 0.7806994915008545,
+      "sample_rank": 391,
+      "seed": 161004061,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Photo for music album, melancholy, loneliness, peaceful, stormy night, intricate, highly detailed",
+      "prompt_index": 4288,
+      "reward": 0.7942727208137512,
+      "sample_rank": 392,
+      "seed": 81347206,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "High resolution 3D animation, whole body image of a dungeons and dragons style demon succubis naturist in the Scottish highlands, HD 4K, sharp detail, photo-realistic accurate face and features, cinematic lighting",
+      "prompt_index": 21151,
+      "reward": 0.7658403515815735,
+      "sample_rank": 393,
+      "seed": 236082095,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a black pig with large tusks in the jungle",
+      "prompt_index": 9830,
+      "reward": 0.8862708210945129,
+      "sample_rank": 394,
+      "seed": 132200600,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "In crowded cities,Vector,design by Renzo Piano,villatic builded by bamboo ,with a man,foreground,2K,architectural visualisation,beds,Architectural photography,Nikon D7500,FE 85mm F1.8,ISO 500",
+      "prompt_index": 14982,
+      "reward": 0.6851706504821777,
+      "sample_rank": 395,
+      "seed": 179475353,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Alchemist with antimony, iron and saltpeter",
+      "prompt_index": 10360,
+      "reward": 0.80018550157547,
+      "sample_rank": 396,
+      "seed": 137063882,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a secret agent with a gun",
+      "prompt_index": 24637,
+      "reward": 0.7863131761550903,
+      "sample_rank": 397,
+      "seed": 268069635,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Logo of a streamer on Twitch, the text says \"nutronic\", purple green blue, emblem, logo, ,",
+      "prompt_index": 2377,
+      "reward": 0.7415170073509216,
+      "sample_rank": 398,
+      "seed": 63811876,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photograph of bigfoot hiding behind a tree in the woods",
+      "prompt_index": 305,
+      "reward": 0.9227473735809326,
+      "sample_rank": 399,
+      "seed": 44799205,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "new Zealaned 1960s contury farm house with red roof oil panting and cows",
+      "prompt_index": 15017,
+      "reward": 0.7745001912117004,
+      "sample_rank": 400,
+      "seed": 179796518,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A pepe the frog but muslim hadji",
+      "prompt_index": 20354,
+      "reward": 0.8144498467445374,
+      "sample_rank": 401,
+      "seed": 228768831,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a cat sitting on top of a helloween pumpkin, cementry in background, dramatic purple lighting, circle design, vector art, tshirt design",
+      "prompt_index": 18448,
+      "reward": 0.8297330141067505,
+      "sample_rank": 402,
+      "seed": 211279376,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Reflection in the raindrops on the window",
+      "prompt_index": 3276,
+      "reward": 0.8033630847930908,
+      "sample_rank": 403,
+      "seed": 72061105,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a Land rover defender in marbella",
+      "prompt_index": 2400,
+      "reward": 0.9368888139724731,
+      "sample_rank": 404,
+      "seed": 64022930,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A boy holding a sign that says \"no me importa\" \"",
+      "prompt_index": 17617,
+      "reward": 0.8074032068252563,
+      "sample_rank": 405,
+      "seed": 203654123,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A painting of a flower on a gray background, an airbrush painting by earnst haeckel, trending on zbrush central, cloisonnism, high detail, detailed painting, biomorphic",
+      "prompt_index": 6984,
+      "reward": 0.8384133577346802,
+      "sample_rank": 406,
+      "seed": 106085716,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A horse made out of watermelon",
+      "prompt_index": 16576,
+      "reward": 0.9339763522148132,
+      "sample_rank": 407,
+      "seed": 194101909,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Black background, in the middle is a neon outline of a palm tree. Icon, drawing, synthwave",
+      "prompt_index": 4340,
+      "reward": 0.8316192030906677,
+      "sample_rank": 408,
+      "seed": 81824374,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Horror, shot on arri, a jellyfish futuristic robotic spaceship landing on a desert, twilight, an astronaut watches patiently",
+      "prompt_index": 11436,
+      "reward": 0.7353982925415039,
+      "sample_rank": 409,
+      "seed": 146937271,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Women friends of 7 babsi has curls, meli blonde anita blonde petra brown gold sandra black hair lisa blonde hair",
+      "prompt_index": 2254,
+      "reward": 0.7784391045570374,
+      "sample_rank": 410,
+      "seed": 62683240,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "modern and geometric sans serif font a to z alphabet",
+      "prompt_index": 8004,
+      "reward": 0.693757176399231,
+      "sample_rank": 411,
+      "seed": 115445241,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a giant tsunami crushing a city",
+      "prompt_index": 12108,
+      "reward": 0.8620529770851135,
+      "sample_rank": 412,
+      "seed": 153103546,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo in ancient rome,centurions roman army,fall of the roman empire,ben-hur epic film",
+      "prompt_index": 9338,
+      "reward": 0.7681168913841248,
+      "sample_rank": 413,
+      "seed": 127686027,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "train station illustration, cover of a rock music, no people",
+      "prompt_index": 5169,
+      "reward": 0.8565547466278076,
+      "sample_rank": 414,
+      "seed": 89431284,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Willy Wonka wearing a shirt that reads Candy",
+      "prompt_index": 14358,
+      "reward": 0.8121475577354431,
+      "sample_rank": 415,
+      "seed": 173749549,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a cat tattoo on a female arm",
+      "prompt_index": 17800,
+      "reward": 0.8425285220146179,
+      "sample_rank": 416,
+      "seed": 205333342,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Saint Petersburg at nigh by Salvador Dali, hd",
+      "prompt_index": 23053,
+      "reward": 0.8249424695968628,
+      "sample_rank": 417,
+      "seed": 253534871,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "One-story house with a hipped roof with a garage on the left and a paved parking lot next to and in front of the garage",
+      "prompt_index": 9912,
+      "reward": 0.7493240237236023,
+      "sample_rank": 418,
+      "seed": 132953056,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Painting of a quaint little town center with cobbled street at night, wet pavement, anime style",
+      "prompt_index": 20043,
+      "reward": 0.8819423913955688,
+      "sample_rank": 419,
+      "seed": 225915113,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Fathers' Day celebration at the ogre commune.",
+      "prompt_index": 21429,
+      "reward": 0.8240065574645996,
+      "sample_rank": 420,
+      "seed": 238633050,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Being vaccinated does NOT mean you have to rub vanilla crème all over your body and change your species, but it wouldn't be the worst idea, if you’re considering it.",
+      "prompt_index": 17332,
+      "reward": 0.7453662157058716,
+      "sample_rank": 421,
+      "seed": 201038979,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "25 year old Nana Visitor as Kira Nerys the Betazoid officer from Deep Space Nine",
+      "prompt_index": 256,
+      "reward": 0.6865331530570984,
+      "sample_rank": 422,
+      "seed": 44349604,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "leaf snowflake, leaves in the shape of a snowflake, hd",
+      "prompt_index": 21884,
+      "reward": 0.8317627906799316,
+      "sample_rank": 423,
+      "seed": 242808133,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "art by Alfons Mucha and Patrick Woodroffe, copper-foil method stained glass motif, whole body image of 20 year-old Taylor Schilling as Piper Chapman as a naturist in a mystical forest, HD 4k, sharp detail, photo-realistic accurate face and features",
+      "prompt_index": 18173,
+      "reward": 0.740805447101593,
+      "sample_rank": 424,
+      "seed": 208755998,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Create a digital image inspired by the cover of Gorillaz' \"Demon Days\" album from 2005, featuring the four Teenage Mutant Ninja Turtles in place of the original band members. The image should be composed of four white squares with each square containing a side profile portrait of one of the Teenage Mutant Ninja Turtles, down to their shoulders. The style, pose, tone, and overall composition of the image should closely resemble the original album cover. The image should be visually engaging and suitable for use as a parody or homage to the original album cover.",
+      "prompt_index": 9810,
+      "reward": 0.7607022523880005,
+      "sample_rank": 425,
+      "seed": 132017111,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A old cabin in the woods, Art Nouveau architecture, autumn, Illustration, Fantasy",
+      "prompt_index": 21737,
+      "reward": 0.8563575148582458,
+      "sample_rank": 426,
+      "seed": 241459264,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a portrait of a man with a beard,  tintype, quality",
+      "prompt_index": 3394,
+      "reward": 0.8227730393409729,
+      "sample_rank": 427,
+      "seed": 73143897,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "perished Creepy old photograph of Victorian steampunk inventor! by Gustav Doré, keith thompson, large depth of field, full body portrait, posed, by Daniel Dociu, Jean Baptiste Monge, sepia",
+      "prompt_index": 4400,
+      "reward": 0.755345344543457,
+      "sample_rank": 428,
+      "seed": 82374954,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a road sign that says \"donald duck\"",
+      "prompt_index": 8666,
+      "reward": 0.7826547622680664,
+      "sample_rank": 429,
+      "seed": 121519771,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A galaxy in the shape of David Bowie’s face, Hubble space telescope photos",
+      "prompt_index": 3782,
+      "reward": 0.8016753196716309,
+      "sample_rank": 430,
+      "seed": 76704188,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A closeup photo of a couple holding hands, both hands have a wedding ring",
+      "prompt_index": 3507,
+      "reward": 0.788253128528595,
+      "sample_rank": 431,
+      "seed": 74180789,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a lemon sunbathing on a beach",
+      "prompt_index": 24327,
+      "reward": 0.9079112410545349,
+      "sample_rank": 432,
+      "seed": 265225110,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Twin girls fighting over a boy, highly detailed",
+      "prompt_index": 5093,
+      "reward": 0.765155553817749,
+      "sample_rank": 433,
+      "seed": 88733927,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "digital painting of electric orangutan, electricity aura, electric storm, electric zaps, electricity coming out of body, power plant",
+      "prompt_index": 8924,
+      "reward": 0.817192554473877,
+      "sample_rank": 434,
+      "seed": 123887184,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "ux desgin for mobile app audio playback page, audio playback page, including previous song, next song, play, pause, favorite, like, progress bar, volume adjustment, share button in the upper right corner, playlist button, back button, song cover is displayed in In the middle, the song name is displayed, and the message button is at the bottom",
+      "prompt_index": 9232,
+      "reward": 0.7155210375785828,
+      "sample_rank": 435,
+      "seed": 126713393,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Henan people steal sewer manhole cover, Painting a picture",
+      "prompt_index": 19819,
+      "reward": 0.8397213220596313,
+      "sample_rank": 436,
+      "seed": 223859706,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A Pirate in platemail and a tricone hat",
+      "prompt_index": 6901,
+      "reward": 0.8022677898406982,
+      "sample_rank": 437,
+      "seed": 105324139,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a woman on a boat petting a dragon at night",
+      "prompt_index": 23514,
+      "reward": 0.9154279232025146,
+      "sample_rank": 438,
+      "seed": 257765028,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Sign that says “when does IF drop?”",
+      "prompt_index": 11235,
+      "reward": 0.7961592674255371,
+      "sample_rank": 439,
+      "seed": 145092925,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "wonderful transparent smooth cheap plastic colorful plants toys diorama",
+      "prompt_index": 6671,
+      "reward": 0.8248476386070251,
+      "sample_rank": 440,
+      "seed": 103213662,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a nun with a sword surrounded by zombies on fire",
+      "prompt_index": 22527,
+      "reward": 0.9529194831848145,
+      "sample_rank": 441,
+      "seed": 248708319,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Bridget from Guilty Gear Strive, a trans woman with blonde hair, wearing a blue nun-themed hoodie, she's wearing a black skirt with bike shorts underneath, she's wearing a beige shirt with a ribbon tied around it, her hoodie is unzipped, she has a teddy bear, she is bare-legged, she wears blue and white boots, she has a red yo-yo, the image should be anime-styled",
+      "prompt_index": 20782,
+      "reward": 0.8039111495018005,
+      "sample_rank": 442,
+      "seed": 232696200,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A picture of a 18yo teen girl a smelly tight outfit with yellow liquid dropping down thighs,  Fog fumes near the backside of the woman, smell fumes around backside, ,",
+      "prompt_index": 8650,
+      "reward": 0.8241403102874756,
+      "sample_rank": 443,
+      "seed": 121372969,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "film still of Neytiri from Avatar",
+      "prompt_index": 16561,
+      "reward": 0.8042649626731873,
+      "sample_rank": 444,
+      "seed": 193964306,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "The word SOUP spelled out in alphabet soup",
+      "prompt_index": 16008,
+      "reward": 0.8544033765792847,
+      "sample_rank": 445,
+      "seed": 188889979,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An Astronaut sleeping in the nebula,",
+      "prompt_index": 8228,
+      "reward": 0.8382478356361389,
+      "sample_rank": 446,
+      "seed": 117500700,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Painting by artgerm, Greg Rutkowski and Dan Mumford of a cover art of a dark fantasy book featureing a olive skinned brown haired teenage girl with glasses surrounded by blue magic lightnings overlays,. Wearing a plain green jacket, jeans, and boots. She's standing on top of a huge boulder looking at the dark sky.",
+      "prompt_index": 1664,
+      "reward": 0.722706139087677,
+      "sample_rank": 447,
+      "seed": 57269437,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "covering mouth with one hand, stifling a yawn, anatomically correct face, good fingers, good hands",
+      "prompt_index": 3024,
+      "reward": 0.7427377700805664,
+      "sample_rank": 448,
+      "seed": 69748798,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "action figure of Billy Loomis , liying down on floor carpet answering phone, no background",
+      "prompt_index": 20784,
+      "reward": 0.7900573015213013,
+      "sample_rank": 449,
+      "seed": 232714559,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a cat lying on top of a capybara in the grass, digital art",
+      "prompt_index": 9066,
+      "reward": 0.8028683066368103,
+      "sample_rank": 450,
+      "seed": 125190192,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Darth Vader and Stormtroopers are holding colorful balloons in their hands, balloons everywhere,victory, celebration, celebration speech, gathering, Stormtroopers are listening to Darth Vader,trending on Artstation, digital art ,ultrarealistic, high quality, high resolution , uhd, hd, 4k, 8k, 16, photo-realistic, digital art",
+      "prompt_index": 1444,
+      "reward": 0.8708438277244568,
+      "sample_rank": 451,
+      "seed": 55250721,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "assassin's creed Superman dressed blue and red with yellow elements uniform, cinematic lights, ultra realistic quality, city background, in action, dramatic shot, diffuse-back-lighting, award-winning photograph, facing-camera, looking-into-camera, AF-S DX 18-140mm ED",
+      "prompt_index": 116,
+      "reward": 0.7983393669128418,
+      "sample_rank": 452,
+      "seed": 43064994,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a background image mixing the matrix and AI",
+      "prompt_index": 10929,
+      "reward": 0.7924469113349915,
+      "sample_rank": 453,
+      "seed": 142285083,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "three women standing in a line, pointing at viewer",
+      "prompt_index": 25268,
+      "reward": 0.839558482170105,
+      "sample_rank": 454,
+      "seed": 273859748,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "anime girl, semi human raccoon, isekai, brown hair, pink eyes, by greg rutkowski",
+      "prompt_index": 4286,
+      "reward": 0.7969725728034973,
+      "sample_rank": 455,
+      "seed": 81328917,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "analog photograph, far away zoomed out panorama, dark lighting, matte polytope shape floating high above a snowy forest at dawn, fog",
+      "prompt_index": 20876,
+      "reward": 0.7636387348175049,
+      "sample_rank": 456,
+      "seed": 233558758,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a notebook with a woman, realistic",
+      "prompt_index": 8583,
+      "reward": 0.7998754382133484,
+      "sample_rank": 457,
+      "seed": 120758191,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Infografic man a disco ball sitting on top of a tiled floor, trending digital fantasy art, healthcare worker, planet earth background, depicted as a 3 d render, hollow cheeks, executive industry banner, orb, world of madness, scattered, rounded face, 2 0 1 4. modern attire, uncaring, digitial illustration",
+      "prompt_index": 5294,
+      "reward": 0.7662765979766846,
+      "sample_rank": 458,
+      "seed": 90578328,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "old woman in river swamp water holding, folklorethursday adolgravgertrude keller morning lights �,Jules Bastien-Lepage",
+      "prompt_index": 24288,
+      "reward": 0.821466863155365,
+      "sample_rank": 459,
+      "seed": 264867273,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Visual Novel in Boris Vallejo style Close-Up Shot of Frost Giant with Blowgun, Astral Nexus, intricate and detailed",
+      "prompt_index": 14478,
+      "reward": 0.8299874067306519,
+      "sample_rank": 460,
+      "seed": 174850714,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a man with short grey hair in a union jack outfit with long cape, emblem of a lion on the front, directed by Zack Snyder, cinematic high res, 8k, award winning",
+      "prompt_index": 18077,
+      "reward": 0.7361243367195129,
+      "sample_rank": 461,
+      "seed": 207875139,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a toddler playing with a toy",
+      "prompt_index": 23123,
+      "reward": 0.8296371698379517,
+      "sample_rank": 462,
+      "seed": 254177236,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Cyberpunk vintage 1820s magazine cover poster, girl with nuclear, punk black, ultra detailed, cel shading, artistic, vivid floral oversized sukajan bomber jacket, trends of pixiv, headline, logos labels, badges, graphic design, art cyborg, cyberpunk, cyborg, cybor, machine",
+      "prompt_index": 14014,
+      "reward": 0.6662796139717102,
+      "sample_rank": 463,
+      "seed": 170593053,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "the ruins of mcdonalds in ancient rome, national geographic photography",
+      "prompt_index": 18379,
+      "reward": 0.8748491406440735,
+      "sample_rank": 464,
+      "seed": 210646294,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "fantasy, pastel, absurdist, photo, vintage horror movie, lithography, riso",
+      "prompt_index": 316,
+      "reward": 0.7666875123977661,
+      "sample_rank": 465,
+      "seed": 44900207,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a woman with tree skin sunset",
+      "prompt_index": 2465,
+      "reward": 0.8700202107429504,
+      "sample_rank": 466,
+      "seed": 64619432,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A 2D cartoon dog with a bone",
+      "prompt_index": 22643,
+      "reward": 0.817474901676178,
+      "sample_rank": 467,
+      "seed": 249772761,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "make charles hoskinsons with a crack pipe",
+      "prompt_index": 4884,
+      "reward": 0.7487823367118835,
+      "sample_rank": 468,
+      "seed": 86816178,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Pikachu mixed with Deadpool, epic realistic, cinematic effects, photography photodetailed",
+      "prompt_index": 17877,
+      "reward": 0.7922977805137634,
+      "sample_rank": 469,
+      "seed": 206039947,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a clown with an orange wig holding a box of gold, mcdonalds interior background, science fantasy painting, giant crypto vault, vladimir nikolov, space travel, has gold, contain, rob bottin, cash, demolition, condorito, star, a dream, crips, tom, pennywise, advert, david a, holo",
+      "prompt_index": 1180,
+      "reward": 0.8010984063148499,
+      "sample_rank": 470,
+      "seed": 52828276,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Cinematographic christic-Archbishops pasolini camorra Astronaut papal official leica hasselblad photograph in Vatican royal helmet gold metal scaphandre launchpad pointy oxygen hazmat gloves helmet",
+      "prompt_index": 12098,
+      "reward": 0.7017230987548828,
+      "sample_rank": 471,
+      "seed": 153011845,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A beautiful shy Japanese woman in Gouache Style, Watercolor, Museum Epic Impressionist Maximalist Masterpiece, Thick Brush Strokes, Impasto Gouache, thick layers of gouache watercolors textured on Canvas, 8k Resolution, Matte Painting",
+      "prompt_index": 19087,
+      "reward": 0.8249053359031677,
+      "sample_rank": 472,
+      "seed": 217142910,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Little girl on the wood. Anime style",
+      "prompt_index": 18105,
+      "reward": 0.8599991202354431,
+      "sample_rank": 473,
+      "seed": 208132079,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "asian lady, blushing, embarassed , waist up, long thin hair, dynamic pose, modelshoot:photoshoot, HD, high contrast, sharp image, masterpiece, mouth closed, balanced eyes, CG render, small head bone, detailed collar bone, Best quality details, realistic,8K Ultra Detailed,High quality texture, detailed texture, finely detailed,high detail, extremely detailed cg, High quality shadow, beautiful face, Detailed beautiful delicate eyes, DOF, beauiful woman,tall, blurry background, purple tight-fitting Scarf",
+      "prompt_index": 4852,
+      "reward": 0.6983122825622559,
+      "sample_rank": 474,
+      "seed": 86522552,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a recruitment consultant, sitting on a digitil table, carrying mobile device",
+      "prompt_index": 14083,
+      "reward": 0.8118908405303955,
+      "sample_rank": 475,
+      "seed": 171226209,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Matthew McConaughey as Shrek, highly detailed, , green body",
+      "prompt_index": 4176,
+      "reward": 0.8545258045196533,
+      "sample_rank": 476,
+      "seed": 80319578,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A female pirate is taken away in a prison carriage",
+      "prompt_index": 1370,
+      "reward": 0.7929720878601074,
+      "sample_rank": 477,
+      "seed": 54571723,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "an attractive young angel with huge wings",
+      "prompt_index": 10101,
+      "reward": 0.8739485144615173,
+      "sample_rank": 478,
+      "seed": 134687380,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Exterior Photography of HUGE spaceship docked in space station.  by Ridley Scott. depth, cables, pipes. film grain, hyper detailed, 16k, shot on Fujifilm GFX 50r. cinematic, broken parts, maximum detail, soft lighting",
+      "prompt_index": 11948,
+      "reward": 0.6890053749084473,
+      "sample_rank": 479,
+      "seed": 151635453,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "An image of Fujian province of China in 1980s",
+      "prompt_index": 1307,
+      "reward": 0.7951528429985046,
+      "sample_rank": 480,
+      "seed": 53993638,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "A beautiful light skinned woman with long wavy brown hair wearing a red dress.",
+      "prompt_index": 11724,
+      "reward": 0.8788660168647766,
+      "sample_rank": 481,
+      "seed": 149580031,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "an ancient bear as mona lisa",
+      "prompt_index": 6883,
+      "reward": 0.8532279133796692,
+      "sample_rank": 482,
+      "seed": 105159016,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Piet Mondrian Art superimposed on a Jeremy Mann Painting",
+      "prompt_index": 22349,
+      "reward": 0.8438011407852173,
+      "sample_rank": 483,
+      "seed": 247075033,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a silhouette dressed with a shroud wearing a golden mask, by jean delville and sophie anderson and mandy jurgens, composition, elegant, not cropped, extremely detailed, hd, masterpiece, artstation",
+      "prompt_index": 8176,
+      "reward": 0.8050942420959473,
+      "sample_rank": 484,
+      "seed": 117023586,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "blond woman warrior with a spear on hand riding a T-rex",
+      "prompt_index": 21854,
+      "reward": 0.8931534290313721,
+      "sample_rank": 485,
+      "seed": 242532915,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "HD logo Kitchen, restaurant logo, 3d, Mayapur city, family, Tali dish, holiness, healthy eating, minimalism, emoji style, realism, india, pastel colors",
+      "prompt_index": 3368,
+      "reward": 0.7603685259819031,
+      "sample_rank": 486,
+      "seed": 72905380,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "magical cat, detailed eye, anime style, beautiful, highly detailed, balanced composition, movement, 4k, realistic lighting, realistic details, immersive details, digital art, beautiful composition, genshin impact, studio ghibli, by Makoto Shinkai, Noizi Ito, Satoshi Kon, Yoshihiro Togashi, Kōsuke Fujishima, Tetsuya Nomura, Hayao Miyazak and Taro Minamoto",
+      "prompt_index": 11589,
+      "reward": 0.8311191201210022,
+      "sample_rank": 487,
+      "seed": 148341277,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Cartoon Plane with the name Aadi on it",
+      "prompt_index": 18346,
+      "reward": 0.8503983616828918,
+      "sample_rank": 488,
+      "seed": 210343510,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "Illustration of angry eyes skye from paw patrol",
+      "prompt_index": 13316,
+      "reward": 0.7560209631919861,
+      "sample_rank": 489,
+      "seed": 164188231,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "visual stimulation black and white patterns for babies cute simple jungle",
+      "prompt_index": 20337,
+      "reward": 0.7660397887229919,
+      "sample_rank": 490,
+      "seed": 228612928,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a cockpit with only one weird nob.",
+      "prompt_index": 24558,
+      "reward": 0.8205299973487854,
+      "sample_rank": 491,
+      "seed": 267344825,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "photo, peas with googly eyes, photorealistic, realistic, masterpiece, 4k, 8k, UHD, highres, highest quality, insanely detailed, best quality, centered, golden ratio",
+      "prompt_index": 5064,
+      "reward": 0.7583386898040771,
+      "sample_rank": 492,
+      "seed": 88467882,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a pizza monster attacking a city like godzilla painted by van gogh",
+      "prompt_index": 7757,
+      "reward": 0.8635672330856323,
+      "sample_rank": 493,
+      "seed": 113178851,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a painting of a man in a white suit and hat, !!, futuristic production facility, amazing food illustration, high contrast illustration, metro, girl in space, surgeon, tripping, painterly illustration, lowres, engineer, tatami galaxy, inspired by Anton Fadeev, yellow space suit, q, retro sci - fi picture",
+      "prompt_index": 5324,
+      "reward": 0.7883749008178711,
+      "sample_rank": 494,
+      "seed": 90853644,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "futuristic people stanging on voxel landscape looking at a distant view ,with a city in the distance",
+      "prompt_index": 5801,
+      "reward": 0.8039019703865051,
+      "sample_rank": 495,
+      "seed": 95230597,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a neon city street at night,  a mgb gt car,silver car,studio lighting,inside space station with windows,mg cars",
+      "prompt_index": 13510,
+      "reward": 0.7304442524909973,
+      "sample_rank": 496,
+      "seed": 165968382,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "night sky, small buildings, city, cityscape, stars, moon, sun, #pixelart",
+      "prompt_index": 812,
+      "reward": 0.765823245048523,
+      "sample_rank": 497,
+      "seed": 49451535,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "masterwork, highest quality, best quality, RAW photograph, grainy, taken on a phone, low resolution amateur photograph, half-body photo of a beautiful 35yo brazilian woman in a outdoor modern restaurant bar overlooking Rio de Janeiro at dusk, rainy, perfect eye, perfect iris, perfect pupils, detailed face, detailed eyes, hyper detailed, detailed skin, dry skin, no sunscreen, intricate details, highest quality, RAW, Sony Cyber-shot DSC-P92",
+      "prompt_index": 5877,
+      "reward": 0.7765237092971802,
+      "sample_rank": 498,
+      "seed": 95927976,
+      "total_nfe": 8
+    },
+    {
+      "answer_nfe": 8,
+      "prompt": "a modernist graphic design poster by Karl Gerstner",
+      "prompt_index": 24135,
+      "reward": 0.7536382079124451,
+      "sample_rank": 499,
+      "seed": 263463385,
+      "total_nfe": 8
+    }
+  ],
+  "row": {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 8.0,
+      "mean_nfe": 8.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic ODE (spawn=1.00, forward=8.00, nfe=8.00)",
+    "beta": 0.0,
+    "nfe": 8.0,
+    "reward": 0.8093758540153504,
+    "reward_per_nfe": 0.1011719817519188
+  },
+  "source_shards": [
+    "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0_target_8/shard_00/history.json",
+    "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0_target_8/shard_01/history.json",
+    "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0_target_8/shard_02/history.json",
+    "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/train_ode_b64/beta_0_target_8/shard_03/history.json"
+  ]
+}

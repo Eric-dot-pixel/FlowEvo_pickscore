@@ -1,0 +1,49 @@
+{
+  "betas": [
+    0.25
+  ],
+  "budget": 64,
+  "evaluated_sample_size": 125,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 20.0,
+            "mean_nfe": 20.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic ODE (spawn=1.00, forward=20.00, nfe=20.00)",
+          "beta": 0.25,
+          "nfe": 20.0,
+          "reward": 0.8210013461112976,
+          "reward_per_nfe": 0.04105006730556488
+        }
+      ],
+      "controller": "ode",
+      "controller_name": "DeterministicOdeBaseline",
+      "pareto_frontier": [
+        {
+          "action_statistics": {
+            "answer": 1.0,
+            "forward": 20.0,
+            "mean_nfe": 20.0,
+            "spawn": 1.0
+          },
+          "behavior_summary": "deterministic ODE (spawn=1.00, forward=20.00, nfe=20.00)",
+          "beta": 0.25,
+          "nfe": 20.0,
+          "reward": 0.8210013461112976,
+          "reward_per_nfe": 0.04105006730556488
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 500,
+  "shard_index": 3
+}

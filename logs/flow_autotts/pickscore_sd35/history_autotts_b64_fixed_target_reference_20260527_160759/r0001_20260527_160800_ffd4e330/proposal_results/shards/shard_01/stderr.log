@@ -1,0 +1,202 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:   2%|▏         | 10/517 [00:00<00:06, 81.46it/s][A
+Loading weights:   7%|▋         | 36/517 [00:00<00:04, 118.77it/s][A
+Loading weights:   9%|▉         | 48/517 [00:00<00:07, 66.03it/s] [A
+Loading weights:  11%|█         | 58/517 [00:00<00:08, 54.89it/s][A
+Loading weights:  14%|█▍        | 72/517 [00:01<00:07, 56.82it/s][A
+Loading weights:  17%|█▋        | 88/517 [00:01<00:08, 53.18it/s][A
+Loading weights:  20%|██        | 104/517 [00:01<00:07, 56.34it/s][A
+Loading weights:  21%|██▏       | 110/517 [00:02<00:09, 42.40it/s][A
+Loading weights:  24%|██▎       | 122/517 [00:02<00:07, 49.88it/s][A
+Loading weights:  28%|██▊       | 144/517 [00:02<00:05, 74.40it/s][A
+Loading weights:  30%|██▉       | 154/517 [00:02<00:05, 70.52it/s][A
+Loading weights:  32%|███▏      | 168/517 [00:02<00:05, 68.15it/s][A
+Loading weights:  36%|███▌      | 184/517 [00:02<00:04, 71.60it/s][A
+Loading weights:  39%|███▊      | 200/517 [00:03<00:03, 82.58it/s][A
+Loading weights:  41%|████      | 210/517 [00:03<00:03, 78.33it/s][A
+Loading weights:  42%|████▏     | 219/517 [00:03<00:04, 72.93it/s][A
+Loading weights:  45%|████▍     | 232/517 [00:03<00:04, 67.84it/s][A
+Loading weights:  48%|████▊     | 248/517 [00:03<00:03, 68.67it/s][A
+Loading weights:  51%|█████     | 264/517 [00:04<00:03, 67.15it/s][A
+Loading weights:  54%|█████▍    | 280/517 [00:04<00:03, 67.88it/s][A
+Loading weights:  57%|█████▋    | 296/517 [00:04<00:02, 81.31it/s][A
+Loading weights:  60%|██████    | 312/517 [00:04<00:02, 77.92it/s][A
+Loading weights:  63%|██████▎   | 328/517 [00:04<00:02, 75.18it/s][A
+Loading weights:  67%|██████▋   | 344/517 [00:05<00:02, 72.44it/s][A
+Loading weights:  70%|██████▉   | 360/517 [00:05<00:02, 70.62it/s][A
+Loading weights:  73%|███████▎  | 376/517 [00:05<00:02, 69.60it/s][A
+Loading weights:  76%|███████▌  | 392/517 [00:05<00:01, 74.78it/s][A
+Loading weights:  79%|███████▉  | 408/517 [00:05<00:01, 71.22it/s][A
+Loading weights:  82%|████████▏ | 424/517 [00:06<00:01, 71.05it/s][A
+Loading weights:  87%|████████▋ | 450/517 [00:06<00:00, 101.06it/s][A
+Loading weights:  90%|████████▉ | 463/517 [00:06<00:00, 86.26it/s] [A
+Loading weights:  92%|█████████▏| 474/517 [00:06<00:00, 78.13it/s][A
+Loading weights:  94%|█████████▍| 488/517 [00:06<00:00, 71.63it/s][A
+Loading weights:  97%|█████████▋| 504/517 [00:07<00:00, 76.52it/s][ALoading weights: 100%|██████████| 517/517 [00:07<00:00, 72.08it/s]
+Loading pipeline components...:  11%|█         | 1/9 [00:08<01:05,  8.16s/it]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   0%|          | 1/219 [00:00<01:33,  2.33it/s][A
+Loading weights:   1%|▏         | 3/219 [00:01<01:35,  2.26it/s][A
+Loading weights:   2%|▏         | 5/219 [00:01<01:02,  3.43it/s][A
+Loading weights:   3%|▎         | 7/219 [00:01<00:41,  5.11it/s][A
+Loading weights:   4%|▍         | 9/219 [00:02<00:45,  4.63it/s][A
+Loading weights:   5%|▌         | 12/219 [00:02<00:30,  6.89it/s][A
+Loading weights:   6%|▋         | 14/219 [00:02<00:30,  6.62it/s][A
+Loading weights:   7%|▋         | 16/219 [00:03<00:32,  6.29it/s][A
+Loading weights:   8%|▊         | 17/219 [00:03<00:46,  4.32it/s][A
+Loading weights:  10%|█         | 22/219 [00:04<00:27,  7.20it/s][A
+Loading weights:  11%|█         | 23/219 [00:04<00:31,  6.14it/s][A
+Loading weights:  11%|█▏        | 25/219 [00:05<01:07,  2.88it/s][A
+Loading weights:  12%|█▏        | 27/219 [00:06<01:00,  3.19it/s][A
+Loading weights:  14%|█▍        | 31/219 [00:06<00:40,  4.65it/s][A
+Loading weights:  15%|█▍        | 32/219 [00:06<00:38,  4.80it/s][A
+Loading weights:  16%|█▌        | 34/219 [00:07<00:42,  4.40it/s][A
+Loading weights:  16%|█▋        | 36/219 [00:08<00:50,  3.60it/s][A
+Loading weights:  17%|█▋        | 37/219 [00:08<00:46,  3.90it/s][A
+Loading weights:  19%|█▊        | 41/219 [00:08<00:27,  6.50it/s][A
+Loading weights:  19%|█▉        | 42/219 [00:08<00:27,  6.48it/s][A
+Loading weights:  20%|█▉        | 43/219 [00:11<01:32,  1.91it/s][A
+Loading weights:  22%|██▏       | 48/219 [00:11<00:53,  3.21it/s][A
+Loading weights:  22%|██▏       | 49/219 [00:12<00:54,  3.11it/s][A
+Loading weights:  23%|██▎       | 50/219 [00:12<00:50,  3.37it/s][A
+Loading weights:  24%|██▎       | 52/219 [00:14<01:25,  1.95it/s][A
+Loading weights:  25%|██▍       | 54/219 [00:14<01:03,  2.59it/s][A
+Loading weights:  26%|██▌       | 57/219 [00:15<00:57,  2.83it/s][A
+Loading weights:  26%|██▋       | 58/219 [00:15<00:51,  3.11it/s][A
+Loading weights:  27%|██▋       | 59/219 [00:15<00:45,  3.53it/s][A
+Loading weights:  28%|██▊       | 61/219 [00:16<00:44,  3.51it/s][A
+Loading weights:  28%|██▊       | 62/219 [00:16<00:39,  4.01it/s][A
+Loading weights:  29%|██▉       | 63/219 [00:16<00:45,  3.44it/s][A
+Loading weights:  30%|███       | 66/219 [00:17<00:28,  5.30it/s][A
+Loading weights:  31%|███       | 67/219 [00:17<00:27,  5.60it/s][A
+Loading weights:  32%|███▏      | 69/219 [00:17<00:22,  6.66it/s][A
+Loading weights:  32%|███▏      | 70/219 [00:19<01:34,  1.58it/s][A
+Loading weights:  32%|███▏      | 71/219 [00:20<01:21,  1.82it/s][A
+Loading weights:  35%|███▍      | 76/219 [00:20<00:34,  4.20it/s][A
+Loading weights:  36%|███▌      | 78/219 [00:20<00:32,  4.35it/s][A
+Loading weights:  36%|███▌      | 79/219 [00:23<01:29,  1.56it/s][A
+Loading weights:  37%|███▋      | 80/219 [00:23<01:16,  1.82it/s][A
+Loading weights:  37%|███▋      | 81/219 [00:23<01:03,  2.18it/s][A
+Loading weights:  39%|███▉      | 86/219 [00:24<00:31,  4.28it/s][A
+Loading weights:  40%|████      | 88/219 [00:24<00:27,  4.78it/s][A
+Loading weights:  41%|████      | 89/219 [00:24<00:25,  5.11it/s][A
+Loading weights:  41%|████      | 90/219 [00:24<00:24,  5.21it/s][A
+Loading weights:  42%|████▏     | 92/219 [00:25<00:24,  5.12it/s][A
+Loading weights:  42%|████▏     | 93/219 [00:25<00:28,  4.46it/s][A
+Loading weights:  43%|████▎     | 94/219 [00:25<00:28,  4.39it/s][A
+Loading weights:  43%|████▎     | 95/219 [00:26<00:26,  4.68it/s][A
+Loading weights:  44%|████▍     | 97/219 [00:26<00:30,  3.97it/s][A
+Loading weights:  45%|████▍     | 98/219 [00:26<00:28,  4.18it/s][A
+Loading weights:  45%|████▌     | 99/219 [00:27<00:37,  3.17it/s][A
+Loading weights:  47%|████▋     | 102/219 [00:27<00:20,  5.62it/s][A
+Loading weights:  47%|████▋     | 103/219 [00:27<00:25,  4.51it/s][A
+Loading weights:  47%|████▋     | 104/219 [00:28<00:24,  4.67it/s][A
+Loading weights:  48%|████▊     | 105/219 [00:28<00:23,  4.92it/s][A
+Loading weights:  48%|████▊     | 106/219 [00:28<00:34,  3.28it/s][A
+Loading weights:  49%|████▉     | 108/219 [00:29<00:22,  5.02it/s][A
+Loading weights:  50%|████▉     | 109/219 [00:29<00:22,  4.80it/s][A
+Loading weights:  51%|█████     | 111/219 [00:29<00:18,  5.85it/s][A
+Loading weights:  52%|█████▏    | 113/219 [00:29<00:17,  6.22it/s][A
+Loading weights:  53%|█████▎    | 116/219 [00:30<00:13,  7.54it/s][A
+Loading weights:  55%|█████▍    | 120/219 [00:30<00:08, 11.78it/s][A
+Loading weights:  56%|█████▌    | 122/219 [00:31<00:15,  6.09it/s][A
+Loading weights:  57%|█████▋    | 124/219 [00:31<00:17,  5.37it/s][A
+Loading weights:  57%|█████▋    | 125/219 [00:31<00:17,  5.28it/s][A
+Loading weights:  58%|█████▊    | 126/219 [00:32<00:21,  4.36it/s][A
+Loading weights:  59%|█████▉    | 129/219 [00:32<00:16,  5.62it/s][A
+Loading weights:  59%|█████▉    | 130/219 [00:32<00:18,  4.91it/s][A
+Loading weights:  60%|█████▉    | 131/219 [00:33<00:20,  4.21it/s][A
+Loading weights:  61%|██████    | 133/219 [00:35<00:52,  1.64it/s][A
+Loading weights:  61%|██████    | 134/219 [00:35<00:45,  1.87it/s][A
+Loading weights:  62%|██████▏   | 135/219 [00:36<00:39,  2.14it/s][A
+Loading weights:  62%|██████▏   | 136/219 [00:36<00:31,  2.63it/s][A
+Loading weights:  63%|██████▎   | 139/219 [00:36<00:17,  4.50it/s][A
+Loading weights:  64%|██████▍   | 140/219 [00:37<00:22,  3.50it/s][A
+Loading weights:  65%|██████▍   | 142/219 [00:37<00:22,  3.48it/s][A
+Loading weights:  65%|██████▌   | 143/219 [00:37<00:20,  3.76it/s][A
+Loading weights:  66%|██████▌   | 144/219 [00:37<00:18,  4.03it/s][A
+Loading weights:  67%|██████▋   | 147/219 [00:38<00:12,  5.82it/s][A
+Loading weights:  68%|██████▊   | 148/219 [00:38<00:12,  5.63it/s][A
+Loading weights:  69%|██████▉   | 151/219 [00:39<00:13,  4.92it/s][A
+Loading weights:  69%|██████▉   | 152/219 [00:41<00:33,  2.01it/s][A
+Loading weights:  70%|██████▉   | 153/219 [00:41<00:29,  2.26it/s][A
+Loading weights:  72%|███████▏  | 158/219 [00:41<00:13,  4.53it/s][A
+Loading weights:  73%|███████▎  | 160/219 [00:44<00:27,  2.17it/s][A
+Loading weights:  74%|███████▎  | 161/219 [00:44<00:24,  2.37it/s][A
+Loading weights:  75%|███████▌  | 165/219 [00:44<00:12,  4.22it/s][A
+Loading weights:  76%|███████▋  | 167/219 [00:44<00:13,  3.97it/s][A
+Loading weights:  77%|███████▋  | 169/219 [00:45<00:12,  4.16it/s][A
+Loading weights:  78%|███████▊  | 171/219 [00:45<00:11,  4.25it/s][A
+Loading weights:  79%|███████▉  | 174/219 [00:46<00:10,  4.23it/s][A
+Loading weights:  80%|███████▉  | 175/219 [00:46<00:10,  4.35it/s][A
+Loading weights:  80%|████████  | 176/219 [00:46<00:09,  4.37it/s][A
+Loading weights:  81%|████████▏ | 178/219 [00:47<00:10,  3.82it/s][A
+Loading weights:  82%|████████▏ | 179/219 [00:47<00:10,  3.70it/s][A
+Loading weights:  82%|████████▏ | 180/219 [00:48<00:09,  3.95it/s][A
+Loading weights:  84%|████████▎ | 183/219 [00:48<00:06,  5.70it/s][A
+Loading weights:  84%|████████▍ | 184/219 [00:48<00:07,  4.95it/s][A
+Loading weights:  84%|████████▍ | 185/219 [00:48<00:06,  5.18it/s][A
+Loading weights:  85%|████████▌ | 187/219 [00:51<00:18,  1.69it/s][A
+Loading weights:  86%|████████▌ | 188/219 [00:51<00:15,  2.03it/s][A
+Loading weights:  86%|████████▋ | 189/219 [00:51<00:13,  2.26it/s][A
+Loading weights:  88%|████████▊ | 193/219 [00:51<00:06,  4.32it/s][A
+Loading weights:  89%|████████▊ | 194/219 [00:52<00:06,  3.83it/s][A
+Loading weights:  89%|████████▉ | 196/219 [00:54<00:12,  1.90it/s][A
+Loading weights:  90%|█████████ | 198/219 [00:54<00:08,  2.58it/s][A
+Loading weights:  92%|█████████▏| 202/219 [00:55<00:05,  3.11it/s][A
+Loading weights:  93%|█████████▎| 203/219 [00:55<00:05,  3.16it/s][A
+Loading weights:  94%|█████████▍| 206/219 [00:56<00:02,  4.75it/s][A
+Loading weights:  95%|█████████▍| 208/219 [00:56<00:02,  5.39it/s][A
+Loading weights:  96%|█████████▌| 210/219 [00:57<00:02,  3.70it/s][A
+Loading weights:  96%|█████████▋| 211/219 [00:57<00:02,  3.57it/s][A
+Loading weights:  98%|█████████▊| 214/219 [01:00<00:02,  1.70it/s][A
+Loading weights:  98%|█████████▊| 215/219 [01:00<00:02,  1.92it/s][A
+Loading weights: 100%|██████████| 219/219 [01:01<00:00,  2.96it/s][ALoading weights: 100%|██████████| 219/219 [01:01<00:00,  3.56it/s]
+Loading pipeline components...:  33%|███▎      | 3/9 [01:10<02:31, 25.22s/it]Loading pipeline components...:  44%|████▍     | 4/9 [01:10<01:22, 16.56s/it]Loading pipeline components...:  56%|█████▌    | 5/9 [01:12<00:46, 11.58s/it]Loading pipeline components...:  89%|████████▉ | 8/9 [01:12<00:04,  4.82s/it]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 4331.96it/s]
+Loading pipeline components...: 100%|██████████| 9/9 [01:12<00:00,  3.79s/it]Loading pipeline components...: 100%|██████████| 9/9 [01:12<00:00,  8.06s/it]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights:   1%|          | 8/910 [00:00<00:23, 37.82it/s]Loading weights:   2%|▏         | 20/910 [00:00<00:12, 70.23it/s]Loading weights:   5%|▌         | 47/910 [00:00<00:09, 94.53it/s]Loading weights:  11%|█▏        | 104/910 [00:00<00:05, 140.75it/s]Loading weights:  13%|█▎        | 118/910 [00:01<00:06, 130.53it/s]Loading weights:  16%|█▌        | 142/910 [00:01<00:05, 138.16it/s]Loading weights:  23%|██▎       | 208/910 [00:01<00:02, 238.69it/s]Loading weights:  33%|███▎      | 297/910 [00:01<00:01, 315.08it/s]Loading weights:  36%|███▋      | 331/910 [00:01<00:03, 175.69it/s]Loading weights:  39%|███▉      | 356/910 [00:02<00:03, 178.71it/s]Loading weights:  42%|████▏     | 380/910 [00:02<00:03, 145.44it/s]Loading weights:  44%|████▍     | 399/910 [00:02<00:03, 133.91it/s]Loading weights:  46%|████▋     | 422/910 [00:02<00:03, 144.65it/s]Loading weights:  48%|████▊     | 439/910 [00:02<00:04, 108.52it/s]Loading weights:  50%|█████     | 455/910 [00:03<00:04, 111.06it/s]Loading weights:  52%|█████▏    | 474/910 [00:03<00:04, 107.76it/s]Loading weights:  54%|█████▎    | 487/910 [00:03<00:03, 111.29it/s]Loading weights:  55%|█████▍    | 500/910 [00:03<00:05, 75.01it/s] Loading weights:  56%|█████▌    | 511/910 [00:03<00:05, 78.90it/s]Loading weights:  58%|█████▊    | 527/910 [00:04<00:04, 87.53it/s]Loading weights:  59%|█████▉    | 538/910 [00:04<00:04, 81.14it/s]Loading weights:  60%|██████    | 548/910 [00:04<00:05, 67.56it/s]Loading weights:  61%|██████    | 556/910 [00:04<00:05, 66.02it/s]Loading weights:  62%|██████▏   | 566/910 [00:04<00:05, 65.79it/s]Loading weights:  63%|██████▎   | 574/910 [00:04<00:05, 60.51it/s]Loading weights:  64%|██████▍   | 581/910 [00:05<00:05, 57.14it/s]Loading weights:  65%|██████▍   | 587/910 [00:05<00:06, 52.02it/s]Loading weights:  65%|██████▌   | 595/910 [00:05<00:06, 49.79it/s]Loading weights:  66%|██████▌   | 601/910 [00:05<00:06, 49.19it/s]Loading weights:  67%|██████▋   | 607/910 [00:05<00:07, 39.05it/s]Loading weights: 100%|██████████| 910/910 [00:05<00:00, 157.30it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (128 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (128 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']

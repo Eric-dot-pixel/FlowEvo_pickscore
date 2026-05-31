@@ -1,0 +1,32 @@
+Implemented a new staged controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L10). The policy keeps the strong low-beta single-root preview regime, then switches to scout -> commit -> rival continuation -> selective repair -> late confirmation -> target fill. The new mechanism is a beta-scaled late-evidence reserve plus a stepwise tie-break loop: at high beta it withholds a small NFE reserve for late close-rival confirmations and, if all live branches are exhausted while evidence is still ambiguous, it can spend that reserve on one final local backward repair from a late anchor instead of silently underusing compute ([optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L433), [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L537), [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L679)).
+
+I inspected the injected best-of-4 ODE baseline table and target curve in the context pack, the latest frontier rows for `r0004`, `r0003`, `r0002`, `r0000`, the regression ledger, the rejected-round notes for `r0005` and `r0001`, and the recent controller snapshots `r0003`, `r0004`, `r0005`. The main weakness was still `beta=0.75` and `beta=1.0`: latest `r0004` was `47.43 / 0.840149` vs target `48 / 0.843990` at `0.75`, and `63.554 / 0.843016` vs target `64 / 0.847290` at `1.0`. `beta=0,0.25,0.5` were already at or above the beta-matched baseline, so I kept those regimes comparatively conservative.
+
+Exact beta schedule is in [_schedule`](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L63):
+- `beta=0.0`: target `10`, single root, `3` previews, no branching.
+- `beta=0.25`: target `20`, single root, `7` previews, no branching.
+- `beta=0.5`: target `36`, `4` roots, no SDE scouts, `keep 2`, one repair anchor, no reserved tail budget.
+- `beta=0.75`: target `48`, `5` roots, `1` SDE scout, `keep 3`, one repair anchor, `1` late confirmation round, `reserve_nfe=4`.
+- `beta=1.0`: target `64`, `6` roots, `1` SDE scout, `keep 4`, one repair anchor with `mixed_noise`, `2` late confirmation rounds, `reserve_nfe=6`, and optional final late repair fill.
+Budget willingness is monotonic because width, survivor count, late-confirmation depth, reserve, and late repair permissiveness all increase or stay flat with beta, while `_target_nfe` is fixed at `10/20/36/48/64` ([optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L202)).
+
+Behaviorally new vs the recent best `r0004`:
+- It does not just do staged forward/preview and a single repair. It explicitly reserves late NFE for evidence gathering, then releases that reserve only in late confirmation or final fill.
+- Fill no longer burns budget only by generic best-next-step continuation. When the top previews are close or uncertain, it advances close rivals stepwise before answering.
+- At `beta=1.0`, if all active branches are done but ambiguity remains, it can spend the saved reserve on one final local child from a late anchor instead of stopping short.
+
+Checks run:
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- A tiny fake-env dry run across all betas to verify public-API contract usage, termination, and approximate target discipline. That fake env hit `10/20/36/47/62` NFE, which is only a structural sanity check, not a quality claim.
+
+Target-NFE reflection:
+- `beta=0.0`, target `10`: underuse is not justified here, so I adjusted the single-root logic to actually schedule `10` total NFE via forward-plus-preview placement rather than capping previews too early.
+- `beta=0.25`, target `20`: same repair as above; expected to stay close by using one trajectory with dense previews and no wasted branching.
+- `beta=0.5`, target `36`: underuse did not look like the problem. I kept this near the accepted regime and avoided extra backward/preview churn because prior history suggested that hurt.
+- `beta=0.75`, target `48`: this is one intended improvement zone. I added a small reserved tail and one late confirmation round so the controller is less likely to stop at `47.x` when the top rivals are still close.
+- `beta=1.0`, target `64`: this is the main intended improvement zone. I added a larger reserve, two late confirmation rounds, and a last-chance late repair fill so the controller can spend closer to `64` when evidence is still unresolved. It still cannot exceed `64` because every spend path goes through `_can_spend`, which clamps to `min(target_nfe, env.budget)`, and for `beta=1.0` that target is `64` exactly ([optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L161), [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py#L679)).
+
+Expected risks:
+- The high-beta late reserve may still occasionally finish slightly under target if the env’s discrete step structure leaves no valid continuation and the late repair anchor is already decisive.
+- `mixed_noise` at `beta=1.0` could still be neutral or mildly harmful if local refinement around late anchors is weaker than extra deterministic rival continuation.
+- `beta=0.5` is being protected rather than aggressively optimized, so gains are mainly aimed at `48` and `64` NFE regimes.

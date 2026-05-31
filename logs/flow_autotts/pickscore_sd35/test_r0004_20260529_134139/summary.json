@@ -1,0 +1,87 @@
+{
+  "betas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "budget": 64,
+  "evaluated_sample_size": 2048,
+  "experiment": "pickscore_sd35",
+  "num_shards": 4,
+  "rounds": [
+    {
+      "beta_sweep": [
+        {
+          "beta": 0.0,
+          "nfe": 10.0,
+          "reward": 0.7930203686992172,
+          "reward_per_nfe": 0.07930203686992172
+        },
+        {
+          "beta": 0.25,
+          "nfe": 20.0,
+          "reward": 0.8213367068383377,
+          "reward_per_nfe": 0.04106683534191689
+        },
+        {
+          "beta": 0.5,
+          "nfe": 36.0,
+          "reward": 0.8401234749471769,
+          "reward_per_nfe": 0.023336763192977134
+        },
+        {
+          "beta": 0.75,
+          "nfe": 47.43359375,
+          "reward": 0.8433926108118612,
+          "reward_per_nfe": 0.017783638046058894
+        },
+        {
+          "beta": 1.0,
+          "nfe": 63.560546875,
+          "reward": 0.8459139280603267,
+          "reward_per_nfe": 0.01330908382905118
+        }
+      ],
+      "controller": "optimal",
+      "controller_name": "OptimalController",
+      "pareto_frontier": [
+        {
+          "beta": 0.0,
+          "nfe": 10.0,
+          "reward": 0.7930203686992172,
+          "reward_per_nfe": 0.07930203686992172
+        },
+        {
+          "beta": 0.25,
+          "nfe": 20.0,
+          "reward": 0.8213367068383377,
+          "reward_per_nfe": 0.04106683534191689
+        },
+        {
+          "beta": 0.5,
+          "nfe": 36.0,
+          "reward": 0.8401234749471769,
+          "reward_per_nfe": 0.023336763192977134
+        },
+        {
+          "beta": 0.75,
+          "nfe": 47.43359375,
+          "reward": 0.8433926108118612,
+          "reward_per_nfe": 0.017783638046058894
+        },
+        {
+          "beta": 1.0,
+          "nfe": 63.560546875,
+          "reward": 0.8459139280603267,
+          "reward_per_nfe": 0.01330908382905118
+        }
+      ],
+      "round_id": 0
+    }
+  ],
+  "sample_seed": 42,
+  "sample_size": 2048,
+  "shard_index": null
+}

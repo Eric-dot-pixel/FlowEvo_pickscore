@@ -1,0 +1,67 @@
+[
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 8.0,
+      "mean_nfe": 8.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=8.00, nfe=8.00, single_ode_nfe=2)",
+    "beta": 0.0,
+    "nfe": 8.0,
+    "reward": 0.6764616433382035,
+    "reward_per_nfe": 0.08455770541727543
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 20.0,
+      "mean_nfe": 20.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=20.00, nfe=20.00, single_ode_nfe=5)",
+    "beta": 0.25,
+    "nfe": 20.0,
+    "reward": 0.8020827637910843,
+    "reward_per_nfe": 0.04010413818955422
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 36.0,
+      "mean_nfe": 36.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=36.00, nfe=36.00, single_ode_nfe=9)",
+    "beta": 0.5,
+    "nfe": 36.0,
+    "reward": 0.8366495504379272,
+    "reward_per_nfe": 0.023240265289942424
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 48.0,
+      "mean_nfe": 48.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=48.00, nfe=48.00, single_ode_nfe=12)",
+    "beta": 0.75,
+    "nfe": 48.0,
+    "reward": 0.8439898520708085,
+    "reward_per_nfe": 0.01758312191814184
+  },
+  {
+    "action_statistics": {
+      "answer": 4.0,
+      "forward": 64.0,
+      "mean_nfe": 64.0,
+      "spawn": 4.0
+    },
+    "behavior_summary": "best-of-4 deterministic ODE (spawn=4.00, forward=64.00, nfe=64.00, single_ode_nfe=16)",
+    "beta": 1.0,
+    "nfe": 64.0,
+    "reward": 0.8472898569107056,
+    "reward_per_nfe": 0.013238904014229775
+  }
+]

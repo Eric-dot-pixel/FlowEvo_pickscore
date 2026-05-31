@@ -1,0 +1,46 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   7%|▋         | 16/219 [00:00<00:01, 108.82it/s][A
+Loading weights:  12%|█▏        | 27/219 [00:00<00:01, 102.58it/s][A
+Loading weights:  17%|█▋        | 38/219 [00:00<00:01, 103.95it/s][A
+Loading weights:  22%|██▏       | 49/219 [00:00<00:02, 70.60it/s] [A
+Loading weights:  26%|██▋       | 58/219 [00:00<00:02, 62.51it/s][A
+Loading weights:  31%|███       | 67/219 [00:00<00:02, 58.85it/s][A
+Loading weights:  34%|███▍      | 74/219 [00:01<00:02, 59.71it/s][A
+Loading weights:  37%|███▋      | 81/219 [00:01<00:02, 53.35it/s][A
+Loading weights:  40%|████      | 88/219 [00:01<00:02, 54.36it/s][A
+Loading weights:  44%|████▍     | 97/219 [00:01<00:02, 58.14it/s][A
+Loading weights:  47%|████▋     | 104/219 [00:01<00:02, 54.90it/s][A
+Loading weights:  50%|█████     | 110/219 [00:01<00:01, 55.60it/s][A
+Loading weights:  56%|█████▌    | 122/219 [00:01<00:01, 69.40it/s][A
+Loading weights:  61%|██████    | 133/219 [00:01<00:01, 78.14it/s][A
+Loading weights:  65%|██████▍   | 142/219 [00:02<00:00, 77.56it/s][A
+Loading weights:  68%|██████▊   | 150/219 [00:02<00:00, 75.97it/s][A
+Loading weights:  72%|███████▏  | 158/219 [00:02<00:00, 68.36it/s][A
+Loading weights:  76%|███████▌  | 166/219 [00:02<00:00, 71.19it/s][A
+Loading weights:  79%|███████▉  | 174/219 [00:02<00:00, 71.50it/s][A
+Loading weights:  83%|████████▎ | 182/219 [00:02<00:00, 70.42it/s][A
+Loading weights:  87%|████████▋ | 190/219 [00:02<00:00, 69.00it/s][A
+Loading weights:  90%|████████▉ | 197/219 [00:02<00:00, 65.88it/s][A
+Loading weights:  94%|█████████▎| 205/219 [00:03<00:00, 63.38it/s][A
+Loading weights:  98%|█████████▊| 214/219 [00:03<00:00, 56.20it/s][ALoading weights: 100%|██████████| 219/219 [00:03<00:00, 67.21it/s]
+Loading pipeline components...:  11%|█         | 1/9 [00:04<00:32,  4.02s/it]Loading pipeline components...:  33%|███▎      | 3/9 [00:04<00:06,  1.12s/it]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  28%|██▊       | 144/517 [00:00<00:00, 1431.73it/s][A
+Loading weights:  56%|█████▌    | 288/517 [00:00<00:00, 1425.03it/s][A
+Loading weights:  83%|████████▎ | 431/517 [00:00<00:00, 1305.48it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 1264.88it/s]
+Loading pipeline components...:  56%|█████▌    | 5/9 [00:04<00:02,  1.41it/s]Loading pipeline components...:  67%|██████▋   | 6/9 [00:06<00:03,  1.05s/it]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 2506.96it/s]
+Loading pipeline components...:  78%|███████▊  | 7/9 [00:07<00:01,  1.24it/s]Loading pipeline components...:  89%|████████▉ | 8/9 [00:07<00:00,  1.58it/s]Loading pipeline components...: 100%|██████████| 9/9 [00:07<00:00,  1.23it/s]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights: 100%|██████████| 910/910 [00:00<00:00, 10162.41it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (128 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (128 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['painting movie poster , golden ratio , trending on cgsociety , intricate , epic , trending on artstation , by artgerm , h . r . giger and beksinski , highly detailed , vibrant , production cinematic character render , ultra high quality model']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['sf, intricate artwork masterpiece, ominous, matte painting movie poster, golden ratio, trending on cgsociety, intricate, epic, trending on artstation, by artgerm, h. r. giger and beksinski, highly detailed, vibrant, production cinematic character render, ultra high quality model']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['details , mesh wire , mandelbrot fractal , anatomical , facial muscles , cable wires , microchip , elegant , hyper realistic , ultra detailed , octane render , h . r . giger style , volumetric lighting , 8 k post - production']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: [', pearl earring, art nouveau fashion embroidered, steampunk, intricate details, mesh wire, mandelbrot fractal, anatomical, facial muscles, cable wires, microchip, elegant, hyper realistic, ultra detailed, octane render, H.R. Giger style, volumetric lighting, 8k post-production']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', and overall composition of the image should closely resemble the original album cover . the image should be visually engaging and suitable for use as a parody or homage to the original album cover .']

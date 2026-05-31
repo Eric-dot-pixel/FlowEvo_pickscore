@@ -1,0 +1,182 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   0%|          | 1/219 [00:00<00:27,  7.93it/s][A
+Loading weights:   1%|          | 2/219 [00:00<00:52,  4.15it/s][A
+Loading weights:   2%|▏         | 5/219 [00:00<00:35,  6.01it/s][A
+Loading weights:   3%|▎         | 7/219 [00:01<00:36,  5.87it/s][A
+Loading weights:   4%|▍         | 9/219 [00:01<00:28,  7.28it/s][A
+Loading weights:   5%|▌         | 12/219 [00:02<00:38,  5.40it/s][A
+Loading weights:   6%|▌         | 13/219 [00:02<00:46,  4.43it/s][A
+Loading weights:   6%|▋         | 14/219 [00:03<01:22,  2.49it/s][A
+Loading weights:   7%|▋         | 16/219 [00:04<01:23,  2.42it/s][A
+Loading weights:   8%|▊         | 17/219 [00:05<01:43,  1.95it/s][A
+Loading weights:   8%|▊         | 18/219 [00:05<01:29,  2.25it/s][A
+Loading weights:   9%|▊         | 19/219 [00:05<01:12,  2.78it/s][A
+Loading weights:  11%|█         | 23/219 [00:06<00:50,  3.91it/s][A
+Loading weights:  11%|█▏        | 25/219 [00:07<01:08,  2.83it/s][A
+Loading weights:  14%|█▍        | 31/219 [00:08<00:43,  4.36it/s][A
+Loading weights:  16%|█▌        | 34/219 [00:08<00:35,  5.19it/s][A
+Loading weights:  16%|█▌        | 35/219 [00:08<00:36,  4.99it/s][A
+Loading weights:  16%|█▋        | 36/219 [00:09<00:36,  4.97it/s][A
+Loading weights:  20%|█▉        | 43/219 [00:10<00:39,  4.41it/s][A
+Loading weights:  20%|██        | 44/219 [00:11<00:38,  4.51it/s][A
+Loading weights:  22%|██▏       | 48/219 [00:11<00:25,  6.66it/s][A
+Loading weights:  23%|██▎       | 50/219 [00:11<00:30,  5.48it/s][A
+Loading weights:  24%|██▎       | 52/219 [00:14<01:22,  2.02it/s][A
+Loading weights:  24%|██▍       | 53/219 [00:14<01:14,  2.24it/s][A
+Loading weights:  25%|██▍       | 54/219 [00:15<01:06,  2.49it/s][A
+Loading weights:  26%|██▋       | 58/219 [00:15<00:34,  4.60it/s][A
+Loading weights:  27%|██▋       | 60/219 [00:15<00:34,  4.60it/s][A
+Loading weights:  28%|██▊       | 62/219 [00:18<01:17,  2.02it/s][A
+Loading weights:  29%|██▉       | 64/219 [00:18<00:58,  2.66it/s][A
+Loading weights:  31%|███       | 67/219 [00:18<00:44,  3.39it/s][A
+Loading weights:  31%|███       | 68/219 [00:19<00:43,  3.46it/s][A
+Loading weights:  32%|███▏      | 70/219 [00:21<01:26,  1.72it/s][A
+Loading weights:  32%|███▏      | 71/219 [00:21<01:13,  2.01it/s][A
+Loading weights:  33%|███▎      | 72/219 [00:22<01:07,  2.16it/s][A
+Loading weights:  35%|███▍      | 76/219 [00:22<00:38,  3.70it/s][A
+Loading weights:  35%|███▌      | 77/219 [00:22<00:45,  3.15it/s][A
+Loading weights:  36%|███▌      | 79/219 [00:25<01:24,  1.65it/s][A
+Loading weights:  37%|███▋      | 82/219 [00:25<00:53,  2.57it/s][A
+Loading weights:  39%|███▉      | 85/219 [00:25<00:36,  3.70it/s][A
+Loading weights:  39%|███▉      | 86/219 [00:26<00:37,  3.59it/s][A
+Loading weights:  40%|████      | 88/219 [00:26<00:41,  3.16it/s][A
+Loading weights:  41%|████      | 90/219 [00:27<00:37,  3.41it/s][A
+Loading weights:  42%|████▏     | 93/219 [00:27<00:30,  4.13it/s][A
+Loading weights:  43%|████▎     | 94/219 [00:28<00:31,  3.97it/s][A
+Loading weights:  44%|████▍     | 97/219 [00:30<00:58,  2.08it/s][A
+Loading weights:  45%|████▍     | 98/219 [00:30<00:53,  2.24it/s][A
+Loading weights:  47%|████▋     | 103/219 [00:31<00:30,  3.83it/s][A
+Loading weights:  47%|████▋     | 104/219 [00:31<00:31,  3.65it/s][A
+Loading weights:  48%|████▊     | 106/219 [00:32<00:32,  3.44it/s][A
+Loading weights:  49%|████▉     | 108/219 [00:33<00:30,  3.66it/s][A
+Loading weights:  50%|████▉     | 109/219 [00:33<00:29,  3.74it/s][A
+Loading weights:  53%|█████▎    | 115/219 [00:36<00:41,  2.52it/s][A
+Loading weights:  53%|█████▎    | 116/219 [00:36<00:39,  2.60it/s][A
+Loading weights:  55%|█████▌    | 121/219 [00:36<00:23,  4.11it/s][A
+Loading weights:  56%|█████▌    | 122/219 [00:37<00:26,  3.70it/s][A
+Loading weights:  57%|█████▋    | 124/219 [00:38<00:27,  3.50it/s][A
+Loading weights:  58%|█████▊    | 126/219 [00:38<00:21,  4.24it/s][A
+Loading weights:  59%|█████▉    | 129/219 [00:38<00:18,  4.99it/s][A
+Loading weights:  59%|█████▉    | 130/219 [00:38<00:18,  4.77it/s][A
+Loading weights:  60%|██████    | 132/219 [00:38<00:14,  6.01it/s][A
+Loading weights:  61%|██████    | 133/219 [00:40<00:34,  2.47it/s][A
+Loading weights:  61%|██████    | 134/219 [00:40<00:31,  2.66it/s][A
+Loading weights:  62%|██████▏   | 135/219 [00:40<00:27,  3.06it/s][A
+Loading weights:  62%|██████▏   | 136/219 [00:41<00:22,  3.66it/s][A
+Loading weights:  64%|██████▍   | 140/219 [00:41<00:18,  4.31it/s][A
+Loading weights:  65%|██████▍   | 142/219 [00:42<00:17,  4.35it/s][A
+Loading weights:  65%|██████▌   | 143/219 [00:42<00:16,  4.72it/s][A
+Loading weights:  66%|██████▌   | 144/219 [00:42<00:14,  5.20it/s][A
+Loading weights:  67%|██████▋   | 147/219 [00:42<00:10,  6.55it/s][A
+Loading weights:  68%|██████▊   | 148/219 [00:44<00:23,  2.97it/s][A
+Loading weights:  68%|██████▊   | 149/219 [00:44<00:21,  3.33it/s][A
+Loading weights:  69%|██████▉   | 151/219 [00:44<00:22,  3.02it/s][A
+Loading weights:  70%|██████▉   | 153/219 [00:45<00:22,  2.89it/s][A
+Loading weights:  71%|███████   | 156/219 [00:45<00:13,  4.59it/s][A
+Loading weights:  72%|███████▏  | 157/219 [00:46<00:12,  4.99it/s][A
+Loading weights:  73%|███████▎  | 160/219 [00:48<00:31,  1.87it/s][A
+Loading weights:  74%|███████▎  | 161/219 [00:49<00:28,  2.05it/s][A
+Loading weights:  74%|███████▍  | 162/219 [00:49<00:26,  2.12it/s][A
+Loading weights:  76%|███████▌  | 166/219 [00:49<00:14,  3.70it/s][A
+Loading weights:  76%|███████▋  | 167/219 [00:50<00:14,  3.63it/s][A
+Loading weights:  77%|███████▋  | 169/219 [00:52<00:23,  2.13it/s][A
+Loading weights:  78%|███████▊  | 170/219 [00:52<00:20,  2.44it/s][A
+Loading weights:  79%|███████▉  | 174/219 [00:52<00:11,  4.03it/s][A
+Loading weights:  80%|███████▉  | 175/219 [00:52<00:10,  4.16it/s][A
+Loading weights:  80%|████████  | 176/219 [00:52<00:10,  4.20it/s][A
+Loading weights:  81%|████████▏ | 178/219 [00:54<00:17,  2.39it/s][A
+Loading weights:  82%|████████▏ | 179/219 [00:55<00:20,  1.91it/s][A
+Loading weights:  84%|████████▎ | 183/219 [00:55<00:09,  3.83it/s][A
+Loading weights:  84%|████████▍ | 185/219 [00:55<00:07,  4.65it/s][A
+Loading weights:  85%|████████▌ | 187/219 [00:58<00:15,  2.13it/s][A
+Loading weights:  88%|████████▊ | 193/219 [00:59<00:08,  3.09it/s][A
+Loading weights:  89%|████████▊ | 194/219 [00:59<00:07,  3.18it/s][A
+Loading weights:  89%|████████▉ | 196/219 [01:01<00:12,  1.90it/s][A
+Loading weights:  90%|████████▉ | 197/219 [01:01<00:10,  2.13it/s][A
+Loading weights:  90%|█████████ | 198/219 [01:02<00:09,  2.15it/s][A
+Loading weights:  91%|█████████▏| 200/219 [01:02<00:06,  2.95it/s][A
+Loading weights:  94%|█████████▎| 205/219 [01:03<00:03,  4.33it/s][A
+Loading weights:  94%|█████████▍| 206/219 [01:03<00:02,  4.37it/s][A
+Loading weights:  96%|█████████▌| 210/219 [01:03<00:01,  5.89it/s][A
+Loading weights:  96%|█████████▋| 211/219 [01:04<00:01,  6.01it/s][A
+Loading weights:  97%|█████████▋| 212/219 [01:04<00:01,  6.14it/s][A
+Loading weights:  97%|█████████▋| 213/219 [01:04<00:01,  5.98it/s][A
+Loading weights:  98%|█████████▊| 214/219 [01:04<00:00,  6.12it/s][A
+Loading weights: 100%|██████████| 219/219 [01:05<00:00,  6.40it/s][ALoading weights: 100%|██████████| 219/219 [01:05<00:00,  3.36it/s]
+Loading pipeline components...:  11%|█         | 1/9 [01:06<08:51, 66.46s/it]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  42%|████▏     | 216/517 [00:00<00:00, 2151.66it/s][A
+Loading weights:  84%|████████▎ | 432/517 [00:00<00:00, 1998.84it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 1968.76it/s]
+Loading pipeline components...:  22%|██▏       | 2/9 [01:06<03:13, 27.67s/it]Loading pipeline components...:  33%|███▎      | 3/9 [01:07<01:30, 15.11s/it]Loading pipeline components...:  44%|████▍     | 4/9 [01:08<00:48,  9.63s/it]Loading pipeline components...:  78%|███████▊  | 7/9 [01:08<00:07,  3.60s/it]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][ALoading weights: 100%|██████████| 197/197 [00:00<00:00, 4559.15it/s]
+Loading pipeline components...: 100%|██████████| 9/9 [01:08<00:00,  2.31s/it]Loading pipeline components...: 100%|██████████| 9/9 [01:08<00:00,  7.65s/it]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights:   2%|▏         | 18/910 [00:00<00:09, 89.25it/s]Loading weights:   3%|▎         | 27/910 [00:00<00:10, 84.75it/s]Loading weights:   5%|▍         | 44/910 [00:00<00:10, 82.81it/s]Loading weights:  15%|█▍        | 136/910 [00:00<00:04, 181.33it/s]Loading weights:  17%|█▋        | 152/910 [00:01<00:04, 172.11it/s]Loading weights:  20%|█▉        | 178/910 [00:01<00:04, 167.99it/s]Loading weights:  24%|██▎       | 215/910 [00:01<00:03, 180.20it/s]Loading weights:  45%|████▌     | 410/910 [00:01<00:00, 531.05it/s]Loading weights:  53%|█████▎    | 481/910 [00:02<00:01, 236.86it/s]Loading weights:  59%|█████▊    | 533/910 [00:02<00:02, 174.62it/s]Loading weights:  63%|██████▎   | 572/910 [00:03<00:02, 157.02it/s]Loading weights:  66%|██████▋   | 603/910 [00:03<00:02, 152.87it/s]Loading weights:  69%|██████▉   | 629/910 [00:03<00:02, 132.20it/s]Loading weights:  71%|███████▏  | 649/910 [00:03<00:02, 119.73it/s]Loading weights:  73%|███████▎  | 666/910 [00:04<00:01, 124.89it/s]Loading weights:  75%|███████▌  | 683/910 [00:04<00:02, 105.16it/s]Loading weights:  77%|███████▋  | 697/910 [00:04<00:02, 92.72it/s] Loading weights:  78%|███████▊  | 711/910 [00:04<00:02, 97.36it/s]Loading weights:  80%|████████  | 728/910 [00:04<00:01, 91.15it/s]Loading weights:  81%|████████  | 739/910 [00:05<00:02, 79.55it/s]Loading weights:  82%|████████▏ | 749/910 [00:05<00:02, 79.44it/s]Loading weights:  84%|████████▎ | 760/910 [00:05<00:02, 73.89it/s]Loading weights:  84%|████████▍ | 768/910 [00:05<00:02, 70.65it/s]Loading weights:  86%|████████▌ | 782/910 [00:05<00:01, 74.99it/s]Loading weights:  92%|█████████▏| 841/910 [00:05<00:00, 179.95it/s]Loading weights: 100%|██████████| 910/910 [00:05<00:00, 157.94it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (283 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['. the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (286 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['abuse . the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['d and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign. The "Make blue great again!" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign\'s message is clear and direct, serving as a symbol of Walter\'s unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact. The "Make blue great again!" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign\'s message is both ambiguous and ominous, hinting at Walter\'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['. the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['abuse . the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['d and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign. The "Make blue great again!" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign\'s message is clear and direct, serving as a symbol of Walter\'s unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact. The "Make blue great again!" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign\'s message is both ambiguous and ominous, hinting at Walter\'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['. the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['abuse . the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['d and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign. The "Make blue great again!" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign\'s message is clear and direct, serving as a symbol of Walter\'s unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact. The "Make blue great again!" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign\'s message is both ambiguous and ominous, hinting at Walter\'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['. the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['abuse . the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['d and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign. The "Make blue great again!" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign\'s message is clear and direct, serving as a symbol of Walter\'s unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact. The "Make blue great again!" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign\'s message is both ambiguous and ominous, hinting at Walter\'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['. the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['abuse . the lighting is moody and atmospheric , casting deep shadows and highlighting the texture of the metal sign . the " make blue great again !" sign takes center stage in this stunning photograph of walter white from breaking bad . the sign is massive and heavy - looking , and walter holds it with ease , his eyes locked onto the viewer with an intensity that is both unsettling and captivating . the sign \'s message is clear and direct , serving as a symbol of walter \'s unrelenting drive to succeed . the photo is expertly composed , with the sign and walter perfectly positioned for maximum impact . the " make blue great again !" sign is a powerful presence in this striking photograph of walter white from breaking bad . the sign is massive and imposing , with the bold white letters contrasting sharply against the dark , moody background . walter stands tall and proud , his bald head gleaming in the light , as he holds the sign aloft with both hands . the sign \'s message is both ambiguous and ominous , hinting at walter \'s complicated and dangerous character']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['d and aged, as if it has seen years of use and abuse. The lighting is moody and atmospheric, casting deep shadows and highlighting the texture of the metal sign. The "Make blue great again!" sign takes center stage in this stunning photograph of Walter White from Breaking Bad. The sign is massive and heavy-looking, and Walter holds it with ease, his eyes locked onto the viewer with an intensity that is both unsettling and captivating. The sign\'s message is clear and direct, serving as a symbol of Walter\'s unrelenting drive to succeed. The photo is expertly composed, with the sign and Walter perfectly positioned for maximum impact. The "Make blue great again!" sign is a powerful presence in this striking photograph of Walter White from Breaking Bad. The sign is massive and imposing, with the bold white letters contrasting sharply against the dark, moody background. Walter stands tall and proud, his bald head gleaming in the light, as he holds the sign aloft with both hands. The sign\'s message is both ambiguous and ominous, hinting at Walter\'s complicated and dangerous character']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['film']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['pičková']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ft render']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['trash']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['ura , hayao miyazak and taro minamoto']

@@ -1,0 +1,27 @@
+{
+  "source_dir": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/logs/flow_autotts/pickscore_sd35/autotts_b64_fixed_target_reference_20260527_160759",
+  "copied_files": [
+    "history.json",
+    "shards/shard_00/command.json",
+    "shards/shard_00/history.json",
+    "shards/shard_00/stderr.log",
+    "shards/shard_00/stdout.log",
+    "shards/shard_00/summary.json",
+    "shards/shard_01/command.json",
+    "shards/shard_01/history.json",
+    "shards/shard_01/stderr.log",
+    "shards/shard_01/stdout.log",
+    "shards/shard_01/summary.json",
+    "shards/shard_02/command.json",
+    "shards/shard_02/history.json",
+    "shards/shard_02/stderr.log",
+    "shards/shard_02/stdout.log",
+    "shards/shard_02/summary.json",
+    "shards/shard_03/command.json",
+    "shards/shard_03/history.json",
+    "shards/shard_03/stderr.log",
+    "shards/shard_03/stdout.log",
+    "shards/shard_03/summary.json",
+    "summary.json"
+  ]
+}

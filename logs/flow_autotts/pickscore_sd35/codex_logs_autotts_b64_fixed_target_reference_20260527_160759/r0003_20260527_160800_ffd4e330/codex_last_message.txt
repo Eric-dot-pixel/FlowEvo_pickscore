@@ -1,0 +1,37 @@
+Implemented a self-contained replacement in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py): a beta-scheduled rival-preserving controller that does `scout -> commit -> ambiguity-triggered confirmation -> single selective backward repair -> late rival/top continuation -> budget fill`, always terminating with `env.answer(rule="best_preview_score")`. The new mechanism is not “more branching”; it preserves one extra late rival at high beta and spends the last compute only when preview evidence is still ambiguous.
+
+I inspected the injected baseline/target table in the context pack, the latest compact results for `r0002`, the prior stronger `r0000`, and the controller snapshots for both. Latest frontier status from the pack was:
+- `beta=0.00`: `10 NFE`, reward `0.787971`, above baseline.
+- `beta=0.25`: `20 NFE`, reward `0.801358`, just below baseline `0.802083`.
+- `beta=0.50`: `36 NFE`, reward `0.836899`, above baseline `0.836650`.
+- `beta=0.75`: `47 NFE`, reward `0.834103`, weak and below baseline `0.843990`.
+- `beta=1.00`: `63.994 NFE`, reward `0.843780`, slightly below baseline `0.847290`.
+The last two snapshots were behaviorally different, not cosmetic: `r0000` was essentially single-root preview continuation, while `r0002` switched to multi-scout/commit/refine with backward children. The history notes also showed that extra backward-heavy high-beta allocation had recently hurt tradeoff, so this round targets the weakest region, `beta=0.75` first and `1.0` second, with better late evidence allocation rather than more child spam.
+
+Exact beta schedule:
+- `beta=0.00`: target `10`, roots `2`, scout `0.2`, commit keep `1`, no backward repair, one confirmation max.
+- `beta=0.25`: target `20`, roots `4`, scout `0.2`, commit keep `1`, no backward repair, two confirmations max.
+- `beta=0.50`: target `36`, roots `5`, scout `0.3`, commit `0.7`, keep `2`, one repair child from `t=0.6` evaluated at `0.9`, rival tail to `1.0/0.9`.
+- `beta=0.75`: target `48`, roots `5`, one SDE scout, commit keep `3`, one repair child, top and rival both can reach `1.0`, stop floor `44`.
+- `beta=1.00`: target `64`, roots `6`, one SDE scout, commit keep `4`, one repair child, top and rival both can reach `1.0`, stop floor `62`.
+Budget use is monotonic because target NFE, root count, survivor count, repair availability, and late continuation willingness all increase with beta. `beta=1` cannot exceed `64` because every spend is gated by `_can_spend`, which caps total spend at `min(schedule["target_nfe"], env.budget)` and `target_nfe=64`.
+
+What is behaviorally new versus the recent best controller:
+- High beta now preserves more committed rivals instead of collapsing early.
+- Late previews are score-gap/uncertainty triggered and continue both leader and rival when the contest is unresolved.
+- `backward` is reduced to a single selective repair child under ambiguity, which directly avoids repeating the recent losing “more backward/more branching” pattern.
+
+Checks run:
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- tiny fake-env dry run of `solve()` across betas; realized toy NFE was `10, 20, 36, 47, 63`, matching the intended ceilings closely without overshoot.
+
+Target-NFE reflection:
+- `beta=0.00`, target `10`: underuse is not allowed here; schedule is pinned to spend the full 10. Adjusted to stay exact.
+- `beta=0.25`, target `20`: mild conservatism would risk trailing baseline, so schedule is set to use the full 20 through width plus one completed candidate. Adjusted to stay near exact.
+- `beta=0.50`, target `36`: current regime was already healthy; underuse would usually be unjustified, so schedule still fills toward 36 with limited repair and rival continuation.
+- `beta=0.75`, target `48`: prior controller underused and misallocated. I adjusted by keeping 3 post-commit rivals and allowing both top and rival to reach `t=1.0`; expected to land very close to 48.
+- `beta=1.00`, target `64`: prior controller was slightly under target and still weak. I adjusted by keeping 4 post-commit rivals and raising the late stop floor to `62`; expected to finish around the low 60s and never exceed `64`.
+
+Expected gain/risk:
+- Intended improvement is mainly `beta=0.75`, with a smaller upside at `beta=1.0`, while protecting the already-good `0.0` and `0.5` regions.
+- Main risk is that preserving extra rivals at high beta could slightly dilute the best branch on some prompts, especially if preview ranking is already very stable by `t=0.7`.

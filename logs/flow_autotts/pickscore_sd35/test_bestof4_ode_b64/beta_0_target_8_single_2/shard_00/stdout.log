@@ -1,0 +1,8 @@
+{
+  "beta": 0.0,
+  "history_path": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/test_bestof4_ode_b64/beta_0_target_8_single_2/shard_00/history.json",
+  "num_samples": 512,
+  "single_ode_nfe": 2,
+  "summary_path": "/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvos/logs/flow_autotts/pickscore_sd35/test_bestof4_ode_b64/beta_0_target_8_single_2/shard_00/summary.json",
+  "total_nfe": 8
+}

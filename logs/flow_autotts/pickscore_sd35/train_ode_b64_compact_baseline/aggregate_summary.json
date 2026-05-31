@@ -1,0 +1,67 @@
+[
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 8.0,
+      "mean_nfe": 8.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic ODE (spawn=1.00, forward=8.00, nfe=8.00)",
+    "beta": 0.0,
+    "nfe": 8.0,
+    "reward": 0.8093758540153504,
+    "reward_per_nfe": 0.1011719817519188
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 20.0,
+      "mean_nfe": 20.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic ODE (spawn=1.00, forward=20.00, nfe=20.00)",
+    "beta": 0.25,
+    "nfe": 20.0,
+    "reward": 0.8282976819276809,
+    "reward_per_nfe": 0.041414884096384046
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 36.0,
+      "mean_nfe": 36.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic ODE (spawn=1.00, forward=36.00, nfe=36.00)",
+    "beta": 0.5,
+    "nfe": 36.0,
+    "reward": 0.8294211505651474,
+    "reward_per_nfe": 0.02303947640458743
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 48.0,
+      "mean_nfe": 48.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic ODE (spawn=1.00, forward=48.00, nfe=48.00)",
+    "beta": 0.75,
+    "nfe": 48.0,
+    "reward": 0.8292382578849793,
+    "reward_per_nfe": 0.017275797039270402
+  },
+  {
+    "action_statistics": {
+      "answer": 1.0,
+      "forward": 64.0,
+      "mean_nfe": 64.0,
+      "spawn": 1.0
+    },
+    "behavior_summary": "deterministic ODE (spawn=1.00, forward=64.00, nfe=64.00)",
+    "beta": 1.0,
+    "nfe": 64.0,
+    "reward": 0.829445272564888,
+    "reward_per_nfe": 0.012960082383826375
+  }
+]

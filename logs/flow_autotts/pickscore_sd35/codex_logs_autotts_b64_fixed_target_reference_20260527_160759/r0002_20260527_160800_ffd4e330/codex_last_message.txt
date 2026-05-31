@@ -1,0 +1,40 @@
+Implemented a new controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py). The policy is a beta-scheduled scout ladder: cheap early width, then either a decisive deeper continuation when the lead is clear or a multi-survivor mid-depth commit when the preview gap is small, followed by ambiguity-triggered backward repair and bounded late deepening. The main repair target is `beta=0.25`, where the incumbent was below the beta-matched ODE baseline despite matched NFE.
+
+I inspected the compact context pack tables plus the snapshot controllers for `r0000` and rejected `r0001`, along with the injected baseline rows. Latest frontier from the pack was:
+- `beta=0.00`: `reward=0.778068`, `mean_nfe=10`, above baseline `0.676462`
+- `beta=0.25`: `reward=0.789670`, `mean_nfe=20`, below baseline `0.802083`
+- `beta=0.50`: `reward=0.839043`, `mean_nfe=36`, above baseline `0.836650`
+- `beta=0.75`: `reward=0.841569`, `mean_nfe=48`, below baseline `0.843990`
+- `beta=1.00`: `reward=0.844569`, `mean_nfe=64`, below baseline `0.847290`
+
+The last two snapshots did make a behavioral change, but not the right one: `r0000` was effectively single-root repeated previewing; `r0001` added more preview/backward pressure, especially at high beta, and the context pack explicitly shows that shift hurt tradeoff. Actions were therefore being spent mostly on early/late previews and full completion of too few trajectories, not on evidence-guided width. This proposal changes that allocation.
+
+Exact beta schedule, with monotone budget willingness:
+- `beta=0.00`, target `10`: `roots=2`, `scout_time=0.2`, keep `1`, single commit to `0.5`, no backward, no SDE, no tail set.
+- `beta=0.25`, target `20`: `roots=4`, `scout_time=0.2`, keep `2`, commit `2` survivors to `0.5`, decisive single-branch fallback to `0.9`, no backward, no SDE.
+- `beta=0.50`, target `36`: `roots=5`, `scout_time=0.3`, keep `3`, commit `2` to `0.7`, up to `2` backward children from up to `2` anchors at `0.6`, evaluate at `0.8`, tail targets `(1.0, 0.8)`, `1` SDE scout.
+- `beta=0.75`, target `48`: `roots=6`, `scout_time=0.3`, keep `3`, commit `3` to `0.7`, up to `2` children from up to `2` anchors at `0.6`, evaluate at `0.9`, tail targets `(1.0, 0.9, 0.8)`, `2` SDE scouts.
+- `beta=1.00`, target `64`: `roots=7`, `scout_time=0.3`, keep `4`, commit `4` to `0.7`, up to `3` children from up to `2` anchors at `0.6`, evaluate at `0.9`, tail targets `(1.0, 1.0, 0.9, 0.8)`, `2` SDE scouts.
+- Monotonicity comes from increasing width, survivors, allowed refinement, tail confirmation, and limited stochastic scouting as beta rises.
+
+Behaviorally new relative to the recent best:
+- Width-first early scouting instead of single-root repeated previewing.
+- A score-gap/uncertainty gate that decides between “go deep on one winner” and “keep multiple branches alive.”
+- Backward refinement only as an ambiguity repair mechanism, not as routine high-beta spam.
+- A deterministic late-step filler that spends remaining budget in useful `forward+preview` chunks on top active branches, instead of same-state re-previewing.
+
+Checks run:
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- Toy `FlowTTSEnv` dry-run sweep over all betas. Observed NFE: `10, 20, 36, 47, 64`.
+
+Target-NFE reflection:
+- `beta=0.00`, target `10`: no underuse; schedule is intentionally exact and conservative because this regime already beats baseline.
+- `beta=0.25`, target `20`: no underuse; I explicitly shaped the ladder to spend the full 20 on four scouts plus two mid-depth commits. This is the main weak regime I targeted.
+- `beta=0.50`, target `36`: no underuse in dry-run; extra compute goes into selective repair or late deepening, not meaningless previews.
+- `beta=0.75`, target `48`: slight likely underuse by about 1 NFE can occur because late spending is in 2-NFE chunks; that is acceptable and preferable to forcing a weak extra action.
+- `beta=1.00`, target `64`: I adjusted the policy to improve utilization, and the dry-run reached `64`. It avoids exceeding `64` because every spend path is guarded by `_can_spend(...)`, and all late filler actions are only taken in exact `2`-NFE chunks when budget remains.
+
+Expected risks and intended improvements:
+- Main expected improvement is `beta=0.25`, where matched-NFE reward likely needs better allocation, not more raw preview count.
+- Secondary upside is `beta=0.75` and `beta=1.00`, where the incumbent trailed baseline and the new policy preserves diversity longer before selective local repair.
+- Main risk is that early preview scores may still be noisy enough that width-first pruning drops a late-blooming branch; I mitigated that by keeping more survivors as beta rises and only triggering repair when the score gap is small or uncertainty is high.

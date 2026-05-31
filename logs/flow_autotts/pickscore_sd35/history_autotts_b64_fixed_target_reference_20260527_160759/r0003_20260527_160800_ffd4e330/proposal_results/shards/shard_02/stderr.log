@@ -1,0 +1,156 @@
+Loading pipeline components...:   0%|          | 0/9 [00:00<?, ?it/s]Loading pipeline components...:  11%|█         | 1/9 [00:00<00:01,  6.69it/s]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s][A
+Loading weights:   5%|▌         | 10/197 [00:00<00:06, 30.56it/s][A
+Loading weights:  34%|███▎      | 66/197 [00:00<00:00, 174.43it/s][A
+Loading weights:  47%|████▋     | 93/197 [00:00<00:00, 196.90it/s][A
+Loading weights:  60%|██████    | 119/197 [00:00<00:00, 175.92it/s][A
+Loading weights:  72%|███████▏  | 141/197 [00:00<00:00, 168.39it/s][A
+Loading weights:  82%|████████▏ | 161/197 [00:00<00:00, 172.03it/s][A
+Loading weights:  91%|█████████▏| 180/197 [00:01<00:00, 162.97it/s][ALoading weights: 100%|██████████| 197/197 [00:01<00:00, 168.12it/s]
+Loading pipeline components...:  22%|██▏       | 2/9 [00:02<00:08,  1.16s/it]Loading pipeline components...:  33%|███▎      | 3/9 [00:10<00:26,  4.34s/it]Loading pipeline components...:  44%|████▍     | 4/9 [00:10<00:13,  2.69s/it]
+Loading weights:   0%|          | 0/219 [00:00<?, ?it/s][A
+Loading weights:   2%|▏         | 5/219 [00:00<00:14, 15.09it/s][A
+Loading weights:  11%|█         | 23/219 [00:00<00:03, 63.76it/s][A
+Loading weights:  16%|█▌        | 34/219 [00:00<00:03, 51.58it/s][A
+Loading weights:  19%|█▉        | 42/219 [00:00<00:03, 47.60it/s][A
+Loading weights:  22%|██▏       | 49/219 [00:01<00:03, 47.80it/s][A
+Loading weights:  25%|██▌       | 55/219 [00:01<00:03, 50.11it/s][A
+Loading weights:  28%|██▊       | 61/219 [00:01<00:03, 46.81it/s][A
+Loading weights:  31%|███       | 67/219 [00:01<00:03, 49.28it/s][A
+Loading weights:  33%|███▎      | 73/219 [00:02<00:09, 14.71it/s][A
+Loading weights:  36%|███▌      | 79/219 [00:04<00:22,  6.09it/s][A
+Loading weights:  37%|███▋      | 82/219 [00:05<00:22,  6.07it/s][A
+Loading weights:  39%|███▉      | 86/219 [00:06<00:22,  5.91it/s][A
+Loading weights:  40%|████      | 88/219 [00:08<00:40,  3.20it/s][A
+Loading weights:  41%|████      | 90/219 [00:08<00:34,  3.71it/s][A
+Loading weights:  42%|████▏     | 93/219 [00:09<00:29,  4.24it/s][A
+Loading weights:  43%|████▎     | 95/219 [00:09<00:29,  4.18it/s][A
+Loading weights:  44%|████▍     | 97/219 [00:10<00:33,  3.65it/s][A
+Loading weights:  45%|████▍     | 98/219 [00:10<00:31,  3.81it/s][A
+Loading weights:  45%|████▌     | 99/219 [00:11<00:43,  2.77it/s][A
+Loading weights:  47%|████▋     | 103/219 [00:11<00:26,  4.39it/s][A
+Loading weights:  48%|████▊     | 106/219 [00:12<00:28,  4.00it/s][A
+Loading weights:  49%|████▉     | 107/219 [00:14<00:47,  2.36it/s][A
+Loading weights:  52%|█████▏    | 113/219 [00:14<00:23,  4.60it/s][A
+Loading weights:  53%|█████▎    | 115/219 [00:15<00:29,  3.54it/s][A
+Loading weights:  55%|█████▍    | 120/219 [00:16<00:24,  4.10it/s][A
+Loading weights:  55%|█████▌    | 121/219 [00:16<00:23,  4.12it/s][A
+Loading weights:  57%|█████▋    | 124/219 [00:17<00:20,  4.68it/s][A
+Loading weights:  58%|█████▊    | 126/219 [00:18<00:25,  3.68it/s][A
+Loading weights:  58%|█████▊    | 127/219 [00:18<00:23,  3.97it/s][A
+Loading weights:  59%|█████▉    | 130/219 [00:18<00:16,  5.42it/s][A
+Loading weights:  60%|█████▉    | 131/219 [00:18<00:15,  5.56it/s][A
+Loading weights:  61%|██████    | 133/219 [00:20<00:35,  2.43it/s][A
+Loading weights:  61%|██████    | 134/219 [00:20<00:32,  2.65it/s][A
+Loading weights:  63%|██████▎   | 138/219 [00:20<00:19,  4.25it/s][A
+Loading weights:  63%|██████▎   | 139/219 [00:21<00:21,  3.64it/s][A
+Loading weights:  64%|██████▍   | 140/219 [00:21<00:19,  4.07it/s][A
+Loading weights:  65%|██████▍   | 142/219 [00:21<00:16,  4.69it/s][A
+Loading weights:  66%|██████▌   | 144/219 [00:22<00:14,  5.31it/s][A
+Loading weights:  66%|██████▌   | 145/219 [00:22<00:13,  5.66it/s][A
+Loading weights:  67%|██████▋   | 147/219 [00:23<00:18,  3.87it/s][A
+Loading weights:  68%|██████▊   | 148/219 [00:23<00:18,  3.88it/s][A
+Loading weights:  68%|██████▊   | 149/219 [00:23<00:18,  3.77it/s][A
+Loading weights:  69%|██████▉   | 151/219 [00:25<00:32,  2.08it/s][A
+Loading weights:  69%|██████▉   | 152/219 [00:25<00:32,  2.09it/s][A
+Loading weights:  70%|██████▉   | 153/219 [00:25<00:27,  2.44it/s][A
+Loading weights:  71%|███████   | 156/219 [00:26<00:14,  4.48it/s][A
+Loading weights:  72%|███████▏  | 158/219 [00:26<00:17,  3.51it/s][A
+Loading weights:  73%|███████▎  | 160/219 [00:27<00:16,  3.61it/s][A
+Loading weights:  75%|███████▌  | 165/219 [00:28<00:12,  4.31it/s][A
+Loading weights:  76%|███████▌  | 166/219 [00:29<00:15,  3.49it/s][A
+Loading weights:  77%|███████▋  | 169/219 [00:29<00:10,  4.71it/s][A
+Loading weights:  78%|███████▊  | 170/219 [00:29<00:10,  4.48it/s][A
+Loading weights:  78%|███████▊  | 171/219 [00:31<00:22,  2.13it/s][A
+Loading weights:  80%|████████  | 176/219 [00:31<00:10,  4.22it/s][A
+Loading weights:  81%|████████▏ | 178/219 [00:32<00:11,  3.55it/s][A
+Loading weights:  82%|████████▏ | 180/219 [00:32<00:10,  3.81it/s][A
+Loading weights:  84%|████████▎ | 183/219 [00:33<00:08,  4.30it/s][A
+Loading weights:  84%|████████▍ | 184/219 [00:33<00:08,  4.22it/s][A
+Loading weights:  85%|████████▌ | 187/219 [00:36<00:15,  2.01it/s][A
+Loading weights:  86%|████████▋ | 189/219 [00:36<00:12,  2.50it/s][A
+Loading weights:  87%|████████▋ | 190/219 [00:36<00:10,  2.84it/s][A
+Loading weights:  88%|████████▊ | 193/219 [00:37<00:07,  3.60it/s][A
+Loading weights:  89%|████████▊ | 194/219 [00:37<00:06,  3.81it/s][A
+Loading weights:  89%|████████▉ | 195/219 [00:37<00:05,  4.27it/s][A
+Loading weights:  89%|████████▉ | 196/219 [00:39<00:14,  1.56it/s][A
+Loading weights:  90%|█████████ | 198/219 [00:39<00:09,  2.20it/s][A
+Loading weights:  92%|█████████▏| 201/219 [00:40<00:05,  3.59it/s][A
+Loading weights:  92%|█████████▏| 202/219 [00:40<00:05,  3.15it/s][A
+Loading weights:  93%|█████████▎| 203/219 [00:40<00:04,  3.44it/s][A
+Loading weights:  94%|█████████▎| 205/219 [00:41<00:04,  3.25it/s][A
+Loading weights:  95%|█████████▍| 207/219 [00:42<00:03,  3.28it/s][A
+Loading weights:  96%|█████████▌| 210/219 [00:42<00:01,  4.78it/s][A
+Loading weights:  96%|█████████▋| 211/219 [00:42<00:01,  4.77it/s][A
+Loading weights:  97%|█████████▋| 212/219 [00:42<00:01,  3.90it/s][A
+Loading weights:  98%|█████████▊| 214/219 [00:43<00:01,  4.67it/s][A
+Loading weights: 100%|██████████| 219/219 [00:44<00:00,  4.88it/s][ALoading weights: 100%|██████████| 219/219 [00:44<00:00,  4.96it/s]
+Loading pipeline components...:  67%|██████▋   | 6/9 [00:55<00:39, 13.16s/it]
+Loading weights:   0%|          | 0/517 [00:00<?, ?it/s][A
+Loading weights:  47%|████▋     | 244/517 [00:00<00:00, 2419.08it/s][A
+Loading weights:  94%|█████████▍| 486/517 [00:00<00:00, 1609.02it/s][ALoading weights: 100%|██████████| 517/517 [00:00<00:00, 1720.12it/s]
+Loading pipeline components...:  78%|███████▊  | 7/9 [00:55<00:19,  9.69s/it]Loading pipeline components...: 100%|██████████| 9/9 [00:55<00:00,  6.19s/it]
+Loading weights:   0%|          | 0/910 [00:00<?, ?it/s]Loading weights:   2%|▏         | 17/910 [00:00<00:06, 129.04it/s]Loading weights:   3%|▎         | 31/910 [00:00<00:07, 121.72it/s]Loading weights:   8%|▊         | 70/910 [00:00<00:03, 214.88it/s]Loading weights:  10%|█         | 92/910 [00:00<00:04, 189.94it/s]Loading weights:  15%|█▌        | 138/910 [00:00<00:04, 167.10it/s]Loading weights:  17%|█▋        | 156/910 [00:01<00:06, 108.58it/s]Loading weights:  20%|██        | 182/910 [00:01<00:06, 116.55it/s]Loading weights:  30%|███       | 274/910 [00:01<00:02, 251.57it/s]Loading weights:  34%|███▍      | 313/910 [00:01<00:02, 268.24it/s]Loading weights:  38%|███▊      | 350/910 [00:02<00:04, 132.37it/s]Loading weights:  42%|████▏     | 378/910 [00:02<00:04, 126.60it/s]Loading weights:  44%|████▍     | 401/910 [00:02<00:04, 104.95it/s]Loading weights:  49%|████▉     | 444/910 [00:02<00:03, 140.97it/s]Loading weights:  51%|█████▏    | 468/910 [00:03<00:04, 94.89it/s] Loading weights:  53%|█████▎    | 486/910 [00:03<00:04, 102.28it/s]Loading weights:  55%|█████▌    | 503/910 [00:03<00:04, 94.72it/s] Loading weights:  57%|█████▋    | 517/910 [00:04<00:04, 94.62it/s]Loading weights:  58%|█████▊    | 530/910 [00:04<00:05, 75.60it/s]Loading weights:  60%|█████▉    | 543/910 [00:04<00:04, 78.67it/s]Loading weights:  61%|██████    | 553/910 [00:04<00:04, 75.89it/s]Loading weights:  62%|██████▏   | 564/910 [00:04<00:04, 74.76it/s]Loading weights:  63%|██████▎   | 573/910 [00:04<00:04, 70.22it/s]Loading weights:  64%|██████▍   | 581/910 [00:05<00:04, 69.55it/s]Loading weights:  65%|██████▍   | 589/910 [00:05<00:04, 69.47it/s]Loading weights:  66%|██████▌   | 597/910 [00:05<00:04, 71.02it/s]Loading weights:  66%|██████▋   | 605/910 [00:05<00:04, 72.94it/s]Loading weights:  67%|██████▋   | 613/910 [00:05<00:04, 61.10it/s]Loading weights:  68%|██████▊   | 620/910 [00:05<00:04, 62.24it/s]Loading weights:  69%|██████▉   | 627/910 [00:05<00:04, 60.69it/s]Loading weights:  70%|███████   | 639/910 [00:05<00:04, 64.72it/s]Loading weights:  71%|███████   | 646/910 [00:06<00:06, 40.55it/s]Loading weights:  72%|███████▏  | 652/910 [00:06<00:07, 35.61it/s]Loading weights: 100%|██████████| 910/910 [00:06<00:00, 138.45it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (88 > 77). Running this sequence through the model will result in indexing errors
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer CLIPTokenizer. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (88 > 77). Running this sequence through the model will result in indexing errors
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['gold eagle roofs, a detailed photo, julius Caesar, ceremonial, parade, roma, detailed photo, temples roads hestia,single point perspective, colonnade, necropolis, ultra realism, imperium,by claude-joseph vernet and thomas cole,pediment sky clouds,stones in the foreground,dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['texture, detailed texture, finely detailed,high detail, extremely detailed cg, High quality shadow, beautiful face, Detailed beautiful delicate eyes, DOF, beauiful woman,tall, blurry background, purple tight-fitting Scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['gold eagle roofs, a detailed photo, julius Caesar, ceremonial, parade, roma, detailed photo, temples roads hestia,single point perspective, colonnade, necropolis, ultra realism, imperium,by claude-joseph vernet and thomas cole,pediment sky clouds,stones in the foreground,dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['texture, detailed texture, finely detailed,high detail, extremely detailed cg, High quality shadow, beautiful face, Detailed beautiful delicate eyes, DOF, beauiful woman,tall, blurry background, purple tight-fitting Scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['gold eagle roofs, a detailed photo, julius Caesar, ceremonial, parade, roma, detailed photo, temples roads hestia,single point perspective, colonnade, necropolis, ultra realism, imperium,by claude-joseph vernet and thomas cole,pediment sky clouds,stones in the foreground,dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['texture, detailed texture, finely detailed,high detail, extremely detailed cg, High quality shadow, beautiful face, Detailed beautiful delicate eyes, DOF, beauiful woman,tall, blurry background, purple tight-fitting Scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['gold eagle roofs, a detailed photo, julius Caesar, ceremonial, parade, roma, detailed photo, temples roads hestia,single point perspective, colonnade, necropolis, ultra realism, imperium,by claude-joseph vernet and thomas cole,pediment sky clouds,stones in the foreground,dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['texture, detailed texture, finely detailed,high detail, extremely detailed cg, High quality shadow, beautiful face, Detailed beautiful delicate eyes, DOF, beauiful woman,tall, blurry background, purple tight-fitting Scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', black and white still , digital art , perfect composition']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['roma , detailed photo , temples roads hestia , single point perspective , colonnade , necropolis , ultra realism , imperium , by claude - joseph vernet and thomas cole , pediment sky clouds , stones in the foreground , dusty volumetric lighting']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['gold eagle roofs, a detailed photo, julius Caesar, ceremonial, parade, roma, detailed photo, temples roads hestia,single point perspective, colonnade, necropolis, ultra realism, imperium,by claude-joseph vernet and thomas cole,pediment sky clouds,stones in the foreground,dusty volumetric lighting']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['yo - yo , the image should be anime - styled']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: ['extremely detailed cg , high quality shadow , beautiful face , detailed beautiful delicate eyes , dof , beauiful woman , tall , blurry background , purple tight - fitting scarf']
+The following part of your input was truncated because `max_sequence_length` is set to  128 tokens: ['texture, detailed texture, finely detailed,high detail, extremely detailed cg, High quality shadow, beautiful face, Detailed beautiful delicate eyes, DOF, beauiful woman,tall, blurry background, purple tight-fitting Scarf']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']
+The following part of your input was truncated because CLIP can only handle sequences up to 77 tokens: [', no sunscreen , intricate details , highest quality , raw , sony cyber - shot dsc - p 9 2']

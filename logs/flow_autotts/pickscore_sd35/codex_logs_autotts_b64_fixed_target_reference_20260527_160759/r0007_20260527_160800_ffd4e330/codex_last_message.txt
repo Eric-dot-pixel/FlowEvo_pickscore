@@ -1,0 +1,81 @@
+Implemented a new controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py). The policy stays in the strong `r0004` multi-root family, but adds one real mechanism: a high-beta late ambiguity repair stage that spends leftover compute on one bounded late `backward` child from the more uncertain top anchor when the top-2 previews are still close late in the episode. That is meant to repair the current `beta=0.75` and `beta=1.0` weakness without disturbing the already-good low and mid beta regimes.
+
+**What I inspected**
+- Spec: `flow_tts_controller_implementation_spec.md`
+- Context pack: `r0007 ... /context_pack.md`
+- Current files: `flow_autotts/controllers/optimal.py`, `flow_autotts/controllers/baselines.py`
+- Targeted snapshots: `r0004`, `r0003`, and `r0000` controller snapshots plus the compact frontier tables named in the context pack.
+- The key rows I used were:
+  - Latest `r0004`: `beta=0.0/0.25/0.5/0.75/1.0` with `(reward, mean_nfe)` = `(0.787971,10)`, `(0.817857,20)`, `(0.837384,36)`, `(0.840149,47.43)`, `(0.843016,63.554)`
+  - Beta-matched ODE baselines: `(0.676462,10)`, `(0.802083,20)`, `(0.836650,36)`, `(0.843990,48)`, `(0.847290,64)`
+  - Historical near-target bests showing current weak spots were still `0.75` and `1.0`, while `0.0`, `0.25`, and `0.5` were already competitive or ahead.
+
+**Why this change**
+- The last two proposal snapshots were real behavioral changes, but both still lived in the same pattern: scout, commit, rival continuation, optional repair, fill.
+- The context pack’s strongest evidence was:
+  - low and mid beta should be protected;
+  - `0.75` and `1.0` are still below their beta-matched baselines;
+  - rejected rounds that merely traded forward for more preview or shaved NFE were not helpful;
+  - more indiscriminate backward was usually harmful.
+- So the targeted repair is not “more backward everywhere”. It is one late, ambiguity-gated, high-beta-only local repair, using `mixed_noise`, after the normal rival/repair stages have already run.
+
+**Exact beta schedule**
+- `beta=0.00`
+  - `target_nfe=10`, `roots=2`, `scout_time=0.2`, `commit_time=0.5`, `rival_time=0.7`
+  - no repair, no late repair
+- `beta=0.25`
+  - `target_nfe=20`, `roots=4`, `scout_time=0.2`, `commit_time=0.5`, `rival_time=0.7`
+  - no repair, no late repair
+- `beta=0.50`
+  - `target_nfe=36`, `roots=5`, `scout_time=0.3`, `commit_time=0.7`, `rival_time=0.9`
+  - standard repair only: `repair_time=0.7`, `repair_eval_time=0.9`, `max_repair_children=1`
+- `beta=0.75`
+  - `target_nfe=48`, `roots=5`, `sde_scouts=1`, `scout_time=0.3`, `commit_time=0.7`, `rival_time=0.9`
+  - standard repair as before, plus new late repair:
+  - `late_repair_time=0.8`, `late_repair_eval_time=1.0`, `max_late_repairs=1`, `late_noise_policy="mixed_noise"`, `late_strength=0.45`
+- `beta=1.00`
+  - `target_nfe=64`, `roots=6`, `sde_scouts=1`, `scout_time=0.3`, `commit_time=0.7`, `rival_time=0.9`
+  - standard repair plus late repair:
+  - `late_repair_time=0.8`, `late_repair_eval_time=1.0`, `max_late_repairs=1`, `late_noise_policy="mixed_noise"`, `late_strength=0.35`
+
+Budget use is monotonic because higher beta only increases or preserves willingness to spend through one or more of: more roots, enabling SDE scouts, looser rival gaps, enabling repair, enabling late repair, and later stop floors. The target cap is always enforced by `_can_spend(...)`, which clamps spend to `min(schedule["target_nfe"], env.budget)`.
+
+**What is behaviorally new**
+- New mechanism vs `r0004`: `_late_repair_stage(...)`
+- It activates only for high beta, only after normal rival and repair stages, only when:
+  - top-2 previews remain close,
+  - uncertainty is still nontrivial,
+  - at least one top preview is already late,
+  - spend is already near the intended regime,
+  - and there is enough remaining budget for a full evaluate-after-backward cycle.
+- It chooses the more uncertain of the top anchors and uses one bounded late `mixed_noise` child, then immediately evaluates it.
+- This is materially different from the prior controller, which had only one earlier repair stage and then filled by forward+preview continuation.
+
+**Checks**
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- Tiny fake-env dry run mirroring SD-style step-cost semantics. Observed NFE:
+  - `beta=0.0 -> 10`
+  - `beta=0.25 -> 20`
+  - `beta=0.5 -> 36`
+  - `beta=0.75 -> 47`
+  - `beta=1.0 -> 63`
+
+**Target-NFE reflection**
+- `beta=0.00`, target `10`
+  - underuse not justified; I kept the proven schedule aligned to exactly `10`.
+- `beta=0.25`, target `20`
+  - underuse not justified; I kept the proven schedule aligned to exactly `20`.
+- `beta=0.50`, target `36`
+  - underuse not justified; I kept the proven schedule aligned to exactly `36`.
+- `beta=0.75`, target `48`
+  - prior underuse looked unjustified relative to the target curve; I adjusted policy with late repair and `min_stop_spend=47` to push utilization closer to `48` without meaningless probes.
+- `beta=1.00`, target `64`
+  - prior underuse looked unjustified relative to the target curve; I adjusted policy with late repair and `min_stop_spend=63` to stay close to `64` while still allowing justified early stop if evidence is decisive.
+
+**Expected impact and risks**
+- Targeted improvement: `beta=0.75` and `beta=1.0`, where the incumbent still trailed the beta-matched ODE baseline and slightly underused compute.
+- Protection goal: `beta=0.0`, `0.25`, `0.5`, which already beat or matched their beta-matched baselines.
+- Main risk: even bounded late repair could still be slightly net-negative if late `mixed_noise` diversification is too destructive on this SD3.5/PickScore setup.
+- Secondary risk: `0.75` may still land around `47.x` rather than exactly `48`, depending on when ambiguity resolves. That is intentional if the stop condition becomes clearly justified.
+
+For `beta=1.0`, the controller avoids exceeding `64` because every spend path goes through `_can_spend(...)`, and the schedule sets `target_nfe=64`; no action is taken if `spent + extra_cost > 64`.

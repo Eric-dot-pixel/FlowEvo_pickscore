@@ -1,0 +1,32 @@
+Implemented a new controller in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py). The idea is a beta-scheduled `scout -> commit -> confirm-if-ambiguous -> selective backward refine -> late fill-to-target` policy. The main new mechanism is score-gap/uncertainty-driven child allocation and survivor control: low/mid beta spends most compute on shallow multi-root evidence before committing, while high beta adds bounded SDE scouts, two-anchor local refinement, and late confirmations only when preview evidence is still ambiguous.
+
+I inspected the compact context pack, the injected ODE baseline target rows, the `r0000` compact summary and controller snapshot, plus the current `optimal.py`, `optimal.template.py`, `baselines.py`, `env.py`, `state.py`, `errors.py`, and `harness.py`. From `r0000`, the latest frontier was:
+- `beta=0.00`: reward `0.778068`, mean NFE `10`
+- `beta=0.25`: reward `0.789670`, mean NFE `20`
+- `beta=0.50`: reward `0.839043`, mean NFE `36`
+- `beta=0.75`: reward `0.841569`, mean NFE `48`
+- `beta=1.00`: reward `0.844569`, mean NFE `64`
+
+Against the beta-matched ODE baseline, `0.00` and `0.50` were above baseline; `0.25`, `0.75`, and `1.00` were below. Only one compact historical round existed, so there was no real two-round trend to compare; the template/current file was a simple completed-anchor best-of-N, and `r0000` compact behavior still looked effectively narrow. This round targets the weakest matched-compute regime first: `beta=0.25`, with secondary repair for `0.75` and `1.00`.
+
+**Beta Schedule**
+- `beta=0.00`, target `10`: roots `2`, scout `0.4`, commit `0.8`, keep `1`, children `0`, confirms `0`, `euler`, `inferred_noise`.
+- `beta=0.25`, target `20`: roots `4`, scout `0.4`, commit `0.8`, keep `2`, children `1`, late confirms `1`, `euler`, `inferred_noise`.
+- `beta=0.50`, target `36`: roots `4`, scout `0.4`, commit `0.8`, keep `2`, children `2`, late confirms `1`, target confirms `1`, `euler`, `fresh_noise`.
+- `beta=0.75`, target `48`: roots `5`, scout `0.4`, commit `0.6`, keep `3 -> 2`, children `3`, late confirms `2`, target confirms `1`, `sde` scouts, `mixed_noise`.
+- `beta=1.00`, target `64`: roots `6`, scout `0.3`, commit `0.6`, keep `3`, children `4`, late confirms `2`, target confirms `2`, `sde` scouts, `mixed_noise`.
+
+Budget use is monotonic because `target_nfe`, root count, allowed child count, and confirmation budget are all nondecreasing with beta. High beta also prunes less aggressively and explores earlier with more width. Behaviorally new versus the prior controller is that compute is no longer spent by finishing roots first and refining afterward; it is now allocated from preview evidence with adaptive keep, ambiguity-triggered reconfirmation, and anchor-specific child counts.
+
+**Target-NFE Reflection**
+- `beta=0.00`, target `10`: underuse did not look justified, so I kept an exact small regime with `2` scouts and one commit path; no refinement added.
+- `beta=0.25`, target `20`: this was the weakest region, so I adjusted utilization upward through `4` shallow scouts, `2` committed survivors, one ambiguity confirmation, and one bounded inferred-noise child if evidence is close.
+- `beta=0.50`, target `36`: already above baseline; I kept it near target with modest refinement and one late confirm, not gratuitous extra width.
+- `beta=0.75`, target `48`: adjusted to avoid passive matched-NFE loss by adding `5` scouts, two-anchor refinement, and one final confirmation.
+- `beta=1.00`, target `64`: adjusted to use the full ceiling through `6` scouts, `3` survivors, up to `4` children, and late confirmations. It avoids exceeding `64` because every costly action is gated by `_can_spend(..., target_nfe=64)`, and the controller answers with `best_preview_score`, which is zero-cost and avoids `latest_active`’s implicit final forward.
+
+Checks run:
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- A tiny fake-env dry run across `beta in {0.0, 0.25, 0.5, 0.75, 1.0}`; realized NFE landed exactly at `10/20/36/48/64`.
+
+Main risks are that early preview noise can still mis-rank `beta=0.25` survivors, and high-beta SDE scouts may add variance if PickScore dislikes that local stochasticity. The proposal is meant primarily to improve `20` NFE, and secondarily `48` and `64`, while preserving the already-strong `10` and `36` regimes.

@@ -1,0 +1,50 @@
+Implemented a new proposal in [optimal.py](/inspire/hdd/global_user/gongjingjing-25039/sywang/jkcai/FlowEvo/flow_autotts/controllers/optimal.py).
+
+**Idea**
+- Low beta stays on the strong `single-root preview` family instead of spending width where it was already winning.
+- Mid/high beta switches to `scout -> commit -> rival check -> dual-anchor repair -> tail -> fill-to-target`.
+- The new mechanism is not a threshold tweak: when late evidence is ambiguous, it repairs from both the best and runner-up anchors, then uses late confirmation previews to spend the remaining target budget only where the score gap or uncertainty says more evidence is still useful.
+
+**What I inspected**
+- `flow_tts_controller_implementation_spec.md`
+- Context pack tables: target curve, historical best near target, recent frontier comparison, beta opportunities, regression ledger, rejected `r0001`, historical action effects
+- Latest frontier rows from `r0004`:  
+  `beta=0.00` reward `0.787971`, NFE `10.000`  
+  `beta=0.25` reward `0.817857`, NFE `20.000`  
+  `beta=0.50` reward `0.837384`, NFE `36.000`  
+  `beta=0.75` reward `0.840149`, NFE `47.430`  
+  `beta=1.00` reward `0.843016`, NFE `63.554`
+- Beta-matched ODE rows: `0.00/0.25/0.50` were already above baseline; `0.75/1.00` were still below baseline.
+- Recent snapshots: `r0004`, `r0003`, `r0000` controllers. The last two proposals were real but mostly the same scaffold with small late-allocation changes; they did not introduce a meaningfully different repair policy.
+
+**Beta Schedule**
+- `beta=0.00`, target `10`: 1 root, exact single-root ladder, `7` forward + `3` preview.
+- `beta=0.25`, target `20`: 1 root, exact single-root ladder, `10` forward + `10` preview.
+- `beta=0.50`, target `36`: 4 roots, Euler scouts to `0.3`, keep `2`, commit to `0.7`, rival check to `0.9`, at most 1 repaired anchor with 1 child, tail to `1.0`, fill with selective confirmations/steps.
+- `beta=0.75`, target `48`: 5 roots, 1 SDE scout, keep `3`, commit `0.7`, rival `0.9`, repair both top anchors if ambiguous, 1 child each, then late confirmation fill.
+- `beta=1.00`, target `64`: 6 roots, 1 SDE scout, keep `4`, same stages as `0.75` but more conservative pruning and larger fill-confirmation cap.
+- Monotonicity comes from `_target_nfe` plus beta-increasing width, survivor counts, rival rounds, and late confirmation allowance.
+- `beta=1.0` cannot exceed `64` because every spend path is gated by `_can_spend(...)`, which caps against `min(schedule["target_nfe"], env.budget, initial_budget)`, and termination uses `answer("best_preview_score")` so there is no implicit auto-finish overshoot.
+
+**Behavioral Novelty**
+- Exact low-beta target-locked single-root ladders instead of reusing the high-beta brancher everywhere.
+- Dual-anchor repair: refine both the leader and runner-up when the late gap is small or uncertainty is high, rather than repairing only one chosen anchor.
+- Fill-to-target confirmation: if the top gap is still weak late, spend remaining budget on repeated late previews of the top few candidates before taking extra forward steps.
+
+**Target-NFE Reflection**
+- `beta=0.00`, target `10`: underuse is not justified here; I made it exact at `10`.
+- `beta=0.25`, target `20`: underuse is not justified here; I made it exact at `20`.
+- `beta=0.50`, target `36`: prior single-root behavior was already fine, but this level can support selective branching without wasting budget; the policy is shaped to use the full target with one bounded repair path.
+- `beta=0.75`, target `48`: this was the clearest weak regime and slightly under target; I added explicit repair and fill so it should stay close to `48` instead of stopping around `47.4`.
+- `beta=1.00`, target `64`: also weak and slightly under target; I increased late confirmation/repair opportunity while keeping the hard `64` cap.
+
+**Checks**
+- `python -m py_compile flow_autotts/controllers/optimal.py`
+- Toy `FlowTTSEnv` dry-run across all betas. Observed NFE was exactly `10/20/36/48/64`, with branching appearing only from `beta=0.5` upward and no budget overshoot.
+
+**Expected Risks**
+- `beta=0.50` may regress slightly if branching is worse than the previous strong single-root ranking on this dataset.
+- Repeated late previews can still spend NFE on noisy anchors if PickScore variance is high.
+- The single SDE scout at `0.75/1.0` is intentionally bounded, but it could still be neutral or mildly harmful if stochastic diversity does not help enough.
+
+This round is mainly targeting `beta=0.75` and `beta=1.0`, while protecting the already-strong `beta=0.00` and `0.25` regimes and keeping `beta=0.50` near target compute.
